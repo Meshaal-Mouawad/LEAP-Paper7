@@ -1,0 +1,13 @@
+JSS special-issue realignment — 20 November 2026
+Current target: Journal of Systems and Software, "Reliable and Trustworthy Automated Software Engineering" (VSI: Reliable Automated SE).
+- Title, 210-word abstract, and keywords center approval-contract conformance.
+- Introduction leads with the observed 9/16 native-implementation discrepancy and its replay consequence.
+- Related work now compares directly with the JSS 2026 temporal compliance article and the JSS 2024 abstract-model runtime verification article; existing pivotal comparison rows retained and two grounded JSS rows added.
+- Authorization-applicability contract moved ahead of source-reference scoring in the methods.
+- Evaluation design explicitly distinguishes 16 approval records, nine historical revision pairs, 252 constructed streams, and the preserved 4,935-trace temporal benchmark.
+- Results lead with the 16-case approval-conformance test; remaining source and monitoring results retained.
+- Discussion and conclusion now state the cross-layer contribution in terms of trustworthy automated review decisions.
+- All five propositions and proofs remained byte-identical; all three figure assets were unchanged.
+- All three research ZIP archives have exactly the same SHA-256 hashes as in the SCP package.
+- Cover letter and 5 highlights rewritten for JSS; author facts remain unchanged.
+- LaTeX/BibTeX/pdflatex rebuild successful: 35 pages. Manuscript PDF inspected and citation cross-references resolved.
