@@ -1,0 +1,350 @@
+{
+  "id": "audit/suppression_old_context/2/base",
+  "source": "simulated_audit_revision_source",
+  "split": "heldout",
+  "status": "frozen constructed trace",
+  "events": [
+    {
+      "c": "c1",
+      "o": {
+        "at": 0,
+        "c": "c1",
+        "p": "p1",
+        "value": false
+      },
+      "p": "p1",
+      "t": 0,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 1,
+        "c": "c1",
+        "p": "p1",
+        "value": true
+      },
+      "p": "p1",
+      "t": 1,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 2,
+        "c": "c1",
+        "p": "p1",
+        "value": true
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 2,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 3,
+        "c": "c1",
+        "p": "p1",
+        "value": true
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 3,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 4,
+        "c": "c1",
+        "p": "p1",
+        "value": true
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 4,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 5,
+        "c": "c1",
+        "p": "p1",
+        "value": true
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 5,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 6,
+        "c": "c1",
+        "p": "p1",
+        "value": true
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 6,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 7,
+        "c": "c1",
+        "p": "p1",
+        "value": true
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 7,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 8,
+        "c": "c1",
+        "p": "p1",
+        "value": false
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 8,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 9,
+        "c": "c1",
+        "p": "p1",
+        "value": false
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 9,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 10,
+        "c": "c1",
+        "p": "p1",
+        "value": false
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 10,
+      "unit": "s"
+    },
+    {
+      "c": "c1",
+      "o": {
+        "at": 11,
+        "c": "c1",
+        "p": "p1",
+        "value": false
+      },
+      "p": "p1",
+      "s": {
+        "c": "c0",
+        "p": "p1",
+        "until": 4
+      },
+      "t": 11,
+      "unit": "s"
+    }
+  ],
+  "full": [
+    {
+      "state": "CLEAR",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    },
+    {
+      "state": "PENDING",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    },
+    {
+      "state": "PENDING",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    },
+    {
+      "state": "ACTIVE",
+      "active": true,
+      "severity": "COMPLIANCE_AUDIT_GAP",
+      "reason": "STATE"
+    },
+    {
+      "state": "ACTIVE",
+      "active": true,
+      "severity": "COMPLIANCE_AUDIT_GAP",
+      "reason": "STATE"
+    },
+    {
+      "state": "ACTIVE",
+      "active": true,
+      "severity": "COMPLIANCE_AUDIT_GAP",
+      "reason": "STATE"
+    },
+    {
+      "state": "ACTIVE",
+      "active": true,
+      "severity": "COMPLIANCE_AUDIT_GAP",
+      "reason": "STATE"
+    },
+    {
+      "state": "ESCALATED",
+      "active": true,
+      "severity": "HIGH",
+      "reason": "STATE"
+    },
+    {
+      "state": "ESCALATED",
+      "active": true,
+      "severity": "HIGH",
+      "reason": "STATE"
+    },
+    {
+      "state": "ESCALATED",
+      "active": true,
+      "severity": "HIGH",
+      "reason": "STATE"
+    },
+    {
+      "state": "CLEAR",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    },
+    {
+      "state": "CLEAR",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    }
+  ],
+  "ablated": [
+    {
+      "state": "CLEAR",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    },
+    {
+      "state": "PENDING",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    },
+    {
+      "state": "PENDING",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    },
+    {
+      "state": "SUPPRESSED",
+      "active": true,
+      "severity": "NONE",
+      "reason": "SUPPRESSION"
+    },
+    {
+      "state": "ACTIVE",
+      "active": true,
+      "severity": "COMPLIANCE_AUDIT_GAP",
+      "reason": "STATE"
+    },
+    {
+      "state": "ACTIVE",
+      "active": true,
+      "severity": "COMPLIANCE_AUDIT_GAP",
+      "reason": "STATE"
+    },
+    {
+      "state": "ACTIVE",
+      "active": true,
+      "severity": "COMPLIANCE_AUDIT_GAP",
+      "reason": "STATE"
+    },
+    {
+      "state": "ESCALATED",
+      "active": true,
+      "severity": "HIGH",
+      "reason": "STATE"
+    },
+    {
+      "state": "ESCALATED",
+      "active": true,
+      "severity": "HIGH",
+      "reason": "STATE"
+    },
+    {
+      "state": "ESCALATED",
+      "active": true,
+      "severity": "HIGH",
+      "reason": "STATE"
+    },
+    {
+      "state": "CLEAR",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    },
+    {
+      "state": "CLEAR",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    }
+  ]
+}

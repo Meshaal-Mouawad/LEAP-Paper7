@@ -1,0 +1,100 @@
+RUN audit_native_override.py
+{
+  "passed": 4,
+  "failed": 6,
+  "failed_cases": [
+    "S3-approved-unsigned-source-revised",
+    "S4-approved-unsigned-unchanged",
+    "S5-pending-matching-signature",
+    "S6-rejected-matching-signature",
+    "S7-approved-signature-missing-from-kpi",
+    "S8-approved-code_hash-without-signature"
+  ],
+  "ledgers": {
+    "kb/overrides.json": {
+      "approval_entries": 0,
+      "sha256": "7fd6c4e1e466257811092373188672caac65d31a26fce70a0be8964c4d2f1a4a"
+    },
+    "bluebook_generator/kb/overrides.json": {
+      "approval_entries": 0,
+      "sha256": "7fd6c4e1e466257811092373188672caac65d31a26fce70a0be8964c4d2f1a4a"
+    },
+    "docs/governance_overrides.json": {
+      "approval_entries": 0,
+      "sha256": "c5c74d8a1389f86f2d5bd36c06a54fb9987c41401ac932d8ccef9dca962003da"
+    }
+  }
+}
+RUN source_revision_proxy.py
+{
+  "scope": "controlled proxy, not actual approval outcomes",
+  "cases": 24,
+  "families": 4,
+  "reference_true": 14,
+  "reference_false": 10,
+  "methods": {
+    "raw_file_sha256_match": {
+      "valid_retained_TP": 4,
+      "invalid_retained_FP": 0,
+      "valid_revoked_FN": 10,
+      "invalid_revoked_TN": 10
+    },
+    "unchanged_kpi_identity_or_finding_presence": {
+      "valid_retained_TP": 14,
+      "invalid_retained_FP": 10,
+      "valid_revoked_FN": 0,
+      "invalid_revoked_TN": 0
+    },
+    "syntax_fingerprint_match": {
+      "valid_retained_TP": 9,
+      "invalid_retained_FP": 0,
+      "valid_revoked_FN": 5,
+      "invalid_revoked_TN": 10
+    },
+    "sparse_output_probe_match": {
+      "valid_retained_TP": 14,
+      "invalid_retained_FP": 4,
+      "valid_revoked_FN": 0,
+      "invalid_revoked_TN": 6
+    }
+  }
+}
+RUN propagate_through_monitor.py
+policy file {"D": 2, "C": 2, "E": 4, "F": 2}
+check ref choice True t3 {'state': 'SUPPRESSED', 'active': True, 'severity': 'NONE', 'reason': 'SUPPRESSION'}
+check ref choice False t3 {'state': 'ACTIVE', 'active': True, 'severity': 'COMPLIANCE_AUDIT_GAP', 'reason': 'STATE'}
+{
+  "cases": 24,
+  "type": "deterministic counterfactual bridge from proxy authorization to existing frozen monitor",
+  "fixed_trace": "audit/suppression_old_context/2/base",
+  "frozen_monitor_sha256": "271563264a9bed90cfda71b4cfe42456fe14351466f42aa255a1cf8de81ad166",
+  "policy": {
+    "D": 2,
+    "C": 2,
+    "E": 4,
+    "F": 2
+  },
+  "per_strategy": {
+    "raw_file_sha256_match": {
+      "cases_with_display_mismatch": 10,
+      "mismatched_event_tuples": 10,
+      "active_episode_differences": 0
+    },
+    "unchanged_kpi_identity_or_finding_presence": {
+      "cases_with_display_mismatch": 10,
+      "mismatched_event_tuples": 10,
+      "active_episode_differences": 0
+    },
+    "syntax_fingerprint_match": {
+      "cases_with_display_mismatch": 5,
+      "mismatched_event_tuples": 5,
+      "active_episode_differences": 0
+    },
+    "sparse_output_probe_match": {
+      "cases_with_display_mismatch": 4,
+      "mismatched_event_tuples": 4,
+      "active_episode_differences": 0
+    }
+  }
+}
+PORTABLE STUDY REPRODUCTION PASSED

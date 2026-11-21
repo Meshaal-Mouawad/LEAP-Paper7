@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "both_resets_valid_at_escalation",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p2",
+        "o": {
+          "value": true,
+          "c": "c2",
+          "p": "p2",
+          "at": 6
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "PENDING",
+      "active": false,
+      "severity": "NONE",
+      "reason": "POLICY_CHANGE"
+    }
+  },
+  {
+    "id": "context_reset_valid_at_escalation",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c2",
+          "p": "p1",
+          "at": 6
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "PENDING",
+      "active": false,
+      "severity": "NONE",
+      "reason": "CONTEXT_CHANGE"
+    }
+  },
+  {
+    "id": "both_resets_missing",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p2"
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": false,
+      "severity": "UNKNOWN",
+      "reason": "MISSING"
+    }
+  },
+  {
+    "id": "both_resets_old_observation",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p2",
+        "o": {
+          "c": "c1",
+          "p": "p1",
+          "at": 6,
+          "value": true
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": false,
+      "severity": "UNKNOWN",
+      "reason": "CONTEXT_MISMATCH"
+    }
+  },
+  {
+    "id": "both_mismatches_future_conflict",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "c": "old",
+          "p": "old",
+          "at": 7,
+          "value": null
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": true,
+      "severity": "UNKNOWN",
+      "reason": "CONTEXT_MISMATCH"
+    }
+  },
+  {
+    "id": "policy_mismatch_future_conflict",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "c": "c1",
+          "p": "old",
+          "at": 7,
+          "value": null
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": true,
+      "severity": "UNKNOWN",
+      "reason": "POLICY_MISMATCH"
+    }
+  },
+  {
+    "id": "future_conflict",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "c": "c1",
+          "p": "p1",
+          "at": 7,
+          "value": null
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": true,
+      "severity": "UNKNOWN",
+      "reason": "FUTURE"
+    }
+  },
+  {
+    "id": "stale_conflict",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "c": "c1",
+          "p": "p1",
+          "at": 3,
+          "value": null
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": true,
+      "severity": "UNKNOWN",
+      "reason": "STALE"
+    }
+  },
+  {
+    "id": "conflict_with_valid_suppression",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": null,
+          "c": "c1",
+          "p": "p1",
+          "at": 6
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 8
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": true,
+      "severity": "UNKNOWN",
+      "reason": "CONFLICT"
+    }
+  },
+  {
+    "id": "missing_with_valid_suppression",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 8
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": true,
+      "severity": "UNKNOWN",
+      "reason": "MISSING"
+    }
+  },
+  {
+    "id": "suppression_over_escalation",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 6
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 8
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "SUPPRESSED",
+      "active": true,
+      "severity": "NONE",
+      "reason": "SUPPRESSION"
+    }
+  },
+  {
+    "id": "suppression_expires_at_escalation",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 6
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 6
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "ESCALATED",
+      "active": true,
+      "severity": "HIGH",
+      "reason": "STATE"
+    }
+  },
+  {
+    "id": "clearing_completes_at_escalation",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 4,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": false,
+          "c": "c1",
+          "p": "p1",
+          "at": 4
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": false,
+          "c": "c1",
+          "p": "p1",
+          "at": 6
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "CLEAR",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    }
+  },
+  {
+    "id": "missing_when_clearing_would_complete",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 4,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": false,
+          "c": "c1",
+          "p": "p1",
+          "at": 4
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1"
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": true,
+      "severity": "UNKNOWN",
+      "reason": "MISSING"
+    }
+  },
+  {
+    "id": "both_resets_over_suppression_zero_dwell",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p2",
+        "o": {
+          "value": true,
+          "c": "c2",
+          "p": "p2",
+          "at": 6
+        },
+        "s": {
+          "c": "c2",
+          "p": "p2",
+          "until": 8
+        }
+      }
+    ],
+    "policy": {
+      "D": 0,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "SUPPRESSED",
+      "active": true,
+      "severity": "NONE",
+      "reason": "POLICY_CHANGE"
+    }
+  },
+  {
+    "id": "context_reset_over_suppression_zero_dwell",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c2",
+          "p": "p1",
+          "at": 6
+        },
+        "s": {
+          "c": "c2",
+          "p": "p1",
+          "until": 8
+        }
+      }
+    ],
+    "policy": {
+      "D": 0,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "SUPPRESSED",
+      "active": true,
+      "severity": "NONE",
+      "reason": "CONTEXT_CHANGE"
+    }
+  },
+  {
+    "id": "stale_with_expired_suppression",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "c": "c1",
+          "p": "p1",
+          "at": 3,
+          "value": true
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 6
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": true,
+      "severity": "UNKNOWN",
+      "reason": "STALE"
+    }
+  },
+  {
+    "id": "both_resets_future",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p2",
+        "o": {
+          "c": "c2",
+          "p": "p2",
+          "at": 7,
+          "value": true
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": false,
+      "severity": "UNKNOWN",
+      "reason": "FUTURE"
+    }
+  },
+  {
+    "id": "both_resets_conflict",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p2",
+        "o": {
+          "value": null,
+          "c": "c2",
+          "p": "p2",
+          "at": 6
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": false,
+      "severity": "UNKNOWN",
+      "reason": "CONFLICT"
+    }
+  },
+  {
+    "id": "context_reset_stale",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p1",
+        "o": {
+          "c": "c2",
+          "p": "p1",
+          "at": 3,
+          "value": true
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": false,
+      "severity": "UNKNOWN",
+      "reason": "STALE"
+    }
+  },
+  {
+    "id": "policy_reset_mismatch_stale",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p2",
+        "o": {
+          "c": "c1",
+          "p": "p1",
+          "at": 3,
+          "value": true
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "UNKNOWN",
+      "active": false,
+      "severity": "UNKNOWN",
+      "reason": "POLICY_MISMATCH"
+    }
+  },
+  {
+    "id": "context_reset_invalid_suppression",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c2",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c2",
+          "p": "p1",
+          "at": 6
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 8
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "PENDING",
+      "active": false,
+      "severity": "NONE",
+      "reason": "CONTEXT_CHANGE"
+    }
+  },
+  {
+    "id": "negative_qualifying_suppressed_escalated",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": false,
+          "c": "c1",
+          "p": "p1",
+          "at": 6
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 8
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "SUPPRESSED",
+      "active": true,
+      "severity": "NONE",
+      "reason": "SUPPRESSION"
+    }
+  },
+  {
+    "id": "clearing_completes_with_suppression",
+    "trace": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 4,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": false,
+          "c": "c1",
+          "p": "p1",
+          "at": 4
+        }
+      },
+      {
+        "t": 6,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": false,
+          "c": "c1",
+          "p": "p1",
+          "at": 6
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 8
+        }
+      }
+    ],
+    "policy": {
+      "D": 2,
+      "C": 2,
+      "E": 4,
+      "F": 2
+    },
+    "expected_final": {
+      "state": "CLEAR",
+      "active": false,
+      "severity": "NONE",
+      "reason": "STATE"
+    }
+  }
+]

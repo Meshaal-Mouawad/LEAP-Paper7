@@ -1,0 +1,11 @@
+{
+  "archived_all_refs_commit_count": 156,
+  "archived_parent_edges": 83,
+  "selected_actual_modified_kpi_source_file_pairs": 9,
+  "selected_distinct_commit_transitions": 4,
+  "technical_noncomment_or_ast_unchanged_pairs": 6,
+  "technical_executable_representation_changed_pairs": 3,
+  "selected_pairs_in_main_ancestry": 0,
+  "actual_business_approval_records_paired": 0,
+  "interpretation": "All cases are actual source file revisions from non-main archived branches; code-equivalence checks are narrow and no human approval label is established."
+}

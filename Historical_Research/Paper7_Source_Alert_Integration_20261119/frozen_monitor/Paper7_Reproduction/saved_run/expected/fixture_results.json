@@ -1,0 +1,221 @@
+{
+  "active_setup_verified": true,
+  "alertmanager_executed": false,
+  "cases": [
+    {
+      "active_at_query": true,
+      "active_before_query": true,
+      "actual_mutes": false,
+      "complete_oracle_agreement": true,
+      "execution_failure": null,
+      "expected_mutes": false,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1383",
+      "mapped_assertion_agreement": true,
+      "monitor_output": [
+        {
+          "active": false,
+          "reason": "STATE",
+          "severity": "NONE",
+          "state": "PENDING"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        }
+      ],
+      "name": "absent",
+      "oracle_output": [
+        {
+          "active": false,
+          "reason": "STATE",
+          "severity": "NONE",
+          "state": "PENDING"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        }
+      ],
+      "source_line": 1383
+    },
+    {
+      "active_at_query": true,
+      "active_before_query": true,
+      "actual_mutes": false,
+      "complete_oracle_agreement": true,
+      "execution_failure": null,
+      "expected_mutes": false,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1392",
+      "mapped_assertion_agreement": true,
+      "monitor_output": [
+        {
+          "active": false,
+          "reason": "STATE",
+          "severity": "NONE",
+          "state": "PENDING"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        }
+      ],
+      "name": "nonmatching_exact",
+      "oracle_output": [
+        {
+          "active": false,
+          "reason": "STATE",
+          "severity": "NONE",
+          "state": "PENDING"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        }
+      ],
+      "source_line": 1392
+    },
+    {
+      "active_at_query": true,
+      "active_before_query": true,
+      "actual_mutes": true,
+      "complete_oracle_agreement": true,
+      "execution_failure": null,
+      "expected_mutes": true,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1402",
+      "mapped_assertion_agreement": true,
+      "monitor_output": [
+        {
+          "active": false,
+          "reason": "STATE",
+          "severity": "NONE",
+          "state": "PENDING"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        },
+        {
+          "active": true,
+          "reason": "SUPPRESSION",
+          "severity": "NONE",
+          "state": "SUPPRESSED"
+        }
+      ],
+      "name": "matching_exact",
+      "oracle_output": [
+        {
+          "active": false,
+          "reason": "STATE",
+          "severity": "NONE",
+          "state": "PENDING"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        },
+        {
+          "active": true,
+          "reason": "SUPPRESSION",
+          "severity": "NONE",
+          "state": "SUPPRESSED"
+        }
+      ],
+      "source_line": 1402
+    },
+    {
+      "active_at_query": true,
+      "active_before_query": true,
+      "actual_mutes": false,
+      "complete_oracle_agreement": true,
+      "execution_failure": null,
+      "expected_mutes": false,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1408",
+      "mapped_assertion_agreement": true,
+      "monitor_output": [
+        {
+          "active": false,
+          "reason": "STATE",
+          "severity": "NONE",
+          "state": "PENDING"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "HIGH",
+          "state": "ESCALATED"
+        }
+      ],
+      "name": "expired_exact",
+      "oracle_output": [
+        {
+          "active": false,
+          "reason": "STATE",
+          "severity": "NONE",
+          "state": "PENDING"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "High",
+          "state": "ACTIVE"
+        },
+        {
+          "active": true,
+          "reason": "STATE",
+          "severity": "HIGH",
+          "state": "ESCALATED"
+        }
+      ],
+      "source_line": 1408
+    }
+  ],
+  "complete_oracle_agreement": true,
+  "execution_failures": 0,
+  "freeze_sha256": "a42f765b371530d8794fcd0f41b52a84834d966c2cd7ab8a42e3b6c38c775a5d",
+  "mapped_source_assertions": 4,
+  "matched": 4,
+  "outside_native_policy": 4,
+  "upstream_source_assertions": 8
+}

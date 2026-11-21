@@ -1,0 +1,4 @@
+pair_id,stratum,kpi_or_finding,before_finding,after_finding,before_output_path,after_output_path,approval_id,before_source,after_source,observation
+ENGINE-01,SUPPLEMENTARY_ENGINE_CODE,,UNKNOWN,UNKNOWN,,,UNKNOWN,f4c96d5dd35f401425816d8f9852e2e6c8ba8920:bluebook_generator/main.py,e917520eda909fe4cb5617d3b62cd00b9722d509:bluebook_generator/main.py,No recorded KPI finding output associated; code was not executed
+ENGINE-02,SUPPLEMENTARY_ENGINE_CODE,,UNKNOWN,UNKNOWN,,,UNKNOWN,f4c96d5dd35f401425816d8f9852e2e6c8ba8920:bluebook_generator/main.py,13074c16ac0d6785e88a19f78e261b573f64ad9a:bluebook_generator/main.py,No recorded KPI finding output associated; code was not executed
+ENGINE-03,SUPPLEMENTARY_ENGINE_CODE,,UNKNOWN,UNKNOWN,,,UNKNOWN,f4c96d5dd35f401425816d8f9852e2e6c8ba8920:bluebook_generator/main.py,5c3bb33e1d01ccb2469377843d5d0e446fbddcc8:bluebook_generator/main.py,No recorded KPI finding output associated; code was not executed

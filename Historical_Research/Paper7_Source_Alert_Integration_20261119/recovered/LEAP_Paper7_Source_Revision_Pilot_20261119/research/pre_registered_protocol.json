@@ -1,0 +1,58 @@
+{
+  "protocol_id": "P7-SRA-PILOT-20261119",
+  "date": "2026-11-19",
+  "status": "controlled diagnostic protocol fixed before test execution",
+  "units": {
+    "actual_git": "adjacent first-parent main-branch commit pair, specific tracked source file",
+    "proxy": "directed baseline-to-variant pair for an archived KPI source artifact",
+    "authorization": "counterfactual example authorization; no real signed approvals are present in the supplied ledgers"
+  },
+  "reference_definitions": {
+    "native_policy": "source-bound authorization remains valid only when KPI identity, approved status and exact source signature match; approval scope/policy and expiry are held constant for the isolated test; derived from archived LEAP governance specification",
+    "semantic_proxy": "source formula/function has equivalent observable outputs on the full prespecified audit input grid, under the same KPI identity and intended approval scope; equivalence is within this audit grid only; never equated with actual human authorization"
+  },
+  "candidate_methods": [
+    "raw_file_sha256_match",
+    "unchanged_kpi_identity_or_finding_presence",
+    "syntax_fingerprint_match",
+    "sparse_output_probe_match"
+  ],
+  "original_sources": [
+    "phase3/BestKPItest_iso_kpis/yield_correct.sql",
+    "phase3/BestKPItest_iso_kpis/yield_wrong_operator.sql",
+    "phase3/BestKPItest_iso_kpis/yield_wrong_variables.sql",
+    "phase3/BestKPItest_iso_kpis/utilization_correct.sql",
+    "phase3/BestKPItest_iso_kpis/utilization_wrong.sql",
+    "sample_project/python_kpi.py",
+    "sample_projects/leap_enterprise_scenarios/kpi_environment_emissions_intensity.py"
+  ],
+  "sql_reference_grid": {
+    "production_data": [[90,100,10],[5,20,15],[40,50,10],[1,2,1],[20,37,17],[100,100,1]],
+    "operations_data": [[8,10,2],[5,8,3],[24,24,0],[0,10,5],[15,37,22],[37,100,9]]
+  },
+  "sql_sparse_grid": {
+    "production_data": [[90,100,10],[5,20,15]],
+    "operations_data": [[8,10,2],[5,8,3]]
+  },
+  "python_reference_grid": {
+    "throughput": [[100,8],[100,10],[25,5],[0,2],[100,0],[26,13],[50,4],[88,11]],
+    "emissions": [[428500,912.5],[0,3],[10,0],[20,2],[200,4],[13,1]]
+  },
+  "python_sparse_grid": {
+    "throughput": [[100,8],[25,5],[100,0]],
+    "emissions": [[428500,912.5],[10,0]]
+  },
+  "evaluation_metrics": [
+    "false_retained_authorization_relative_to_reference",
+    "false_revoked_valid_authorization_relative_to_reference",
+    "correctly_retained_and_revoked",
+    "unknown_authorization_reference_cases",
+    "unit_of_analysis_and_cluster_count"
+  ],
+  "constraints": [
+    "Original Git bytes and frozen paper-7 research outputs remain read-only",
+    "No fabricated business approvals or human participant labels",
+    "No claim of general source equivalence from finite test vectors",
+    "Pilot code transformations are controlled and must not be described as historical Git commits"
+  ]
+}

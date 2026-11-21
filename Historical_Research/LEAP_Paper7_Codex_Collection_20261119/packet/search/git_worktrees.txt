@@ -1,0 +1,4 @@
+worktree $HOME/AI-Powered_KPI_Extractor_Interactive_Bluebook_Generator
+HEAD 9892e4477d87d32920bcd64918fd917d1f5fc796
+branch refs/heads/ui-freeze-v1
+

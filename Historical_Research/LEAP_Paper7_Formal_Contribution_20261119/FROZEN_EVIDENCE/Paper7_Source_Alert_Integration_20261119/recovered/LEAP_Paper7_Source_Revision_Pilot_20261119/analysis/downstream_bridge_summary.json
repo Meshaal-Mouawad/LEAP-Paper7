@@ -1,0 +1,34 @@
+{
+  "cases": 24,
+  "type": "deterministic counterfactual bridge from proxy authorization to existing frozen monitor",
+  "fixed_trace": "audit/suppression_old_context/2/base",
+  "frozen_monitor_sha256": "271563264a9bed90cfda71b4cfe42456fe14351466f42aa255a1cf8de81ad166",
+  "policy": {
+    "D": 2,
+    "C": 2,
+    "E": 4,
+    "F": 2
+  },
+  "per_strategy": {
+    "raw_file_sha256_match": {
+      "cases_with_display_mismatch": 10,
+      "mismatched_event_tuples": 10,
+      "active_episode_differences": 0
+    },
+    "unchanged_kpi_identity_or_finding_presence": {
+      "cases_with_display_mismatch": 10,
+      "mismatched_event_tuples": 10,
+      "active_episode_differences": 0
+    },
+    "syntax_fingerprint_match": {
+      "cases_with_display_mismatch": 5,
+      "mismatched_event_tuples": 5,
+      "active_episode_differences": 0
+    },
+    "sparse_output_probe_match": {
+      "cases_with_display_mismatch": 4,
+      "mismatched_event_tuples": 4,
+      "active_episode_differences": 0
+    }
+  }
+}

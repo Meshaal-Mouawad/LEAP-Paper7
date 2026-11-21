@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "reproduce.py"
+  ],
+  "working_directory": "original_extract",
+  "exit_code": 0,
+  "elapsed_seconds": 13.292929519000609,
+  "finished_at_utc": "2026-11-18T17:55:49.471280+00:00",
+  "stdout_file": "documented_command.stdout.log",
+  "stderr_file": "documented_command.stderr.log"
+}

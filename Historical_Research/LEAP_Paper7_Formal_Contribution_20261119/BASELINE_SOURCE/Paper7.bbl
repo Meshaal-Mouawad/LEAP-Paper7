@@ -1,0 +1,332 @@
+\begin{thebibliography}{37}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Mouawad(2026{\natexlab{a}})]{mouawad2026architecture}
+Meshaal~Obaid Mouawad.
+\newblock Reconstructing source-linked {KPI} documentation: Architecture and
+  evaluation of {LEAP}.
+\newblock Public author manuscript, revision P6R17, 2026{\natexlab{a}}.
+\newblock URL
+  \url{https://github.com/Meshaal-Mouawad/LEAP-Paper1-Evidence/tree/a20b243683a262fd43987013117120c313ec8fa8/SCP_P6R17}.
+
+\bibitem[Gr{\"o}ninger et~al.(2025)Gr{\"o}ninger, Souza, and
+  Pradel]{groninger2025changeguard}
+Lars Gr{\"o}ninger, Beatriz Souza, and Michael Pradel.
+\newblock {ChangeGuard}: Validating code changes via pairwise learning-guided
+  execution.
+\newblock \emph{Proceedings of the ACM on Software Engineering}, 2\penalty0
+  (FSE):\penalty0 936--956, 2025.
+\newblock \doi{10.1145/3715760}.
+
+\bibitem[Huang et~al.(2024)Huang, Chen, Chen, and Zhou]{chen2024cocc}
+Yuan Huang, Yinan Chen, Xiangping Chen, and Xiaocong Zhou.
+\newblock Are your comments outdated? toward automatically detecting
+  code-comment consistency.
+\newblock \emph{Journal of Software: Evolution and Process}, 2024.
+\newblock \doi{10.1002/smr.2718}.
+
+\bibitem[Henzinger et~al.(2022)Henzinger, Mazzocchi, and
+  Sara{\c{c}}]{henzinger2022abstract}
+Thomas~A. Henzinger, Nicolas Mazzocchi, and N.~Ege Sara{\c{c}}.
+\newblock Abstract monitors for quantitative specifications.
+\newblock In Thao Dang and Volker Stolz, editors, \emph{Runtime Verification},
+  volume 13498 of \emph{Lecture Notes in Computer Science}, pages 200--220.
+  Springer, 2022.
+\newblock \doi{10.1007/978-3-031-17196-3_11}.
+\newblock URL \url{https://research-explorer.ista.ac.at/record/11775}.
+
+\bibitem[Guan and Legunsen(2025)]{guan2025imop}
+Kevin Guan and Owolabi Legunsen.
+\newblock Instrumentation-driven evolution-aware runtime verification.
+\newblock In \emph{Proceedings of the 2025 IEEE/ACM 47th International
+  Conference on Software Engineering (ICSE)}, pages 103--115. IEEE, 2025.
+\newblock \doi{10.1109/ICSE55347.2025.00099}.
+\newblock URL
+  \url{https://www.cs.cornell.edu/~legunsen/pubs/GuanAndLegunsenIMOPICSE2025.pdf}.
+
+\bibitem[Hu et~al.(2025)Hu, Wang, Rubin, and Pradel]{hu2025suppressed}
+Huimin Hu, Yingying Wang, Julia Rubin, and Michael Pradel.
+\newblock An empirical study of suppressed static analysis warnings.
+\newblock \emph{Proceedings of the ACM on Software Engineering}, 2\penalty0
+  (FSE):\penalty0 290--311, 2025.
+\newblock \doi{10.1145/3715729}.
+
+\bibitem[Chen et~al.(2026)Chen, Lin, Peng, Huang, and Zhou]{chen2026context}
+Xiangping Chen, Pengfei Lin, Rui Peng, Yuan Huang, and Xiaocong Zhou.
+\newblock The impact of contextual information on parameter description
+  generation: An empirical study.
+\newblock \emph{Science of Computer Programming}, 254:\penalty0 103524, 2026.
+\newblock \doi{10.1016/j.scico.2026.103524}.
+
+\bibitem[Baumeister et~al.(2026)Baumeister, Finkbeiner, Kohn, and
+  Scheerer]{baumeister2026rtlola}
+Jan Baumeister, Bernd Finkbeiner, Florian Kohn, and Frederik Scheerer.
+\newblock Stream-based monitoring with {RTLola}.
+\newblock \emph{Science of Computer Programming}, 253:\penalty0 103495, 2026.
+\newblock \doi{10.1016/j.scico.2026.103495}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0167642326000614}.
+
+\bibitem[Ferrando and Cardoso(2025)]{ferrando2025partial}
+Angelo Ferrando and Rafael~C. Cardoso.
+\newblock Towards partial monitoring: Never too early to give in.
+\newblock \emph{Science of Computer Programming}, 240:\penalty0 103220, 2025.
+\newblock \doi{10.1016/j.scico.2024.103220}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0167642324001436}.
+
+\bibitem[Leucker et~al.(2019)Leucker, S{\'a}nchez, Scheffel, Schmitz, and
+  Thoma]{leucker2019partial}
+Martin Leucker, C{\'e}sar S{\'a}nchez, Torben Scheffel, Malte Schmitz, and
+  Daniel Thoma.
+\newblock Runtime verification for timed event streams with partial
+  information.
+\newblock In Bernd Finkbeiner and Leonardo Mariani, editors, \emph{Runtime
+  Verification}, volume 11757 of \emph{Lecture Notes in Computer Science},
+  pages 273--291. Springer, 2019.
+\newblock \doi{10.1007/978-3-030-32079-9_16}.
+\newblock URL
+  \url{https://software.imdea.org/~cesar/papers/leucker19runtime.pdf}.
+
+\bibitem[Jevitha et~al.(2024)Jevitha, Jayaraman, and
+  Sethumadhavan]{jevitha2024abstract}
+K.~P. Jevitha, Bharat Jayaraman, and M.~Sethumadhavan.
+\newblock Runtime verification on abstract finite state models.
+\newblock \emph{Journal of Systems and Software}, 216:\penalty0 112138, 2024.
+\newblock \doi{10.1016/j.jss.2024.112138}.
+\newblock URL \url{https://arxiv.org/abs/2406.12715}.
+
+\bibitem[Antignac et~al.(2017)Antignac, Sands, and
+  Schneider]{antignac2017minimisation}
+Thibaud Antignac, David Sands, and Gerardo Schneider.
+\newblock Data minimisation: A language-based approach.
+\newblock In \emph{ICT Systems Security and Privacy Protection}, volume 502 of
+  \emph{IFIP Advances in Information and Communication Technology}, pages
+  442--456. Springer, 2017.
+\newblock \doi{10.1007/978-3-319-58469-0_30}.
+
+\bibitem[Convent et~al.(2018)Convent, Hungerecker, Leucker, Scheffel, Schmitz,
+  and Thoma]{convent2018tessla}
+Lukas Convent, Sebastian Hungerecker, Martin Leucker, Torben Scheffel, Malte
+  Schmitz, and Daniel Thoma.
+\newblock {TeSSLa}: Temporal stream-based specification language.
+\newblock In \emph{Formal Methods: Foundations and Applications (SBMF 2018)},
+  volume 11254, pages 144--162, 2018.
+\newblock \doi{10.1007/978-3-030-03044-5_10}.
+\newblock URL
+  \url{https://www.isp.uni-luebeck.de/sites/default/files/publications/1808.10717.pdf}.
+
+\bibitem[Chalupa et~al.(2025)Chalupa, Muehlboeck, Lei, and
+  Henzinger]{chalupa2025vamos}
+Marek Chalupa, Fabian Muehlboeck, Stefanie~Muroya Lei, and Thomas~A. Henzinger.
+\newblock Vamos: Middleware for best-effort third-party monitoring.
+\newblock \emph{Science of Computer Programming}, 240:\penalty0 103212, 2025.
+\newblock \doi{10.1016/j.scico.2024.103212}.
+\newblock URL
+  \url{https://research-explorer.ista.ac.at/download/18169/18831/2024_ScienceCompProg_Chalupa.pdf}.
+
+\bibitem[Leucker et~al.(2020)Leucker, Sánchez, Scheffel, Schmitz, and
+  Schramm]{leucker2020streams}
+Martin Leucker, César Sánchez, Torben Scheffel, Malte Schmitz, and Alexander
+  Schramm.
+\newblock Runtime verification of real-time event streams under
+  non-synchronized arrival.
+\newblock \emph{Software Quality Journal}, 28:\penalty0 745--787, 2020.
+\newblock \doi{10.1007/s11219-019-09493-y}.
+\newblock URL
+  \url{https://link.springer.com/article/10.1007/s11219-019-09493-y}.
+
+\bibitem[Zhou et~al.(2025)Zhou, Shang, and Chen]{zhou2025delay}
+Jing Zhou, Jun Shang, and Tongwen Chen.
+\newblock Performance analysis for stochastic anomaly detectors with
+  on/off-delay timers.
+\newblock \emph{Automatica}, 173:\penalty0 112073, 2025.
+\newblock \doi{10.1016/j.automatica.2024.112073}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/abs/pii/S0005109824005661}.
+
+\bibitem[Carwehl et~al.(2023)Carwehl, Vogel, Rodrigues, and
+  Grunske]{carwehl2023changing}
+Marc Carwehl, Thomas Vogel, Gena{\'i}na~Nunes Rodrigues, and Lars Grunske.
+\newblock Runtime verification of self-adaptive systems with changing
+  requirements.
+\newblock In \emph{2023 IEEE/ACM 18th Symposium on Software Engineering for
+  Adaptive and Self-Managing Systems (SEAMS)}, pages 104--114, 2023.
+\newblock \doi{10.1109/SEAMS59076.2023.00024}.
+\newblock URL \url{https://arxiv.org/abs/2303.16530}.
+
+\bibitem[Zhang et~al.(2026)Zhang, An, Arcaini, and Hasuo]{zhang2026caumon}
+Zhenya Zhang, Jie An, Paolo Arcaini, and Ichiro Hasuo.
+\newblock {CauMon}: A tool for online monitoring against signal temporal logic.
+\newblock \emph{Science of Computer Programming}, 253:\penalty0 103499, 2026.
+\newblock \doi{10.1016/j.scico.2026.103499}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0167642326000651}.
+
+\bibitem[Lima et~al.(2024)Lima, y~Munive, and Traytel]{lima2024explainable}
+Leonardo Lima, Jonathan Julián~Huerta y~Munive, and Dmitriy Traytel.
+\newblock Explainable online monitoring of metric first-order temporal logic.
+\newblock In \emph{Tools and Algorithms for the Construction and Analysis of
+  Systems (TACAS 2024)}, volume 14570, pages 288--307, 2024.
+\newblock \doi{10.1007/978-3-031-57246-3_16}.
+\newblock URL
+  \url{https://link.springer.com/chapter/10.1007/978-3-031-57246-3_16}.
+
+\bibitem[Moreau and Missier(2013)]{moreau2013prov}
+Luc Moreau and Paolo Missier.
+\newblock {PROV-DM}: The {PROV} data model.
+\newblock W3C Recommendation, 2013.
+\newblock URL \url{https://www.w3.org/TR/2013/REC-prov-dm-20130430/}.
+\newblock Moreau and Missier are the editors; published 30 April 2013.
+
+\bibitem[Muhammad et~al.(2026)Muhammad, Yow, and Alsenan]{muhammad2026audit}
+Aoun~E. Muhammad, Kin-Choong Yow, and Shrooq Alsenan.
+\newblock Audit-as-code: A policy-as-code framework for continuous {AI}
+  assurance.
+\newblock \emph{Frontiers in Artificial Intelligence}, 9:\penalty0 1759211,
+  2026.
+\newblock \doi{10.3389/frai.2026.1759211}.
+\newblock URL
+  \url{https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1759211/full}.
+
+\bibitem[Nweke and Yeng(2026)]{nwekeyeng2026compliance}
+Livinus~Obiora Nweke and Prosper~Kandabongee Yeng.
+\newblock Compliance-as-code for {AI}-driven identity systems:
+  Clause-to-control traceability and machine-readable evidence.
+\newblock \emph{IEEE Access}, 14:\penalty0 28258--28281, 2026.
+\newblock \doi{10.1109/ACCESS.2026.3665991}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/11398064/}.
+
+\bibitem[{Open Policy Agent Project}(n.d.)]{opa2026logs}
+{Open Policy Agent Project}.
+\newblock Decision logs.
+\newblock Open Policy Agent documentation, n.d.
+\newblock URL
+  \url{https://www.openpolicyagent.org/docs/management-decision-logs}.
+\newblock Accessed 18 November 2026.
+
+\bibitem[Li et~al.(2026)Li, Yuan, Yang, Fu, Xin, Duan, and
+  Wang]{li2026sentinel}
+Yue Li, MengYu Yuan, Yujing Yang, Jia Fu, Yi~Xin, Chu~Jie Duan, and Jun Wang.
+\newblock An ethics-informed computable audit framework for monitoring
+  misdiagnosis risk in {AI}-assisted diagnosis.
+\newblock \emph{Scientific Reports}, 16:\penalty0 16462, 2026.
+\newblock \doi{10.1038/s41598-026-46652-1}.
+\newblock URL \url{https://www.nature.com/articles/s41598-026-46652-1}.
+
+\bibitem[Ra{\c{t}}iu et~al.(2026)Ra{\c{t}}iu, Mayr-Dorn, Stock, and
+  Egyed]{ratiu2026runtime}
+Cosmina~Cristina Ra{\c{t}}iu, Christoph Mayr-Dorn, Sebastian Stock, and
+  Alexander Egyed.
+\newblock Automated runtime temporal constraint checking for engineering
+  process compliance.
+\newblock \emph{Journal of Systems and Software}, 238:\penalty0 112868, 2026.
+\newblock \doi{10.1016/j.jss.2026.112868}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0164121226001019}.
+
+\bibitem[Hinov(2026)]{hinov2026assurance}
+Nikolay Hinov.
+\newblock Evidence-grounded runtime assurance for ai-assisted power-electronics
+  design: Three-state constraint semantics and deterministic validation.
+\newblock \emph{Eng}, 7\penalty0 (10):\penalty0 495, 2026.
+\newblock \doi{10.3390/eng7100495}.
+\newblock URL \url{https://www.mdpi.com/2673-4117/7/10/495}.
+
+\bibitem[{Prometheus Authors}(n.d.{\natexlab{a}})]{prometheus2026alertmanager}
+{Prometheus Authors}.
+\newblock {Alertmanager}.
+\newblock Prometheus documentation, n.d.{\natexlab{a}}.
+\newblock URL \url{https://prometheus.io/docs/alerting/latest/alertmanager/}.
+\newblock Accessed 18 November 2026.
+
+\bibitem[Legunsen et~al.(2019)Legunsen, Zhang, Hadzi-Tanovic, Ro{\c{s}}u, and
+  Marinov]{legunsen2019evolution}
+Owolabi Legunsen, Yi~Zhang, Milica Hadzi-Tanovic, Grigore Ro{\c{s}}u, and Darko
+  Marinov.
+\newblock Techniques for evolution-aware runtime verification.
+\newblock In \emph{2019 IEEE 12th International Conference on Software Testing,
+  Verification and Validation (ICST)}, pages 300--311. IEEE, 2019.
+\newblock \doi{10.1109/ICST.2019.00037}.
+\newblock URL \url{https://doi.org/10.1109/ICST.2019.00037}.
+
+\bibitem[Jiang et~al.(2026)Jiang, Guan, Khosravi, Ismail, d'Amorim, and
+  Legunsen]{jiang2026finemop}
+Pengyue Jiang, Kevin Guan, Mahdi Khosravi, Moustafa Ismail, Marcelo d'Amorim,
+  and Owolabi Legunsen.
+\newblock Fine-grained analyses for evolution-aware runtime verification.
+\newblock In \emph{Proceedings of the 2026 IEEE/ACM 48th International
+  Conference on Software Engineering (ICSE 2026)}, 2026.
+\newblock \doi{10.1145/3744916.3787833}.
+\newblock URL
+  \url{https://www.cs.cornell.edu/~legunsen/pubs/JiangETAlFineMOPICSE26.pdf}.
+
+\bibitem[{OASIS Open}(2019)]{oasis2019sarif}
+{OASIS Open}.
+\newblock Static analysis results interchange format ({SARIF}) version 2.1.0.
+\newblock OASIS Standard, 23 July 2019, 2019.
+\newblock URL
+  \url{https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/sarif-v2.1.0-os.html}.
+
+\bibitem[{skill-audit contributors}(2026)]{skillaudit2026suppression}
+{skill-audit contributors}.
+\newblock Finding fingerprints and governed suppressions.
+\newblock skill-audit source repository, 2026.
+\newblock URL
+  \url{https://github.com/harrypham2000/skill-audit/blob/e2e9ad679b8a0459bbb4bfad39621435aa354002/skill-audit/src/suppress.ts}.
+\newblock Commit e2e9ad679b8a0459bbb4bfad39621435aa354002; accessed 18 November
+  2026.
+
+\bibitem[Mouawad and Jones(2026)]{mouawadjones2026checks}
+Meshaal~Obaid Mouawad and Bryan~A. Jones.
+\newblock Evaluating checks for generated {KPI} documentation: Rule coverage
+  and reference criteria.
+\newblock Submitted manuscript, 2026.
+
+\bibitem[Mouawad(2026{\natexlab{b}})]{mouawad2026discrepancies}
+Meshaal~Obaid Mouawad.
+\newblock {KPI} definition--implementation discrepancies: A source-pinned
+  evaluation of {LEAP} checks and executable contracts.
+\newblock Unpublished research manuscript dated 18 November 2026, November
+  2026{\natexlab{b}}.
+
+\bibitem[Smith(2009)]{smith2009foundations}
+Geoffrey Smith.
+\newblock On the foundations of quantitative information flow.
+\newblock In Luca de~Alfaro, editor, \emph{Foundations of Software Science and
+  Computational Structures}, volume 5504 of \emph{Lecture Notes in Computer
+  Science}, pages 288--302. Springer, 2009.
+\newblock \doi{10.1007/978-3-642-00596-1_21}.
+
+\bibitem[Dams et~al.(2022)Dams, Havelund, and Kauffman]{dams2022pycontract}
+Dennis Dams, Klaus Havelund, and Sean Kauffman.
+\newblock A python library for trace analysis.
+\newblock In Thao Dang and Volker Stolz, editors, \emph{Runtime Verification},
+  volume 13498 of \emph{Lecture Notes in Computer Science}, pages 264--273.
+  Springer, 2022.
+\newblock \doi{10.1007/978-3-031-17196-3_15}.
+\newblock URL \url{https://havelund.com/Publications/rv-pycontract-2022.pdf}.
+
+\bibitem[{PyContract contributors}(2025)]{pyrv2025pycontract}
+{PyContract contributors}.
+\newblock {PyContract}: Event-stream monitoring library.
+\newblock Open-source software, Apache License 2.0, 2025.
+\newblock URL
+  \url{https://github.com/pyrv/pycontract/tree/e378eed38699bcff33e2ae71426e6b161690cdfa}.
+\newblock Executed commit e378eed38699bcff33e2ae71426e6b161690cdfa; accessed 18
+  November 2026.
+
+\bibitem[{Prometheus Authors}(n.d.{\natexlab{b}})]{prometheusSilencer0281}
+{Prometheus Authors}.
+\newblock {Alertmanager} v0.28.1: {TestSilencer} in silence/silence\_test.go.
+\newblock Versioned software test source, n.d.{\natexlab{b}}.
+\newblock URL
+  \url{https://github.com/prometheus/alertmanager/blob/v0.28.1/silence/silence_test.go}.
+\newblock Lines 1372--1443; Git blob a65b1f6337723d3ba76140081b757088213f7d5a;
+  Apache License 2.0; accessed 18 November 2026.
+
+\end{thebibliography}

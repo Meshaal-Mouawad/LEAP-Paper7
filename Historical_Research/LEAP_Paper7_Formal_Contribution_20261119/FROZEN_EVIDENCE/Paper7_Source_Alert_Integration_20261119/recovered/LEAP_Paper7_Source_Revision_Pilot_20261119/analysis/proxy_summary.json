@@ -1,0 +1,33 @@
+{
+  "scope": "controlled proxy, not actual approval outcomes",
+  "cases": 24,
+  "families": 4,
+  "reference_true": 14,
+  "reference_false": 10,
+  "methods": {
+    "raw_file_sha256_match": {
+      "valid_retained_TP": 4,
+      "invalid_retained_FP": 0,
+      "valid_revoked_FN": 10,
+      "invalid_revoked_TN": 10
+    },
+    "unchanged_kpi_identity_or_finding_presence": {
+      "valid_retained_TP": 14,
+      "invalid_retained_FP": 10,
+      "valid_revoked_FN": 0,
+      "invalid_revoked_TN": 0
+    },
+    "syntax_fingerprint_match": {
+      "valid_retained_TP": 9,
+      "invalid_retained_FP": 0,
+      "valid_revoked_FN": 5,
+      "invalid_revoked_TN": 10
+    },
+    "sparse_output_probe_match": {
+      "valid_retained_TP": 14,
+      "invalid_retained_FP": 4,
+      "valid_revoked_FN": 0,
+      "invalid_revoked_TN": 6
+    }
+  }
+}

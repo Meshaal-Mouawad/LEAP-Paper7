@@ -1,0 +1,23 @@
+{
+  "purpose": "Post-study integrity manifest for this offline supplement",
+  "historical_manifest_sha256": "bde9fc3ac4d039ed385ca63f08d10c1b4a567a9da9333a36f2691b69363fdfbe",
+  "omitted_from_historical_manifest": [
+    "benchmark/adapter_checks.json",
+    "benchmark/sources.json",
+    "implementation/build_benchmark.py",
+    "implementation/build_witnesses.py",
+    "implementation/freeze.py"
+  ],
+  "sha256": {
+    "benchmark/necessity_witnesses.json": "21802452b201f68b3c71d806e7fd0879baa12d3f31a861c7f31a8d0713c44c50",
+    "benchmark/policy.json": "f9bf59ed846ebbba4fd41acd47b900977936ed00ec160030367178d7c048934b",
+    "benchmark/reference.jsonl": "d93440c5068f577b0bbdf7d3a81f1cfc1090c4a41803a157c5d05a38d06e9abe",
+    "benchmark/traces.jsonl": "92f6ca523af501d7db4ad11835fbffcd585ecd064a3fe4ccfe4f9b6d592e60e1",
+    "benchmark/witness_references.json": "3e69a498ebf7a50ac679f1a1efa0c26992231ab0b1c72bdfa4a0710ac6ce8210",
+    "implementation/evaluate.py": "5d0ac4857fcea89c09bbd6848561b9e6d0c734932d1ba814dafb666a7e0be0eb",
+    "implementation/monitor.py": "271563264a9bed90cfda71b4cfe42456fe14351466f42aa255a1cf8de81ad166",
+    "implementation/oracle.py": "74429769cf8f2b8665ca7abe488e66083c2a44276892316a37f8a822bc746ae6",
+    "protocol/PROTOCOL.md": "b8f851e70c3fa67291b1be14d141f1e2d855c08caeaebf873503239c247f2ce5",
+    "protocol/SEMANTICS.md": "bf5369f512df7b22ce7cfd85f735b1be0a161c74f621412864415389868f6909"
+  }
+}

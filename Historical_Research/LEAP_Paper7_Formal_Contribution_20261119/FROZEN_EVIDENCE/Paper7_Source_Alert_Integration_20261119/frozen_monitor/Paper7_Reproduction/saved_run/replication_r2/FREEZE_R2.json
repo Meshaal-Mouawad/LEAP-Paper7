@@ -1,0 +1,18 @@
+{
+  "purpose": "Post-study integrity manifest for this offline supplement",
+  "historical_manifest_sha256": "64d41bd35de9a57c6131f7a1a1c9e7c0f6576b1a53ac99f9e46468fa8029d2d2",
+  "omitted_from_historical_manifest": [],
+  "sha256": {
+    "replication_r2/ADDENDUM.md": "24bdddbf60a44e3afb93763c5da1a22d59883d81c214d22b1a7413e7561d82ed",
+    "replication_r2/monitor.sql": "cffaecc5289d23630e15a300a73e8b3cbe13e1bdb814b38a952488d6603e9378",
+    "replication_r2/sqlite_baseline.py": "4cdbe0c88a763e64f170189e1e8fbf759b6813b4d63137c541cab483e17e2530",
+    "replication_r2/run_replication.py": "ec216a2f37b00f1e8640f1a9530982faef09ecba668a2727277ee9c827d83604",
+    "protocol/SEMANTICS.md": "bf5369f512df7b22ce7cfd85f735b1be0a161c74f621412864415389868f6909",
+    "benchmark/policy.json": "f9bf59ed846ebbba4fd41acd47b900977936ed00ec160030367178d7c048934b",
+    "benchmark/traces.jsonl": "92f6ca523af501d7db4ad11835fbffcd585ecd064a3fe4ccfe4f9b6d592e60e1",
+    "benchmark/reference.jsonl": "d93440c5068f577b0bbdf7d3a81f1cfc1090c4a41803a157c5d05a38d06e9abe",
+    "benchmark/necessity_witnesses.json": "21802452b201f68b3c71d806e7fd0879baa12d3f31a861c7f31a8d0713c44c50",
+    "benchmark/witness_references.json": "3e69a498ebf7a50ac679f1a1efa0c26992231ab0b1c72bdfa4a0710ac6ce8210",
+    "reviews/reference_checks_v2.json": "2fa347fa9d026ceb35608fa0495e6cbae07e73018da7e464e50bad54f9f70e49"
+  }
+}

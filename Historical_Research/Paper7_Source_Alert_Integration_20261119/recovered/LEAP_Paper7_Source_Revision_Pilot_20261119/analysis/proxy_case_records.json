@@ -1,0 +1,1022 @@
+[
+  {
+    "case_id": "yield/exact_same",
+    "family": "yield",
+    "variant": "exact_same",
+    "archived_variant": true,
+    "source_path": "phase3/BestKPItest_iso_kpis/yield_correct.sql",
+    "source_sha256_before": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+    "source_sha256_after": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+    "declared_transformation": "same source positive control",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "reference_full_outputs_after": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "sparse_outputs_before": [
+      90.0,
+      25.0
+    ],
+    "sparse_outputs_after": [
+      90.0,
+      25.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": true,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "yield/comment_only",
+    "family": "yield",
+    "variant": "comment_only",
+    "archived_variant": false,
+    "source_path": "phase3/BestKPItest_iso_kpis/yield_correct.sql",
+    "source_sha256_before": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+    "source_sha256_after": "90d409a8580c51055f81428ac3508cc8cc07bebebf1c97488d5c5c207a9a20be",
+    "declared_transformation": "control: added comment",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "reference_full_outputs_after": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "sparse_outputs_before": [
+      90.0,
+      25.0
+    ],
+    "sparse_outputs_after": [
+      90.0,
+      25.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "yield/spacing",
+    "family": "yield",
+    "variant": "spacing",
+    "archived_variant": false,
+    "source_path": "phase3/BestKPItest_iso_kpis/yield_correct.sql",
+    "source_sha256_before": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+    "source_sha256_after": "c2271c43f3d5f220118ac97c894a162f105fe384dace0151724255cb5ea6b458",
+    "declared_transformation": "control: SQL whitespace change",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "reference_full_outputs_after": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "sparse_outputs_before": [
+      90.0,
+      25.0
+    ],
+    "sparse_outputs_after": [
+      90.0,
+      25.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "yield/equiv_factor",
+    "family": "yield",
+    "variant": "equiv_factor",
+    "archived_variant": false,
+    "source_path": "phase3/BestKPItest_iso_kpis/yield_correct.sql",
+    "source_sha256_before": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+    "source_sha256_after": "01fd82636d72f6434dfd303a55794dd161608484100c4c30b1f90d159aee1edb",
+    "declared_transformation": "controlled algebraic equivalent on audit grid",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "reference_full_outputs_after": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "sparse_outputs_before": [
+      90.0,
+      25.0
+    ],
+    "sparse_outputs_after": [
+      90.0,
+      25.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "yield/wrong_operator",
+    "family": "yield",
+    "variant": "wrong_operator",
+    "archived_variant": true,
+    "source_path": "phase3/BestKPItest_iso_kpis/yield_wrong_operator.sql",
+    "source_sha256_before": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+    "source_sha256_after": "32b6ba18c88e07676a84cef13cd0f97e355cee565a6297ff8aa0f8dec561fc9f",
+    "declared_transformation": "archived intentionally incorrect operator example",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "reference_full_outputs_after": [
+      19000.0,
+      2500.0,
+      9000.0,
+      300.0,
+      5700.0,
+      20000.0
+    ],
+    "sparse_outputs_before": [
+      90.0,
+      25.0
+    ],
+    "sparse_outputs_after": [
+      19000.0,
+      2500.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": false
+    }
+  },
+  {
+    "case_id": "yield/wrong_variables",
+    "family": "yield",
+    "variant": "wrong_variables",
+    "archived_variant": true,
+    "source_path": "phase3/BestKPItest_iso_kpis/yield_wrong_variables.sql",
+    "source_sha256_before": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+    "source_sha256_after": "106a9e9d95818a67fe39bba6d552dafbc3c2b624e60219373f020d9942747b6c",
+    "declared_transformation": "archived intentionally incorrect variable example",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "reference_full_outputs_after": [
+      10.0,
+      75.0,
+      20.0,
+      50.0,
+      45.94594594594595,
+      1.0
+    ],
+    "sparse_outputs_before": [
+      90.0,
+      25.0
+    ],
+    "sparse_outputs_after": [
+      10.0,
+      75.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": false
+    }
+  },
+  {
+    "case_id": "yield/sparse_hidden_37",
+    "family": "yield",
+    "variant": "sparse_hidden_37",
+    "archived_variant": false,
+    "source_path": "phase3/BestKPItest_iso_kpis/yield_correct.sql",
+    "source_sha256_before": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+    "source_sha256_after": "78d06eed7b8d9c146c7ceb536e53f19334bb7b14b48b3e32b470a4011378de07",
+    "declared_transformation": "controlled mutation affecting a non-probe denominator",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      54.054054054054056,
+      100.0
+    ],
+    "reference_full_outputs_after": [
+      90.0,
+      25.0,
+      80.0,
+      50.0,
+      0,
+      100.0
+    ],
+    "sparse_outputs_before": [
+      90.0,
+      25.0
+    ],
+    "sparse_outputs_after": [
+      90.0,
+      25.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "yield/two_wrong_variants",
+    "family": "yield",
+    "variant": "two_wrong_variants",
+    "archived_variant": true,
+    "source_path": "phase3/BestKPItest_iso_kpis/yield_wrong_variables.sql",
+    "source_sha256_before": "32b6ba18c88e07676a84cef13cd0f97e355cee565a6297ff8aa0f8dec561fc9f",
+    "source_sha256_after": "106a9e9d95818a67fe39bba6d552dafbc3c2b624e60219373f020d9942747b6c",
+    "declared_transformation": "comparison of two different archived incorrect snippets",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      19000.0,
+      2500.0,
+      9000.0,
+      300.0,
+      5700.0,
+      20000.0
+    ],
+    "reference_full_outputs_after": [
+      10.0,
+      75.0,
+      20.0,
+      50.0,
+      45.94594594594595,
+      1.0
+    ],
+    "sparse_outputs_before": [
+      19000.0,
+      2500.0
+    ],
+    "sparse_outputs_after": [
+      10.0,
+      75.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": false
+    }
+  },
+  {
+    "case_id": "utilization/exact_same",
+    "family": "utilization",
+    "variant": "exact_same",
+    "archived_variant": true,
+    "source_path": "phase3/BestKPItest_iso_kpis/utilization_correct.sql",
+    "source_sha256_before": "360150647d5b64b89922113971b0674c4964d0d4f984357beccb1b0e4685f97e",
+    "source_sha256_after": "360150647d5b64b89922113971b0674c4964d0d4f984357beccb1b0e4685f97e",
+    "declared_transformation": "same source positive control",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "reference_full_outputs_after": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "sparse_outputs_before": [
+      0.8,
+      0.625
+    ],
+    "sparse_outputs_after": [
+      0.8,
+      0.625
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": true,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "utilization/comment_only",
+    "family": "utilization",
+    "variant": "comment_only",
+    "archived_variant": false,
+    "source_path": "phase3/BestKPItest_iso_kpis/utilization_correct.sql",
+    "source_sha256_before": "360150647d5b64b89922113971b0674c4964d0d4f984357beccb1b0e4685f97e",
+    "source_sha256_after": "cbd5f9af32f32cf26e47d734dd75f6aeb75e253e2c57c8df196f64f94bca7649",
+    "declared_transformation": "control: added comment",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "reference_full_outputs_after": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "sparse_outputs_before": [
+      0.8,
+      0.625
+    ],
+    "sparse_outputs_after": [
+      0.8,
+      0.625
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "utilization/spacing",
+    "family": "utilization",
+    "variant": "spacing",
+    "archived_variant": false,
+    "source_path": "phase3/BestKPItest_iso_kpis/utilization_correct.sql",
+    "source_sha256_before": "360150647d5b64b89922113971b0674c4964d0d4f984357beccb1b0e4685f97e",
+    "source_sha256_after": "9625be1ebb79aeabe3b2a022ed436278297a9266993cad73dc10cdc95dbe880c",
+    "declared_transformation": "control: SQL whitespace change",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "reference_full_outputs_after": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "sparse_outputs_before": [
+      0.8,
+      0.625
+    ],
+    "sparse_outputs_after": [
+      0.8,
+      0.625
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "utilization/equiv_factor",
+    "family": "utilization",
+    "variant": "equiv_factor",
+    "archived_variant": false,
+    "source_path": "phase3/BestKPItest_iso_kpis/utilization_correct.sql",
+    "source_sha256_before": "360150647d5b64b89922113971b0674c4964d0d4f984357beccb1b0e4685f97e",
+    "source_sha256_after": "95e1057287b8f98cd682a02af45652013f55ece499c2a1d0c736b1a36fec63d0",
+    "declared_transformation": "controlled arithmetic equivalence",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "reference_full_outputs_after": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "sparse_outputs_before": [
+      0.8,
+      0.625
+    ],
+    "sparse_outputs_after": [
+      0.8,
+      0.625
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "utilization/wrong_formula",
+    "family": "utilization",
+    "variant": "wrong_formula",
+    "archived_variant": true,
+    "source_path": "phase3/BestKPItest_iso_kpis/utilization_wrong.sql",
+    "source_sha256_before": "360150647d5b64b89922113971b0674c4964d0d4f984357beccb1b0e4685f97e",
+    "source_sha256_after": "86150fb2d94a5e603b47b5965bf20756ff82bc52b5901e5c2b16b1d8fc7d24f3",
+    "declared_transformation": "archived intentionally incorrect formula example",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "reference_full_outputs_after": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.46
+    ],
+    "sparse_outputs_before": [
+      0.8,
+      0.625
+    ],
+    "sparse_outputs_after": [
+      1.0,
+      1.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": false
+    }
+  },
+  {
+    "case_id": "utilization/sparse_hidden_37",
+    "family": "utilization",
+    "variant": "sparse_hidden_37",
+    "archived_variant": false,
+    "source_path": "phase3/BestKPItest_iso_kpis/utilization_correct.sql",
+    "source_sha256_before": "360150647d5b64b89922113971b0674c4964d0d4f984357beccb1b0e4685f97e",
+    "source_sha256_after": "1e0c2eafcb1be0bc378b80a5d6b6b41d2a30730a3d60fd5652609ee33c413f0b",
+    "declared_transformation": "controlled mutation affecting a non-probe planned time",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0.40540540540540543,
+      0.37
+    ],
+    "reference_full_outputs_after": [
+      0.8,
+      0.625,
+      1.0,
+      0.0,
+      0,
+      0.37
+    ],
+    "sparse_outputs_before": [
+      0.8,
+      0.625
+    ],
+    "sparse_outputs_after": [
+      0.8,
+      0.625
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "throughput/exact_same",
+    "family": "throughput",
+    "variant": "exact_same",
+    "archived_variant": true,
+    "source_path": "sample_project/python_kpi.py",
+    "source_sha256_before": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "source_sha256_after": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "declared_transformation": "same source positive control",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "reference_full_outputs_after": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "sparse_outputs_before": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "sparse_outputs_after": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": true,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "throughput/comment_only",
+    "family": "throughput",
+    "variant": "comment_only",
+    "archived_variant": false,
+    "source_path": "sample_project/python_kpi.py",
+    "source_sha256_before": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "source_sha256_after": "dc6bce2d36b2c36d1cfd6d545f83b67acc772158cf14d855cc7b8b232fb608ff",
+    "declared_transformation": "control: added comment",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "reference_full_outputs_after": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "sparse_outputs_before": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "sparse_outputs_after": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "throughput/spacing",
+    "family": "throughput",
+    "variant": "spacing",
+    "archived_variant": false,
+    "source_path": "sample_project/python_kpi.py",
+    "source_sha256_before": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "source_sha256_after": "64079f8115414e36fea769c540491120767fc8c01c9ab8e46a4cd1e74b0f546c",
+    "declared_transformation": "control: extra blank line",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "reference_full_outputs_after": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "sparse_outputs_before": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "sparse_outputs_after": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "throughput/local_rename",
+    "family": "throughput",
+    "variant": "local_rename",
+    "archived_variant": false,
+    "source_path": "sample_project/python_kpi.py",
+    "source_sha256_before": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "source_sha256_after": "025eeee9b9b224f903a8766e969d7f56f3642bfe0dd6ca10991fe31d9f441420",
+    "declared_transformation": "controlled local variable renaming",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "reference_full_outputs_after": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "sparse_outputs_before": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "sparse_outputs_after": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "throughput/multiplier25",
+    "family": "throughput",
+    "variant": "multiplier25",
+    "archived_variant": false,
+    "source_path": "sample_project/python_kpi.py",
+    "source_sha256_before": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "source_sha256_after": "eb588674d364ac169dbc91882ffa204f7f09ca8447e06f929e1ca8b1087433e3",
+    "declared_transformation": "controlled arithmetic error in original function",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "reference_full_outputs_after": [
+      312.5,
+      250.0,
+      125.0,
+      0.0,
+      0.0,
+      50.0,
+      312.5,
+      200.0
+    ],
+    "sparse_outputs_before": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "sparse_outputs_after": [
+      312.5,
+      125.0,
+      0.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": false
+    }
+  },
+  {
+    "case_id": "throughput/sparse_hidden13",
+    "family": "throughput",
+    "variant": "sparse_hidden13",
+    "archived_variant": false,
+    "source_path": "sample_project/python_kpi.py",
+    "source_sha256_before": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "source_sha256_after": "1e6384adbf765fe4f2bb97187a07b0e625a27b6971b3ca906f0356a0ff5dc6f1",
+    "declared_transformation": "controlled branch at untested input",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      48.0,
+      300.0,
+      192.0
+    ],
+    "reference_full_outputs_after": [
+      300.0,
+      240.0,
+      120.0,
+      0.0,
+      0.0,
+      -1.0,
+      300.0,
+      192.0
+    ],
+    "sparse_outputs_before": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "sparse_outputs_after": [
+      300.0,
+      120.0,
+      0.0
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "emissions/exact_same",
+    "family": "emissions",
+    "variant": "exact_same",
+    "archived_variant": true,
+    "source_path": "sample_projects/leap_enterprise_scenarios/kpi_environment_emissions_intensity.py",
+    "source_sha256_before": "f6991fdc021edda6aae0df960685923af09adf03789ea7f3a7fce4f37a36b9b9",
+    "source_sha256_after": "f6991fdc021edda6aae0df960685923af09adf03789ea7f3a7fce4f37a36b9b9",
+    "declared_transformation": "same source positive control",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      469.5890410958904,
+      0.0,
+      null,
+      10.0,
+      50.0,
+      13.0
+    ],
+    "reference_full_outputs_after": [
+      469.5890410958904,
+      0.0,
+      null,
+      10.0,
+      50.0,
+      13.0
+    ],
+    "sparse_outputs_before": [
+      469.5890410958904,
+      null
+    ],
+    "sparse_outputs_after": [
+      469.5890410958904,
+      null
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": true,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "emissions/comment_only",
+    "family": "emissions",
+    "variant": "comment_only",
+    "archived_variant": false,
+    "source_path": "sample_projects/leap_enterprise_scenarios/kpi_environment_emissions_intensity.py",
+    "source_sha256_before": "f6991fdc021edda6aae0df960685923af09adf03789ea7f3a7fce4f37a36b9b9",
+    "source_sha256_after": "161d96bdb0c05155ebe4da25c3eeb863ae61ac0ec43a5f1c6a86ed8cc30b2b2f",
+    "declared_transformation": "control: added comment",
+    "reference_output_equivalent_on_full_grid": true,
+    "reference_full_outputs_before": [
+      469.5890410958904,
+      0.0,
+      null,
+      10.0,
+      50.0,
+      13.0
+    ],
+    "reference_full_outputs_after": [
+      469.5890410958904,
+      0.0,
+      null,
+      10.0,
+      50.0,
+      13.0
+    ],
+    "sparse_outputs_before": [
+      469.5890410958904,
+      null
+    ],
+    "sparse_outputs_after": [
+      469.5890410958904,
+      null
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": true,
+      "sparse_output_probe_match": true
+    }
+  },
+  {
+    "case_id": "emissions/denominator_plus1",
+    "family": "emissions",
+    "variant": "denominator_plus1",
+    "archived_variant": false,
+    "source_path": "sample_projects/leap_enterprise_scenarios/kpi_environment_emissions_intensity.py",
+    "source_sha256_before": "f6991fdc021edda6aae0df960685923af09adf03789ea7f3a7fce4f37a36b9b9",
+    "source_sha256_after": "d4db378cf6f522e7240e999a4e762ecdbca85b883b6e82bac188b40472a4417e",
+    "declared_transformation": "controlled arithmetic change",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      469.5890410958904,
+      0.0,
+      null,
+      10.0,
+      50.0,
+      13.0
+    ],
+    "reference_full_outputs_after": [
+      469.07498631636565,
+      0.0,
+      null,
+      6.666666666666667,
+      40.0,
+      6.5
+    ],
+    "sparse_outputs_before": [
+      469.5890410958904,
+      null
+    ],
+    "sparse_outputs_after": [
+      469.07498631636565,
+      null
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": false
+    }
+  },
+  {
+    "case_id": "emissions/sparse_hidden1",
+    "family": "emissions",
+    "variant": "sparse_hidden1",
+    "archived_variant": false,
+    "source_path": "sample_projects/leap_enterprise_scenarios/kpi_environment_emissions_intensity.py",
+    "source_sha256_before": "f6991fdc021edda6aae0df960685923af09adf03789ea7f3a7fce4f37a36b9b9",
+    "source_sha256_after": "3b66af64de4748ab8037740715d91ca5c942e732a0f5148ff49bef1efd3e5031",
+    "declared_transformation": "controlled branch at untested input",
+    "reference_output_equivalent_on_full_grid": false,
+    "reference_full_outputs_before": [
+      469.5890410958904,
+      0.0,
+      null,
+      10.0,
+      50.0,
+      13.0
+    ],
+    "reference_full_outputs_after": [
+      469.5890410958904,
+      0.0,
+      null,
+      10.0,
+      50.0,
+      null
+    ],
+    "sparse_outputs_before": [
+      469.5890410958904,
+      null
+    ],
+    "sparse_outputs_after": [
+      469.5890410958904,
+      null
+    ],
+    "candidate_predictions": {
+      "raw_file_sha256_match": false,
+      "unchanged_kpi_identity_or_finding_presence": true,
+      "syntax_fingerprint_match": false,
+      "sparse_output_probe_match": true
+    }
+  }
+]

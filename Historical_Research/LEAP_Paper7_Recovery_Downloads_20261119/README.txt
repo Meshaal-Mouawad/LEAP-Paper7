@@ -1,0 +1,1 @@
+Current final manuscript and report: 2026-11-19. The source and submission ZIPs included here are from the prior Gold revision dated 2026-11-18 and must not be mistaken for synchronized LaTeX of the November 19 final PDF.

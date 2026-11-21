@@ -1,0 +1,32 @@
+{
+  "provenance": "LEAP_Paper7_Real_Revision_Authority_Gate_20261119.zip!Paper7_RealRevision_Authority_Gate_20261119/data/python_source_execution_tests.json",
+  "recorded_checks": [
+    {
+      "case_id": "P7R02",
+      "check": "PYTHON_AST_IDENTICAL",
+      "outcome": "PASS",
+      "scope": "Same executable AST across source versions; no human authorization inference"
+    },
+    {
+      "case_id": "P7R08",
+      "check": "PYTHON_AST_IDENTICAL",
+      "outcome": "PASS",
+      "scope": "Same executable AST across source versions; no human authorization inference"
+    },
+    {
+      "case_id": "P7R09",
+      "check": "ISOLATED_RECORDED_SOURCE_EXECUTION",
+      "before": {
+        "status": "NameError",
+        "output": ""
+      },
+      "after": {
+        "status": "OK",
+        "output": "Days of Working Inventory: 7300.0"
+      },
+      "outcome": "PASS",
+      "scope": "Before lacks local declarations; after supplies placeholders. Different standalone behavior, not a business approval outcome"
+    }
+  ],
+  "collection_action": "Copied recorded observations; no new code execution and no authorization inference"
+}

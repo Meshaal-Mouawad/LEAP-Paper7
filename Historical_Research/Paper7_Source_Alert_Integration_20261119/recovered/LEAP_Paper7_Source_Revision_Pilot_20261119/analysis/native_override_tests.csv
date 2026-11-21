@@ -1,0 +1,11 @@
+case_id,reference_expected_approved,applied_fields,native_status_returned,matches_spec,case
+S1-approved-matching-signature,True,True,APPROVED_BY_BUSINESS,True,Approved signature equals source signature
+S2-approved-source-revised,False,False,,True,Signed approval for old KPI source evaluated against formula-changed source
+S3-approved-unsigned-source-revised,False,True,APPROVED_BY_BUSINESS,False,Unsigned old approval evaluated against formula-changed source
+S4-approved-unsigned-unchanged,False,True,APPROVED_BY_BUSINESS,False,Unsigned approval despite unchanged code; signature evidence absent
+S5-pending-matching-signature,False,True,PENDING,False,Pending human review and correct source signature
+S6-rejected-matching-signature,False,True,REJECTED,False,Explicit rejected approval status and correct source signature
+S7-approved-signature-missing-from-kpi,True,False,,False,Source unchanged but extractor did not populate source_file_signature
+S8-approved-code_hash-without-signature,True,False,,False,Only code_hash is provided; matcher expects source_file_signature
+S9-approved-no-ledger,False,False,,True,No override; original details retained
+S10-different-kpi-name,False,False,,True,Approval for other KPI must not bind to this source finding

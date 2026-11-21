@@ -1,0 +1,7 @@
+pair_id,stratum,before_evidence,after_evidence,reviewer_code,initial_decision,manual_signature_reference,decision_timestamp,reason,disagreement,resolution,resolution_signature_reference
+ENGINE-01,SUPPLEMENTARY_ENGINE_CODE,source_pairs/supplementary_engine/ENGINE-01/before.py,source_pairs/supplementary_engine/ENGINE-01/after.py,R1,,,,,,,
+ENGINE-01,SUPPLEMENTARY_ENGINE_CODE,source_pairs/supplementary_engine/ENGINE-01/before.py,source_pairs/supplementary_engine/ENGINE-01/after.py,R2,,,,,,,
+ENGINE-02,SUPPLEMENTARY_ENGINE_CODE,source_pairs/supplementary_engine/ENGINE-02/before.py,source_pairs/supplementary_engine/ENGINE-02/after.py,R1,,,,,,,
+ENGINE-02,SUPPLEMENTARY_ENGINE_CODE,source_pairs/supplementary_engine/ENGINE-02/before.py,source_pairs/supplementary_engine/ENGINE-02/after.py,R2,,,,,,,
+ENGINE-03,SUPPLEMENTARY_ENGINE_CODE,source_pairs/supplementary_engine/ENGINE-03/before.py,source_pairs/supplementary_engine/ENGINE-03/after.py,R1,,,,,,,
+ENGINE-03,SUPPLEMENTARY_ENGINE_CODE,source_pairs/supplementary_engine/ENGINE-03/before.py,source_pairs/supplementary_engine/ENGINE-03/after.py,R2,,,,,,,

@@ -1,0 +1,38 @@
+{
+  "commits": 28,
+  "adjacent_first_parent_pairs": 27,
+  "source_paths": 7,
+  "source_path_change_stats": {
+    "phase3/BestKPItest_iso_kpis/yield_correct.sql": {
+      "both_exist": 25,
+      "changed": 0
+    },
+    "phase3/BestKPItest_iso_kpis/yield_wrong_operator.sql": {
+      "both_exist": 25,
+      "changed": 0
+    },
+    "phase3/BestKPItest_iso_kpis/yield_wrong_variables.sql": {
+      "both_exist": 25,
+      "changed": 0
+    },
+    "phase3/BestKPItest_iso_kpis/utilization_correct.sql": {
+      "both_exist": 25,
+      "changed": 0
+    },
+    "phase3/BestKPItest_iso_kpis/utilization_wrong.sql": {
+      "both_exist": 25,
+      "changed": 0
+    },
+    "sample_project/python_kpi.py": {
+      "both_exist": 25,
+      "changed": 0
+    },
+    "sample_projects/leap_enterprise_scenarios/kpi_environment_emissions_intensity.py": {
+      "both_exist": 25,
+      "changed": 0
+    }
+  },
+  "adjacent_pairs_with_any_tracked_kpi_example_change": 0,
+  "observed_business_authorizations": 0,
+  "study_relevance": "all source-pair transitions are real archived Git metadata, but no approval carry-forward outcome exists; proxy labels require controlled cases"
+}

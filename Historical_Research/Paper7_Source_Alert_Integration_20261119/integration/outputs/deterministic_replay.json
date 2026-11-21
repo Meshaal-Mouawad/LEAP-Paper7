@@ -1,0 +1,17 @@
+{
+  "all_artifacts_byte_identical": true,
+  "artifacts": 11,
+  "sha256": {
+    "summary.json": "41babc79dbbdf5aef6bc82af9db1052665dcb01bdc5eca755cbeda98c5e5cedf",
+    "change_detection.csv": "1f85e43190863c48efb7ca9eea194e6b9c19987ded213591a36dc3c9fadc31f1",
+    "stream_comparisons.csv": "932f8dc737bca50315276f4a865c21c58ce2db9b99cc9cce473ebba6ec6ccceb",
+    "monitor_inputs.json": "46c0deae58dfdaab5fd419cb655d3b841456609d490db94590e15f9122dece98",
+    "pair_categories.csv": "272442e690df8d16e9e3ad4ab1bb33dddd771e9dd0b1f3bdbb3c48a0d7fea16f",
+    "representation_results.csv": "c73eca4f4d0f8b290d4d742d8e59248ae8a80fa9733553bc038a3ca4ab5151ba",
+    "RESULTS.md": "1cc6aed6b5ef818cf35166ff31bc88b1122f459b339760ee9e75cf9598e0fbbe",
+    "actual_history_availability.csv": "4e081bc6ebb663c9d407ed777e5f37a1a3a27ce3cfe1746792d488d58041d2ff",
+    "consumed_manifest.json": "4168c2c5e2db99f783f242e3e5829b87a386152a8e127691c29de84ef5c22ba1",
+    "comparison_packets.json": "ecf5be8dfcfc57de0b4f40b26a1e7a199dd27291530acfea97b6f30ef16d2e12",
+    "decision_events.csv": "313949cbe3d9121a5fc9e881d6ad927b2f7e649ba3a96fe8f1c4cc8e3e11bfb4"
+  }
+}

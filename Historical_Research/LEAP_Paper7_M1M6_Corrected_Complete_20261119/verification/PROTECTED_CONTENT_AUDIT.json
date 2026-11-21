@@ -1,0 +1,28 @@
+{
+  "tab:intervention-taxonomy": {
+    "byte_identical": true
+  },
+  "tab:results": {
+    "byte_identical": true
+  },
+  "tab:attributes": {
+    "byte_identical": true
+  },
+  "method_pipeline.pdf": {
+    "sha256": "23d2fd79836a981fd3d3655355fd95fb61ad5ff168f2f4ee49e0182adab0295e",
+    "byte_identical": true
+  },
+  "necessity_witness.pdf": {
+    "sha256": "7aca5add49d36af7d6446c76a18050fad50040e9ba1252a862a56459ee773c75",
+    "byte_identical": true
+  },
+  "trace_mismatches.pdf": {
+    "sha256": "319cc2ea4813a7508d64bb8cc30d5fc8567f7c4948615faa34496917356ed8d9",
+    "byte_identical": true
+  },
+  "original_proposition_count": 4,
+  "new_proposition_count": 5,
+  "propositions_1_2_3_byte_identical": true,
+  "original_decision_only_proposition_semantics_preserved": true,
+  "frozen_reproduction_zip_sha256": "b55949d177b3355bda1f49442015141ac382e84345b4cc283a7fc4a811a9db48"
+}

@@ -1,0 +1,72 @@
+{
+  "historical_freeze_sha256": "bde9fc3ac4d039ed385ca63f08d10c1b4a567a9da9333a36f2691b69363fdfbe",
+  "historical_freeze_entries_verified": 15,
+  "offline_freeze_sha256": "d2902119d5fc9631ee333be1fc2b62b0e568176c68457f4a97f1acc374737d7b",
+  "offline_freeze_entries_verified": 10,
+  "historical_traces_sha256": "b56153549e00d68a93de22bb508028ba513beae9f4f1c5262a6833942d58d61e",
+  "offline_traces_sha256": "92f6ca523af501d7db4ad11835fbffcd585ecd064a3fe4ccfe4f9b6d592e60e1",
+  "trace_fields_removed_in_offline_projection": {
+    "snapshot": 18600,
+    "snapshot_sha256": 18600
+  },
+  "all_other_fields_equal_for_4935_traces": true,
+  "historical_method_results_byte_identical_to_baseline": [
+    "taxonomy_summary.json",
+    "taxonomy_full_counts.csv",
+    "intervention_grid_55.json",
+    "intervention_record_checks.json",
+    "targeted_results.json"
+  ],
+  "labeled_temporal_templates_equal_in_all_five_families": 329,
+  "families": {
+    "audit": {
+      "split": "heldout",
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "source": "simulated_audit_revision_source",
+      "traces": 987,
+      "events": 5286,
+      "base_traces": 329,
+      "base_events": 1762
+    },
+    "execution": {
+      "split": "development",
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "source": "simulated_execution_revision_source",
+      "traces": 987,
+      "events": 5286,
+      "base_traces": 329,
+      "base_events": 1762
+    },
+    "lineage": {
+      "split": "heldout",
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "source": "simulated_lineage_revision_source",
+      "traces": 987,
+      "events": 5286,
+      "base_traces": 329,
+      "base_events": 1762
+    },
+    "privacy": {
+      "split": "development",
+      "rule": "KSA-PDPL-REG-01",
+      "source": "simulated_privacy_revision_source",
+      "traces": 987,
+      "events": 5286,
+      "base_traces": 329,
+      "base_events": 1762
+    },
+    "transfer": {
+      "split": "heldout",
+      "rule": "GDPR-DATA-PROC-01",
+      "source": "simulated_transfer_revision_source",
+      "traces": 987,
+      "events": 5286,
+      "base_traces": 329,
+      "base_events": 1762
+    }
+  },
+  "original_reference_policy_reason_counts": {
+    "POLICY_MISMATCH": 510,
+    "POLICY_CHANGE": 75
+  }
+}

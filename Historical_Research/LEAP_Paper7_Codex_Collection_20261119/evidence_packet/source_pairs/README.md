@@ -1,0 +1,1 @@
+Nine supplied historical source-file transitions are retained under real_revisions/. All 18 snapshots are verified against the supplied manifest and checked against locally available Git objects. Constructed pilot cases are inventoried separately. No new source transition was invented.

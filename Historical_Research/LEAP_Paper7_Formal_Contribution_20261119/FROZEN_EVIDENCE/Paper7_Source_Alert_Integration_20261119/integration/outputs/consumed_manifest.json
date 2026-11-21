@@ -1,0 +1,34 @@
+[
+  {
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/outputs/version_transition_events.csv",
+    "sha256": "2a47be7429b45cf0bb106374574745b95675475e798bd1cbd109e7b879312032"
+  },
+  {
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/outputs/all_case_details.json",
+    "sha256": "78aa3d93088a2821d649e378d38fb9ec9c5f9d79748e4a47a677b337cae32796"
+  },
+  {
+    "path": "frozen_monitor/Paper7_Reproduction/saved_run/implementation/monitor.py",
+    "sha256": "271563264a9bed90cfda71b4cfe42456fe14351466f42aa255a1cf8de81ad166"
+  },
+  {
+    "path": "frozen_monitor/Paper7_Reproduction/saved_run/implementation/oracle.py",
+    "sha256": "74429769cf8f2b8665ca7abe488e66083c2a44276892316a37f8a822bc746ae6"
+  },
+  {
+    "path": "frozen_monitor/Paper7_Reproduction/saved_run/benchmark/policy.json",
+    "sha256": "f9bf59ed846ebbba4fd41acd47b900977936ed00ec160030367178d7c048934b"
+  },
+  {
+    "path": "frozen_monitor/Paper7_Reproduction/saved_run/r3/analysis/representation.py",
+    "sha256": "aca96b1414afc5dd90ce223594371fa9626a7aa621da452e3bc4a01a32445d2f"
+  },
+  {
+    "path": "integration/PROTOCOL.md",
+    "sha256": "6cef3a2d3d4db606f2cce6b941801fc5881e08787c09a1f6e8abff8912205bcf"
+  },
+  {
+    "path": "integration/run_integration.py",
+    "sha256": "dd818161bf7132140f933fe2da5056df996e58bcd433937a27d01494f7452915"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "ledger": [
+    {
+      "expected_mutes": false,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1383",
+      "line": 1383,
+      "name": "absent",
+      "source_assertion": "require.False(t, s.Mutes(model.LabelSet{\"foo\": \"bar\"}), \"expected alert not silenced without any silences\")",
+      "status": "mapped"
+    },
+    {
+      "expected_mutes": false,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1392",
+      "line": 1392,
+      "name": "nonmatching_exact",
+      "source_assertion": "require.False(t, s.Mutes(model.LabelSet{\"foo\": \"bar\"}), \"expected alert not silenced by non-matching silence\")",
+      "status": "mapped"
+    },
+    {
+      "expected_mutes": true,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1402",
+      "line": 1402,
+      "name": "matching_exact",
+      "source_assertion": "require.True(t, s.Mutes(model.LabelSet{\"foo\": \"bar\"}), \"expected alert silenced by matching silence\")",
+      "status": "mapped"
+    },
+    {
+      "expected_mutes": false,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1408",
+      "line": 1408,
+      "name": "expired_exact",
+      "source_assertion": "require.False(t, s.Mutes(model.LabelSet{\"foo\": \"bar\"}), \"expected alert not silenced by expired silence\")",
+      "status": "mapped"
+    },
+    {
+      "expected_mutes": false,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1419",
+      "line": 1419,
+      "name": "future_start",
+      "reason": "Scheduled start time is not represented by the native suppression contract.",
+      "source_assertion": "require.False(t, s.Mutes(model.LabelSet{\"foo\": \"bar\"}), \"expected alert not silenced by future silence\")",
+      "status": "outside_native_policy"
+    },
+    {
+      "expected_mutes": true,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1426",
+      "line": 1426,
+      "name": "scheduled_activation",
+      "reason": "Activation from a future StartsAt requires start-time semantics absent from the native contract.",
+      "source_assertion": "require.True(t, s.Mutes(model.LabelSet{\"foo\": \"bar\"}), \"expected alert silenced by activated silence\")",
+      "status": "outside_native_policy"
+    },
+    {
+      "expected_mutes": true,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1436",
+      "line": 1436,
+      "name": "additional_future_regex",
+      "reason": "Combines an existing active silence and another future regular-expression silence; multi-silence/start/regex semantics are outside the native contract.",
+      "source_assertion": "require.True(t, s.Mutes(model.LabelSet{\"foo\": \"bar\"}), \"expected alert still silenced by activated silence\")",
+      "status": "outside_native_policy"
+    },
+    {
+      "expected_mutes": true,
+      "id": "Alertmanager_v0.28.1_TestSilencer_L1442",
+      "line": 1442,
+      "name": "overlapping_regex_activation",
+      "reason": "Overlapping silence expiration/activation and regular-expression matching are outside the native contract.",
+      "source_assertion": "require.True(t, s.Mutes(model.LabelSet{\"foo\": \"bar\"}), \"expected alert silenced by activated second silence\")",
+      "status": "outside_native_policy"
+    }
+  ],
+  "mapped_count": 4,
+  "outside_native_policy_count": 4,
+  "projection": "foo exact label equality -> context equality; initial now -> t=3; fixed P0; suppress until now+300; query expiration at now+3600",
+  "source": "prometheus/alertmanager@v0.28.1:silence/silence_test.go:TestSilencer",
+  "source_assertion_count": 8
+}

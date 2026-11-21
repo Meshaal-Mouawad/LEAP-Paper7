@@ -1,0 +1,5 @@
+Paper 7 JSS MSVS V6 figure integration, 21 November 2026
+Six approved vector PDF masters integrated in manuscript order.
+Figure 1 lifecycle; Figure 2 witness; Figure 3 approval; Figure 4 evidence scope; Figure 5 comparison sufficiency; Figure 6 ablation.
+LaTeX built successfully: 37 pages. Figure captions 1-6 found in extracted PDF text in correct order. No unresolved references reported in final build log.
+Original research archives unchanged. Approved declaration retained.

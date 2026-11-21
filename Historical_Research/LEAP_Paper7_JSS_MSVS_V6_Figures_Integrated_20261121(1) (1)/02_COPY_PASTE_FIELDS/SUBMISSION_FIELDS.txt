@@ -1,0 +1,28 @@
+JSS PAPER 7 — COPY-PASTE SUBMISSION FIELDS
+
+Journal: Journal of Systems and Software
+Special issue: Reliable and Trustworthy Automated Software Engineering
+Article type (choose exactly): VSI: Reliable Automated SE
+Manuscript title: Auditing Approval-Contract Conformance and Version-Sensitive Warnings in Automated Software Review
+Corresponding author: Meshaal Obaid Mouawad
+Institution: Mississippi State University
+Department: Department of Electrical and Computer Engineering
+Email: mmouawad@ece.msstate.edu
+ORCID: 0000-0002-1152-8324
+
+KEYWORDS (enter separately)
+automated software engineering
+approval-contract conformance
+software provenance
+software evolution
+warning suppression
+runtime monitoring
+
+ABSTRACT (copy exact text)
+Automated software-review systems may suppress warnings when a prior approval appears applicable, even as source evidence and approval records evolve independently. We investigate whether an archived override implementation follows its written approval conditions and whether mismatches change displayed warnings. An approval-applicability contract reconstructed from LEAP governance requirements was evaluated against unmodified native override functions using 16 controlled cases. Nine cases disagreed with the contract: eight applied an ineligible override, and one missed an eligible approval after a presentation-name change. In a fixed temporal-monitor replay, the nine mismatches changed nine displayed warning decisions without changing episode activity. Separately, nine historical Git source-file revision pairs were classified by executable and generated-documentation signatures. Four identity strategies applied to seven constructed monitoring contexts per pair produced 252 streams and 1,512 event decisions. File-signature and dual-output revalidation requirements disagreed on two source revisions, showing why version-tracking comparisons depend on a declared evidence scope. Preserved formal results establish that three version comparisons suffice for the specified monitor's displayed state, episode activity, and severity, while five preserve diagnostic reasons. The contribution is an executable source-to-authorization-to-warning audit that independently checks approval applicability, distinguishes source revisions from review authority, and measures downstream decision effects. This connects contract conformance, provenance, and temporal monitoring in a reproducible software-engineering evaluation.
+
+DATA/REPOSITORY
+The dataset record and identifier are already described in the manuscript under Research materials. Harvard Dataverse has already received the deposit for review. Do not create or upload a new Harvard dataset.
+
+AUTHOR DECLARATIONS
+Complete journal-specific questions in the portal using the author's actual funding, competing-interest, role, permission, and AI-use records. The manuscript already contains the AI use declaration. No additional claims are pre-filled here.

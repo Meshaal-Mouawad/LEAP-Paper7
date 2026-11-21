@@ -1,0 +1,30 @@
+For each rule family, the frozen generator defines 329 base designs: $4^4=256$ length-four sequences over positive, negative, conflicting and missing observations; three length-twelve controls; $11\times5=55$ intervention designs; and $5\times3=15$ temporal-boundary designs. The length-four sequences have event times $0,2,4,6$\,s. The controls comprise twelve negative observations, twelve positive observations, and an activation--clearing sequence whose values at $t=0,\ldots,11$\,s are one negative, seven positive and four negative observations.
+
+Every intervention starts from that activation--clearing control. Each of the eleven operations in Table~\ref{tab:intervention-taxonomy} is applied at each index $j\in\{2,3,5,7,9\}$, yielding exactly 55 designs per family. Here the zero-based index equals event time in seconds. A single intervention means one selected operation: the four evidence-quality operations change one event, whereas version changes and suppression assignments affect the indicated suffix. The supplementary grid lists all 55 type--position pairs and their frozen trace identifiers.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Complete intervention taxonomy. Each row contributes five base designs per rule family, one at each intervention index. The ordinary context and policy are $c_1,p_1$; $c_0,p_0$ denote nonmatching identities and $c_2,p_2$ revised identities.}
+\label{tab:intervention-taxonomy}
+\begin{tabularx}{\linewidth}{@{}p{0.26\linewidth}Xp{0.12\linewidth}@{}}
+\toprule
+Operation & Exact modification & Extent \\
+\midrule
+Missing observation & Remove the observation packet at index $j$. & Event $j$ \\
+Conflicting observation & Set its finding value to null. & Event $j$ \\
+Stale observation & Set observation time to $j-3$\,s, giving age $3>F$. & Event $j$ \\
+Future observation & Set observation time to $j+1$\,s. & Event $j$ \\
+Revised context, old evidence & Set current context to $c_2$ and retain observation context $c_1$. & $i\ge j$ \\
+Revised policy, old evidence & Set current policy to $p_2$ and retain observation policy $p_1$. & $i\ge j$ \\
+Revised context, fresh evidence & Set both current and observation context to $c_2$. & $i\ge j$ \\
+Revised policy, fresh evidence & Set both current and observation policy to $p_2$. & $i\ge j$ \\
+Matching suppression & Attach suppression for $(c_1,p_1)$, expiring at $j+2$\,s. & $i\ge j$ \\
+Old-context suppression & Attach suppression for $(c_0,p_1)$, expiring at $j+2$\,s. & $i\ge j$ \\
+Old-policy suppression & Attach suppression for $(c_1,p_0)$, expiring at $j+2$\,s. & $i\ge j$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The fifteen boundary designs test qualification, clearing, escalation, freshness and suppression at offsets $-0.5$, $0$ and $+0.5$\,s from the relevant boundary. They contain respectively two, four, three, two and three events per design. Suppression packets remain present after expiry in their intervention suffixes, allowing the policy to evaluate expiry explicitly.
+
+Each base design has three representations: its original form, a variant with irrelevant display metadata added to every event, and an equivalent millisecond representation scaling event times, observation times and suppression expiry by 1,000. Across five families, the corpus therefore contains 1,645 design groups and $329\times3\times5=4,935$ traces. The four design categories contribute, respectively, 3,840, 45, 825 and 225 traces, comprising 15,360, 540, 9,900 and 630 events; the total is 26,430 events. A direct reconciliation against the frozen records verified the policy-input fields of all 825 intervention representations after time-unit normalization.

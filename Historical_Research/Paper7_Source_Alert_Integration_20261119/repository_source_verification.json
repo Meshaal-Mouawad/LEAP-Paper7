@@ -1,0 +1,110 @@
+[
+  {
+    "case_id": "P7R01",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R01",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R02",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R02",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R03",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R03",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R04",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R04",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R05",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R05",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R06",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R06",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R07",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R07",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R08",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R08",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R09",
+    "side": "before",
+    "git_object_available": true,
+    "sha256_matches": true
+  },
+  {
+    "case_id": "P7R09",
+    "side": "after",
+    "git_object_available": true,
+    "sha256_matches": true
+  }
+]

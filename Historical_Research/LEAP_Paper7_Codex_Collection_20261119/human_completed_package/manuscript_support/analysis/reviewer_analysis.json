@@ -1,0 +1,17 @@
+{
+  "historical_source_pairs": 9,
+  "source_snapshots": 18,
+  "constructed_pilot_cases": 24,
+  "approval_records": 0,
+  "reviewer_slots": 18,
+  "signed_review_decisions": 0,
+  "cases_with_two_signed_decisions": 0,
+  "initial_agreements": null,
+  "initial_disagreements": null,
+  "observed_agreement": null,
+  "cohens_kappa_three_categories": null,
+  "decision_distribution": {},
+  "validation_errors": [],
+  "analysis_state": "REVIEW_DATA_REQUIRED",
+  "note": "Blank decisions remain blank; UNKNOWN is an explicit reviewer decision only. Agreement uses paired initial decisions, preserving disagreements before resolution."
+}

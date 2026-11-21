@@ -1,0 +1,18 @@
+\paragraph{Concurrent conditions and the reported reason}
+The transition order and the reason-selection order are specified separately. Each event names one current context and one current policy. A change in either first resets episode activity and all timers. If both change, the reset label is \code{POLICY\_CHANGE}; a context-only change gives \code{CONTEXT\_CHANGE}. Observation validation then selects the first applicable condition in the ordered list \code{MISSING}, \code{CONTEXT\_MISMATCH}, \code{POLICY\_MISMATCH}, \code{FUTURE}, \code{STALE}, \code{CONFLICT}. A malformed packet fails schema validation before these decisions are produced.
+
+Let $q_i$ be the selected observation-validity label, or empty for valid evidence, and let $r_i$ be the selected reset label, or empty when no reset occurs. After the state update and suppression overlay, the reported reason is
+\begin{equation}
+\operatorname{reason}_i=
+\begin{cases}
+q_i, & q_i\ne\varnothing,\\
+r_i, & q_i=\varnothing\ \land\ r_i\ne\varnothing,\\
+\text{SUPPRESSION}, & q_i=r_i=\varnothing\ \land\ d_i=\text{SUPPRESSED},\\
+\text{STATE}, & \text{otherwise},
+\end{cases}
+\end{equation}
+where $d_i$ denotes the displayed state. Thus the selected validity label takes diagnostic precedence even though a simultaneous version reset has already changed the underlying episode state. For example, a current-policy change with an observation still bound to the previous policy produces \code{UNKNOWN}, inactive activity and reason \code{POLICY\_MISMATCH}. If both observation bindings mismatch, the reason is \code{CONTEXT\_MISMATCH}. If matching evidence is both stale and conflicting, the reason is \code{STALE}.
+
+For valid evidence, timer updates determine activity before escalation and suppression are displayed. Clearing at its boundary yields \code{CLEAR} even when escalation would otherwise become due at that event. Valid suppression overlays an active or escalated display while retaining the activation clock. At exact suppression expiry, the overlay ends. Unresolved evidence displays \code{UNKNOWN} with its validity reason, including when a valid suppression is present. When a valid reset and suppression coincide with immediate activation under zero qualification duration, the displayed state is \code{SUPPRESSED} and the reason is the reset label.
+
+A targeted post-study verification froze 24 hand-calculated concurrent-condition traces before execution. Bound, the corrected reference, SQLite and PyContract each matched every expected final decision and reason: 96/96 implementation--case checks passed. Their full output sequences also agreed on all 24 traces, containing 75 events per implementation. These verification cases are reported separately from the original 4,935-trace benchmark.

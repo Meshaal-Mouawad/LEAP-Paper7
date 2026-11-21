@@ -1,0 +1,119 @@
+{
+  "original_hash_checks": {
+    "benchmark/necessity_witnesses.json": true,
+    "benchmark/policy.json": true,
+    "benchmark/reference.jsonl": true,
+    "benchmark/traces.jsonl": true,
+    "benchmark/witness_references.json": true,
+    "implementation/evaluate.py": true,
+    "implementation/monitor.py": true,
+    "implementation/oracle.py": true,
+    "protocol/PROTOCOL.md": true,
+    "protocol/SEMANTICS.md": true
+  },
+  "categories": {
+    "four_symbol_sequences": {
+      "base_groups_all_families": 1280,
+      "traces_all_families_variants": 3840,
+      "events_all_families_variants": 15360
+    },
+    "long_controls": {
+      "base_groups_all_families": 15,
+      "traces_all_families_variants": 45,
+      "events_all_families_variants": 540
+    },
+    "interventions": {
+      "base_groups_all_families": 275,
+      "traces_all_families_variants": 825,
+      "events_all_families_variants": 9900
+    },
+    "temporal_boundaries": {
+      "base_groups_all_families": 75,
+      "traces_all_families_variants": 225,
+      "events_all_families_variants": 630
+    }
+  },
+  "total_groups": 1645,
+  "total_traces": 4935,
+  "total_events": 26430,
+  "intervention_type_count": 11,
+  "positions": [
+    2,
+    3,
+    5,
+    7,
+    9
+  ],
+  "intervention_pairs_per_family": 55,
+  "intervention_records_checked": 825,
+  "passed": 825,
+  "reason_counts": {
+    "exhaustive": {
+      "STATE": 7680,
+      "CONFLICT": 3840,
+      "MISSING": 3840
+    },
+    "control": {
+      "STATE": 540
+    },
+    "missing": {
+      "STATE": 825,
+      "MISSING": 75
+    },
+    "conflict": {
+      "STATE": 825,
+      "CONFLICT": 75
+    },
+    "stale": {
+      "STATE": 825,
+      "STALE": 75
+    },
+    "future": {
+      "STATE": 825,
+      "FUTURE": 75
+    },
+    "context_old_obs": {
+      "STATE": 390,
+      "CONTEXT_MISMATCH": 510
+    },
+    "policy_old_obs": {
+      "STATE": 390,
+      "POLICY_MISMATCH": 510
+    },
+    "context_fresh": {
+      "STATE": 825,
+      "CONTEXT_CHANGE": 75
+    },
+    "policy_fresh": {
+      "STATE": 825,
+      "POLICY_CHANGE": 75
+    },
+    "suppression_valid": {
+      "STATE": 780,
+      "SUPPRESSION": 120
+    },
+    "suppression_old_context": {
+      "STATE": 900
+    },
+    "suppression_old_policy": {
+      "STATE": 900
+    },
+    "boundary_dwell": {
+      "STATE": 90
+    },
+    "boundary_clear": {
+      "STATE": 180
+    },
+    "boundary_escalate": {
+      "STATE": 135
+    },
+    "boundary_freshness": {
+      "STATE": 75,
+      "STALE": 15
+    },
+    "boundary_suppression": {
+      "STATE": 120,
+      "SUPPRESSION": 15
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "primary_predictions_sha256": "18d4c6db9f58c9844e465e6447229cb49b242cc299e557bde2b62fcc6704c14a",
+  "sqlite_predictions_sha256": "bcd6f2cf4d125efb2a19f7cdec719b0fcbcc53378a953acaebb92ee6f7e64909",
+  "information_classes_sha256": "1109c570ab0050f3dfda149a9bb0c5fda93e4c3de340b4177e73d40545b2114f",
+  "information_bound_sha256": "81b3992bc6142b1ab85e722ebcaff49f31c5c764cea995676ee122791c59ec14",
+  "traces": 4935,
+  "events": 26430,
+  "snapshot_fields_removed": 18600,
+  "snapshot_hash_fields_removed": 18600,
+  "original_traces_sha256": "b56153549e00d68a93de22bb508028ba513beae9f4f1c5262a6833942d58d61e",
+  "supplement_traces_sha256": "92f6ca523af501d7db4ad11835fbffcd585ecd064a3fe4ccfe4f9b6d592e60e1",
+  "pycontract_outputs_sha256": {
+    "predictions.jsonl": "05e417a248e8557f7a4635c33b485a9eeeee34b7b91e319e573f640dfe877810",
+    "witness_results.json": "7cfe305c8e8e3adfe9503534395246113adeb2d8da6592d7348d8c3fa10add63",
+    "hand_trace_results.json": "fc2044792189dfc7d125ec94dfd665d811443fed33ca6eee98805f1c3a77f67d",
+    "malformed_results.json": "0bd992655d0deaf6046756e464d85a4adb8f1b294247a6c92d722f72fce46df1",
+    "mismatches.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "pycontract_original_normalized_inputs_sha256": "e6eb6e89b42794812e2b50f4ec1e9f94c64a3f70e2cd13768f4658715038cace"
+}

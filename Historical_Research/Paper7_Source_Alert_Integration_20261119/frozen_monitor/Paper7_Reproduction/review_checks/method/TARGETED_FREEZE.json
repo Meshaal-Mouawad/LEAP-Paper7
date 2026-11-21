@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-18T17:57:59.644862+00:00",
+  "stage": "hand-derived targeted cases frozen before execution; retrospective checks",
+  "sha256": {
+    "strict_revision/method/build_targeted_cases.py": "f5e9bd199f1511eec69ef26cf9b8b1ba3a32a5e68258fe4c6ecfba87ff6bb907",
+    "strict_revision/method/targeted_cases.json": "417132a7fb79995f9eeb75a34ce14fe082fc8fc4834c283e1eac7f41a77095e6",
+    "strict_revision/method/run_targeted_checks.py": "06c12774ce526d8eb7f243cbf5db54c1af7ee143574274b1852d38c6a360ffd1",
+    "protocol/SEMANTICS.md": "bf5369f512df7b22ce7cfd85f735b1be0a161c74f621412864415389868f6909",
+    "implementation/monitor.py": "271563264a9bed90cfda71b4cfe42456fe14351466f42aa255a1cf8de81ad166",
+    "implementation/oracle_v2.py": "19d9895e86c7578925b555b2a44adeec810077be666b5044f255574f1d6caf53",
+    "replication_r2/sqlite_baseline.py": "4cdbe0c88a763e64f170189e1e8fbf759b6813b4d63137c541cab483e17e2530",
+    "replication_r2/monitor.sql": "cffaecc5289d23630e15a300a73e8b3cbe13e1bdb814b38a952488d6603e9378",
+    "r3/baseline/pycontract_baseline.py": "ab050cdf6bf486a289916ca62e467f117b22ecb18ff6778922616b77a919346d",
+    "r3/baseline/upstream/pycontract/pycontract_core.py": "c882ea868b57b66eb3afd4d36a002212d0f7cbaa34800bfab3680e82c2285511"
+  }
+}

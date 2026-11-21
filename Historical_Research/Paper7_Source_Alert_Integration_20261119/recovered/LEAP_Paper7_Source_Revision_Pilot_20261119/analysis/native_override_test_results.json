@@ -1,0 +1,113 @@
+{
+  "source_revision": "main",
+  "source_sha256": "dcc0b05e504d2969e117ba2e3f2b753f37ce2ff53f4c60970ce1d4f9460ba0ac",
+  "rules_sha256": "0451a0e692b38a3145b0847939f18b5d11b7a20c9d89538ee97ddfe1b7800099",
+  "policy_sha256": "427f975d772757f387ae2faaa0fbb694f47d60916fc54c8c7f8d55f7e62c094f",
+  "source_signature_reference": "SHA256 of archived source file text",
+  "production_ledgers": {
+    "kb/overrides.json": {
+      "approval_entries": 0,
+      "sha256": "7fd6c4e1e466257811092373188672caac65d31a26fce70a0be8964c4d2f1a4a"
+    },
+    "bluebook_generator/kb/overrides.json": {
+      "approval_entries": 0,
+      "sha256": "7fd6c4e1e466257811092373188672caac65d31a26fce70a0be8964c4d2f1a4a"
+    },
+    "docs/governance_overrides.json": {
+      "approval_entries": 0,
+      "sha256": "c5c74d8a1389f86f2d5bd36c06a54fb9987c41401ac932d8ccef9dca962003da"
+    }
+  },
+  "source_file_signature_occurrences_across_tracked_python": [
+    "main:bluebook_generator/main.py:162:    current_signature = str(kpi.get(\"source_file_signature\") or \"\").strip()"
+  ],
+  "tested_functions": [
+    "main.py::_definition_override_candidates",
+    "main.py::_apply_definition_override"
+  ],
+  "test_cases": [
+    {
+      "case_id": "S1-approved-matching-signature",
+      "reference_expected_approved": true,
+      "applied_fields": true,
+      "native_status_returned": "APPROVED_BY_BUSINESS",
+      "matches_spec": true,
+      "case": "Approved signature equals source signature"
+    },
+    {
+      "case_id": "S2-approved-source-revised",
+      "reference_expected_approved": false,
+      "applied_fields": false,
+      "native_status_returned": null,
+      "matches_spec": true,
+      "case": "Signed approval for old KPI source evaluated against formula-changed source"
+    },
+    {
+      "case_id": "S3-approved-unsigned-source-revised",
+      "reference_expected_approved": false,
+      "applied_fields": true,
+      "native_status_returned": "APPROVED_BY_BUSINESS",
+      "matches_spec": false,
+      "case": "Unsigned old approval evaluated against formula-changed source"
+    },
+    {
+      "case_id": "S4-approved-unsigned-unchanged",
+      "reference_expected_approved": false,
+      "applied_fields": true,
+      "native_status_returned": "APPROVED_BY_BUSINESS",
+      "matches_spec": false,
+      "case": "Unsigned approval despite unchanged code; signature evidence absent"
+    },
+    {
+      "case_id": "S5-pending-matching-signature",
+      "reference_expected_approved": false,
+      "applied_fields": true,
+      "native_status_returned": "PENDING",
+      "matches_spec": false,
+      "case": "Pending human review and correct source signature"
+    },
+    {
+      "case_id": "S6-rejected-matching-signature",
+      "reference_expected_approved": false,
+      "applied_fields": true,
+      "native_status_returned": "REJECTED",
+      "matches_spec": false,
+      "case": "Explicit rejected approval status and correct source signature"
+    },
+    {
+      "case_id": "S7-approved-signature-missing-from-kpi",
+      "reference_expected_approved": true,
+      "applied_fields": false,
+      "native_status_returned": null,
+      "matches_spec": false,
+      "case": "Source unchanged but extractor did not populate source_file_signature"
+    },
+    {
+      "case_id": "S8-approved-code_hash-without-signature",
+      "reference_expected_approved": true,
+      "applied_fields": false,
+      "native_status_returned": null,
+      "matches_spec": false,
+      "case": "Only code_hash is provided; matcher expects source_file_signature"
+    },
+    {
+      "case_id": "S9-approved-no-ledger",
+      "reference_expected_approved": false,
+      "applied_fields": false,
+      "native_status_returned": null,
+      "matches_spec": true,
+      "case": "No override; original details retained"
+    },
+    {
+      "case_id": "S10-different-kpi-name",
+      "reference_expected_approved": false,
+      "applied_fields": false,
+      "native_status_returned": null,
+      "matches_spec": true,
+      "case": "Approval for other KPI must not bind to this source finding"
+    }
+  ],
+  "pass_count": 4,
+  "fail_count": 6,
+  "note": "These are controlled test ledgers and a code-level proxy. No actual human authorization is inferred."
+}

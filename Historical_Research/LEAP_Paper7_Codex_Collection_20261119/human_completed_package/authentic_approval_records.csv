@@ -1,0 +1,1 @@
+approval_id,original_status,approver_role,timestamp,exact_kpi_or_finding,authorization_scope,source_hash_or_commit,policy_version,expiry,revocation,evidence_path,evidence_sha256,source_query

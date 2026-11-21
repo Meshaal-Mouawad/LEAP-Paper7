@@ -1,0 +1,9 @@
+path,reason
+.ai/phase2/diagnostics_2026_10_09/EXCEPTION_RELEVANCE_PACKAGE332_DEVELOPMENT.json,content larger than 64 MiB
+.ai/phase2/execution/ENGINEERING_CALIBRATION_REPEAT.json,content larger than 64 MiB
+.ai/phase2/execution/ENGINEERING_CALIBRATION_REPEAT_V2.json,content larger than 64 MiB
+research/leap_next_publication_evaluation_20261028/evidence/current_retrospective_raw.json,content larger than 64 MiB
+research/leap_next_publication_evaluation_20261028/frozen_system/.ai/phase2/diagnostics_2026_10_09/EXCEPTION_RELEVANCE_PACKAGE332_DEVELOPMENT.json,content larger than 64 MiB
+research/leap_next_publication_evaluation_20261028/frozen_system/.ai/phase2/execution/ENGINEERING_CALIBRATION_REPEAT.json,content larger than 64 MiB
+research/leap_next_publication_evaluation_20261028/frozen_system/.ai/phase2/execution/ENGINEERING_CALIBRATION_REPEAT_V2.json,content larger than 64 MiB
+research/leap_next_publication_evaluation_20261028/frozen_system/.ai/phase2/prospective_preparation_20261028/retrospective.json,content larger than 64 MiB

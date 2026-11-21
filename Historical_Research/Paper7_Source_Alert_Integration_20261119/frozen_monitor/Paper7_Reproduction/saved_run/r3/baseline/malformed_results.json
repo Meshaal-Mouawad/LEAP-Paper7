@@ -1,0 +1,170 @@
+[
+  {
+    "name": "missing_event_t",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_event_unit",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_event_c",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_event_p",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_o_value",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_o_c",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_o_p",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_o_at",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_s_c",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_s_p",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_s_until",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_policy_D",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_policy_C",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_policy_E",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "missing_policy_F",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "invalid_unit",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "nonfinite_time",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "bool_time",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "empty_context",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "empty_policy",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "integer_value",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "string_value",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "nonfinite_at",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "nonfinite_until",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "negative_duration",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "nonfinite_duration",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "duplicate_time",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  },
+  {
+    "name": "decreasing_time",
+    "expected": "ValueError",
+    "actual": "ValueError",
+    "pass": true
+  }
+]

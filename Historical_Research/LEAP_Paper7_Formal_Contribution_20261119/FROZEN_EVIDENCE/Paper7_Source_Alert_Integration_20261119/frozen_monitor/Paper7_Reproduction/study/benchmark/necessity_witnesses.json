@@ -1,0 +1,3582 @@
+[
+  {
+    "id": "privacy/event.c",
+    "family": "privacy",
+    "rule": "KSA-PDPL-REG-01",
+    "projection_drop": "event.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "privacy/event.p",
+    "family": "privacy",
+    "rule": "KSA-PDPL-REG-01",
+    "projection_drop": "event.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "privacy/o.c",
+    "family": "privacy",
+    "rule": "KSA-PDPL-REG-01",
+    "projection_drop": "o.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "privacy/o.p",
+    "family": "privacy",
+    "rule": "KSA-PDPL-REG-01",
+    "projection_drop": "o.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "privacy/s.c",
+    "family": "privacy",
+    "rule": "KSA-PDPL-REG-01",
+    "projection_drop": "s.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "privacy/s.p",
+    "family": "privacy",
+    "rule": "KSA-PDPL-REG-01",
+    "projection_drop": "s.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "execution/event.c",
+    "family": "execution",
+    "rule": "KSA-NCA-ECC-SEC-04",
+    "projection_drop": "event.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "execution/event.p",
+    "family": "execution",
+    "rule": "KSA-NCA-ECC-SEC-04",
+    "projection_drop": "event.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "execution/o.c",
+    "family": "execution",
+    "rule": "KSA-NCA-ECC-SEC-04",
+    "projection_drop": "o.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "execution/o.p",
+    "family": "execution",
+    "rule": "KSA-NCA-ECC-SEC-04",
+    "projection_drop": "o.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "execution/s.c",
+    "family": "execution",
+    "rule": "KSA-NCA-ECC-SEC-04",
+    "projection_drop": "s.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "execution/s.p",
+    "family": "execution",
+    "rule": "KSA-NCA-ECC-SEC-04",
+    "projection_drop": "s.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "audit/event.c",
+    "family": "audit",
+    "rule": "KSA-NCA-ECC-AUD-02",
+    "projection_drop": "event.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "audit/event.p",
+    "family": "audit",
+    "rule": "KSA-NCA-ECC-AUD-02",
+    "projection_drop": "event.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "audit/o.c",
+    "family": "audit",
+    "rule": "KSA-NCA-ECC-AUD-02",
+    "projection_drop": "o.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "audit/o.p",
+    "family": "audit",
+    "rule": "KSA-NCA-ECC-AUD-02",
+    "projection_drop": "o.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "audit/s.c",
+    "family": "audit",
+    "rule": "KSA-NCA-ECC-AUD-02",
+    "projection_drop": "s.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "audit/s.p",
+    "family": "audit",
+    "rule": "KSA-NCA-ECC-AUD-02",
+    "projection_drop": "s.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "transfer/event.c",
+    "family": "transfer",
+    "rule": "GDPR-DATA-PROC-01",
+    "projection_drop": "event.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "transfer/event.p",
+    "family": "transfer",
+    "rule": "GDPR-DATA-PROC-01",
+    "projection_drop": "event.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "transfer/o.c",
+    "family": "transfer",
+    "rule": "GDPR-DATA-PROC-01",
+    "projection_drop": "o.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "transfer/o.p",
+    "family": "transfer",
+    "rule": "GDPR-DATA-PROC-01",
+    "projection_drop": "o.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "transfer/s.c",
+    "family": "transfer",
+    "rule": "GDPR-DATA-PROC-01",
+    "projection_drop": "s.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "transfer/s.p",
+    "family": "transfer",
+    "rule": "GDPR-DATA-PROC-01",
+    "projection_drop": "s.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "lineage/event.c",
+    "family": "lineage",
+    "rule": "SOC2-LINEAGE-AUDIT-01",
+    "projection_drop": "event.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1_other",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "lineage/event.p",
+    "family": "lineage",
+    "rule": "SOC2-LINEAGE-AUDIT-01",
+    "projection_drop": "event.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1_other",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "lineage/o.c",
+    "family": "lineage",
+    "rule": "SOC2-LINEAGE-AUDIT-01",
+    "projection_drop": "o.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1_other",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "lineage/o.p",
+    "family": "lineage",
+    "rule": "SOC2-LINEAGE-AUDIT-01",
+    "projection_drop": "o.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 2
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 3
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1_other",
+          "at": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "lineage/s.c",
+    "family": "lineage",
+    "rule": "SOC2-LINEAGE-AUDIT-01",
+    "projection_drop": "s.c",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1_other",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "lineage/s.p",
+    "family": "lineage",
+    "rule": "SOC2-LINEAGE-AUDIT-01",
+    "projection_drop": "s.p",
+    "left": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      }
+    ],
+    "right": [
+      {
+        "t": 0,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 0
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1",
+          "until": 10
+        }
+      },
+      {
+        "t": 2,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 2
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 3,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 3
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      },
+      {
+        "t": 5,
+        "unit": "s",
+        "c": "c1",
+        "p": "p1",
+        "o": {
+          "value": true,
+          "c": "c1",
+          "p": "p1",
+          "at": 5
+        },
+        "s": {
+          "c": "c1",
+          "p": "p1_other",
+          "until": 10
+        }
+      }
+    ]
+  }
+]

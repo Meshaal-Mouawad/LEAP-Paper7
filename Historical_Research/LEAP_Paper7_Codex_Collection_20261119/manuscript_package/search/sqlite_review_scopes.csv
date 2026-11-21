@@ -1,0 +1,7 @@
+database,table,query,recorded_decision,recorded_scope,rows
+.ai/context_sessions.sqlite3,sessions,"SELECT json_extract(snapshot_json, '$.review.decision'), json_extract(snapshot_json, '$.review.scope'), COUNT(*) FROM ""sessions"" GROUP BY 1,2",ACCEPT_CONTEXT,CONTEXT_CONTINUITY_ONLY,10
+.ai/context_sessions.sqlite3,events,"SELECT json_extract(snapshot_json, '$.review.decision'), json_extract(snapshot_json, '$.review.scope'), COUNT(*) FROM ""events"" GROUP BY 1,2",,,20
+.ai/context_sessions.sqlite3,events,"SELECT json_extract(snapshot_json, '$.review.decision'), json_extract(snapshot_json, '$.review.scope'), COUNT(*) FROM ""events"" GROUP BY 1,2",ACCEPT_CONTEXT,CONTEXT_CONTINUITY_ONLY,10
+research/leap_next_publication_evaluation_20261028/frozen_system/.ai/context_sessions.sqlite3,sessions,"SELECT json_extract(snapshot_json, '$.review.decision'), json_extract(snapshot_json, '$.review.scope'), COUNT(*) FROM ""sessions"" GROUP BY 1,2",ACCEPT_CONTEXT,CONTEXT_CONTINUITY_ONLY,10
+research/leap_next_publication_evaluation_20261028/frozen_system/.ai/context_sessions.sqlite3,events,"SELECT json_extract(snapshot_json, '$.review.decision'), json_extract(snapshot_json, '$.review.scope'), COUNT(*) FROM ""events"" GROUP BY 1,2",,,20
+research/leap_next_publication_evaluation_20261028/frozen_system/.ai/context_sessions.sqlite3,events,"SELECT json_extract(snapshot_json, '$.review.decision'), json_extract(snapshot_json, '$.review.scope'), COUNT(*) FROM ""events"" GROUP BY 1,2",ACCEPT_CONTEXT,CONTEXT_CONTINUITY_ONLY,10

@@ -1,0 +1,29 @@
+[
+  {
+    "disabled_engine_method": "Monitor.eval",
+    "observed": "upstream dispatch count mismatch",
+    "pass": true
+  },
+  {
+    "disabled_engine_method": "Monitor.eval_states",
+    "observed": "upstream dispatch count mismatch",
+    "pass": true
+  },
+  {
+    "disabled_engine_method": "State.eval",
+    "observed": "upstream dispatch count mismatch",
+    "pass": true
+  },
+  {
+    "restored_engine": "actual unmodified upstream methods",
+    "audit": {
+      "engine_events": 2,
+      "state_transitions": 2,
+      "state_classes": [
+        "Qualifying",
+        "Raised"
+      ]
+    },
+    "pass": true
+  }
+]

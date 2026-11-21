@@ -1,0 +1,56 @@
+[
+  {
+    "path": "pycontract/__init__.py",
+    "git_blob_verified": true,
+    "sha256": "e6b2874c7131db7592f8f3e8c410ab7e8fe35d56be9846e98c625fb4c7a3e5a2",
+    "bytes": 120
+  },
+  {
+    "path": "pycontract/pycontract.py",
+    "git_blob_verified": true,
+    "sha256": "17c4fa16d91c6574a2ae79349ef202fc9becd6772e662d320547c1a04587fe14",
+    "bytes": 336
+  },
+  {
+    "path": "pycontract/pycontract_core.py",
+    "git_blob_verified": true,
+    "sha256": "c882ea868b57b66eb3afd4d36a002212d0f7cbaa34800bfab3680e82c2285511",
+    "bytes": 55993
+  },
+  {
+    "path": "pycontract/pycontract_csv.py",
+    "git_blob_verified": true,
+    "sha256": "c58109ba92c3b9c54d607e76f911fc2afdd980c29674ed166471208960827d2f",
+    "bytes": 4189
+  },
+  {
+    "path": "pycontract/pycontract_plantuml.py",
+    "git_blob_verified": true,
+    "sha256": "23154bdefc6648746675d83a7d2e88a84c97a749c969d451a4b3b3f691a3d709",
+    "bytes": 26450
+  },
+  {
+    "path": "LICENSE.txt",
+    "git_blob_verified": true,
+    "sha256": "1f2afa61a3e7d62e5cf62b471c60c40853effc3428289f5961c84e24cf60447a",
+    "bytes": 9138
+  },
+  {
+    "path": "README.md",
+    "git_blob_verified": true,
+    "sha256": "176cbc190986cfd7511a503f1eda536be7bb8b68ffed4f5c7817ac09c43ebf9a",
+    "bytes": 75409
+  },
+  {
+    "path": "pyproject.toml",
+    "git_blob_verified": true,
+    "sha256": "d2da43f72bc3e16e4cb6086347b3f214d5c513136c6a72a3adde590d2472fd14",
+    "bytes": 323
+  },
+  {
+    "path": "test/test18_small_demo/test18.py",
+    "git_blob_verified": true,
+    "sha256": "83384433abbecf9a7ed90e52c813721c4d2aefd285239da256ea790014ed92ee",
+    "bytes": 2420
+  }
+]

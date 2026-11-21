@@ -1,0 +1,1 @@
+main:bluebook_generator/main.py:162:    current_signature = str(kpi.get("source_file_signature") or "").strip()

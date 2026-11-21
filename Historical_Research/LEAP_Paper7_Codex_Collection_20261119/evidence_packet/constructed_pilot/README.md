@@ -1,0 +1,1 @@
+24 prior constructed cases; recorded outputs copied with exact row locators. No pilot case is an authentic authorization or an extra historical transition. Constructed after sources are not regenerated. Matcher predictions and human labels are not imported.

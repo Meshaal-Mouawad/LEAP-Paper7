@@ -1,0 +1,1 @@
+The three supplementary pairs are recoverable engine code revisions, not the nine named archived KPI-source transitions. They do not supply business authorizations or observed before/after finding outputs. No missing original transition has been fabricated.

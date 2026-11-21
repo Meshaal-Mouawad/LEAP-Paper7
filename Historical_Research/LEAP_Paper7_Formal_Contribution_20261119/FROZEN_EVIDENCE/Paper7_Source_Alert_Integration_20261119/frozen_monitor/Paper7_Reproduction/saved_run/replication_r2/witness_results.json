@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "privacy/event.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/event.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/event.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/event.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/o.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/o.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/o.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/o.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/s.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/s.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/s.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "privacy/s.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/event.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/event.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/event.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/event.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/o.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/o.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/o.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/o.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/s.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/s.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/s.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "execution/s.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/event.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/event.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/event.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/event.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/o.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/o.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/o.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/o.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/s.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/s.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/s.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "audit/s.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/event.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/event.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/event.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/event.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/o.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/o.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/o.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/o.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/s.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/s.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/s.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "transfer/s.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/event.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/event.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/event.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/event.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/o.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/o.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/o.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/o.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/s.c/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/s.c/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/s.p/left",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "id": "lineage/s.p/right",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  }
+]

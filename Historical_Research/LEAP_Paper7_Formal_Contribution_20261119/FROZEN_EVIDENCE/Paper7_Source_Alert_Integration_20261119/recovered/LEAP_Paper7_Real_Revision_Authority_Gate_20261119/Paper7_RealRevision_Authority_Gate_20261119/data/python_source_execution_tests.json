@@ -1,0 +1,28 @@
+[
+  {
+    "case_id": "P7R02",
+    "check": "PYTHON_AST_IDENTICAL",
+    "outcome": "PASS",
+    "scope": "Same executable AST across source versions; no human authorization inference"
+  },
+  {
+    "case_id": "P7R08",
+    "check": "PYTHON_AST_IDENTICAL",
+    "outcome": "PASS",
+    "scope": "Same executable AST across source versions; no human authorization inference"
+  },
+  {
+    "case_id": "P7R09",
+    "check": "ISOLATED_RECORDED_SOURCE_EXECUTION",
+    "before": {
+      "status": "NameError",
+      "output": ""
+    },
+    "after": {
+      "status": "OK",
+      "output": "Days of Working Inventory: 7300.0"
+    },
+    "outcome": "PASS",
+    "scope": "Before lacks local declarations; after supplies placeholders. Different standalone behavior, not a business approval outcome"
+  }
+]

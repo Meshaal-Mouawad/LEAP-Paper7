@@ -1,0 +1,12 @@
+case_id,stratum,language,source_bytes_changed,structure_changed,dossier_changed,dossier_before_count,dossier_after_count,runtime_status,baseline_exact_file_rechecks,baseline_structure_rechecks,baseline_dossier_rechecks,dual_endpoint_rechecks
+P7R01,ARCHIVED_REVISION,abap,True,False,True,2,1,NOT_TESTED,True,False,True,True
+P7R02,ARCHIVED_REVISION,py,True,False,True,2,3,EQUAL,True,False,True,True
+P7R03,ARCHIVED_REVISION,sql,True,True,True,1,1,DIFFERENT,True,True,True,True
+P7R04,ARCHIVED_REVISION,tsql,True,False,True,1,1,EQUAL,True,False,True,True
+P7R05,ARCHIVED_REVISION,sql,True,False,True,1,1,EQUAL,True,False,True,True
+P7R06,ARCHIVED_REVISION,sql,True,False,False,1,1,EQUAL,True,False,False,False
+P7R07,ARCHIVED_REVISION,tsql,True,True,True,1,1,UNRESOLVED_INPUT_BINDINGS,True,True,True,True
+P7R08,ARCHIVED_REVISION,py,True,False,False,3,3,EQUAL,True,False,False,False
+P7R09,ARCHIVED_REVISION,py,True,True,False,1,1,DIFFERENT,True,True,False,True
+CTRL_DOC,CONTROL_CONSTRUCTED,py,True,False,True,3,3,EQUAL,True,False,True,True
+CTRL_CODE,CONTROL_CONSTRUCTED,py,True,True,False,3,3,DIFFERENT,True,True,False,True

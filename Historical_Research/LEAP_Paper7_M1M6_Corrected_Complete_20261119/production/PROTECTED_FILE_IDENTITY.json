@@ -1,0 +1,33 @@
+{
+  "protected_files_checked": 27,
+  "status": "BYTE_IDENTICAL",
+  "sha256": {
+    "README.md": "4fe8f396846ed55fb76c10544e55c117aadd3242dc1711123c018656828b4ef7",
+    "baseline/Nov18_Gold_LaTeX.tex": "648c1113570430b4ec93bb8906f6503389d6693ea59eb16f4ba44ea2f0076dd9",
+    "baseline/Nov19_Original_Final.pdf": "1cee2bd7cbecb2ab6fcc84dba95ca1de1cf66dc64f92f488d7fcd87eddd9670a",
+    "manuscript/Paper7_Final.pdf": "5c844e1e7b4b955f56820ad97eb30902e07ee755ddb576e041ededaf2c6e2681",
+    "manuscript/Review_Response.md": "f6a28c6dcdbc95ce29d8ea23a4fbe820d56ef7f0899ed9cb7f6cad36cacbff27",
+    "prior/Independent_Peer_Review_20261119.txt": "bed89b0cd6fc804904f5e4c73cdd887fdffe93373336ba0f673e159f838ccde5",
+    "source/Paper7_LaTeX_Source.zip": "c57f9b25bec1f14e70cabb28a198d15f6bcdf9fe457f53783e51d6e9fa6ce1fb",
+    "submission/SCP_Submission.zip": "53cd234026fcfabab9d664dea99781cac16916c75cc3729bf2081f2cc3a6a4f9",
+    "verification/FINAL_BUILD_PASS_2.log": "229f853eee25045321a0b5def028a8be57d41fb1a9c596d0b7775aad2ad288b0",
+    "verification/Frozen_Reproduction.zip": "b55949d177b3355bda1f49442015141ac382e84345b4cc283a7fc4a811a9db48",
+    "verification/INDEPENDENT_AUDIT.json": "bff4e37a5aba469bf3795594322c4e3d55486e458f737dd2c9cdc9a75aafc73b",
+    "verification/PROTECTED_CONTENT_AUDIT.json": "32f440ee2e98305e59f347c495a793045158cc49cd418ac4517fd1729e9a3a0e",
+    "verification/audit.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "verification/audit.log": "bff4e37a5aba469bf3795594322c4e3d55486e458f737dd2c9cdc9a75aafc73b",
+    "verification/bibtex.log": "83e9b5bcb66ad1026c2ea5c708a0da833f6c0a8c779e1a7fe1e7464be354873f",
+    "verification/denominators.csv": "d262eddd40c83fee9f56eb39fb321ed5e1eaaaf5c4a2ea70c5413aa6748ce6c5",
+    "verification/endpoint_metrics.csv": "9c65d2dc6f35104f841188425bb42cbffd628503cf64c73f3ccbac85b56c1090",
+    "verification/five_comparison_check.json": "76dbec92222b7dec47ab4107382761703e44d2ee6a92569bf436b0275219e1c1",
+    "verification/five_comparison_check.py": "4f9f3c21ea57856d4752148f66f1e8411daff17a8ac86eb17d2ee2d518ba81c7",
+    "verification/implement_revision.py": "c0f3542ad4717e01ec61c2c8f2628b3c475ebf49e08be31eb78cb49709a34953",
+    "verification/reproduction_command.log": "80a591a4fc17ac0bd6133b510af1ae40b3009336f3f50b032b125c290157fd73",
+    "verification/source_gold_to_targeted.diff": "cc84bddd21ce7842c66a4936dfaa79ec14d9f94a854d08412a47f1444358a154",
+    "verification/targeted.log": "a3a8b036fbe66aafb1c4f50797a553deb81c8a1758290887551c150ac43364fa",
+    "verification/targeted_summary.json": "326d4480c919a90bec1f89ef63cbcebe971390283b5efad72c4942d56d5d9fc2",
+    "verification/taxonomy.log": "1fab17fd997b3dcd3bb7afe25a2ea5f5acf84e1a87c285eb263ee37f3ad5d115",
+    "verification/taxonomy_summary.json": "d07a1444058ef8af8fabac4a930d16d428eb681d26760694b4fa4bccac109135",
+    "verification/verify_protected.py": "81d5b2cd5890f47e3f5106100a5119898f8a7ea75732a18716234614050079a9"
+  }
+}

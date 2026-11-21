@@ -1,0 +1,146 @@
+[
+  {
+    "case_id": "P7R01",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R01/before.abap",
+    "expected_sha256": "e310408fc4f358390fb5fcec202bfcf5f81e2d74cc6960f404f42362c08aacb2",
+    "actual_sha256": "e310408fc4f358390fb5fcec202bfcf5f81e2d74cc6960f404f42362c08aacb2",
+    "match": true
+  },
+  {
+    "case_id": "P7R01",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R01/after.abap",
+    "expected_sha256": "70bacc5f2cb908c11f11cf18a77170662c2caf6b0a00f6158ddea6d89a063cfb",
+    "actual_sha256": "70bacc5f2cb908c11f11cf18a77170662c2caf6b0a00f6158ddea6d89a063cfb",
+    "match": true
+  },
+  {
+    "case_id": "P7R02",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R02/before.py",
+    "expected_sha256": "37b6d00a1b33d6436aa0f6703623441cc8ad8c7d5b5c42c87d9df74b94d689ad",
+    "actual_sha256": "37b6d00a1b33d6436aa0f6703623441cc8ad8c7d5b5c42c87d9df74b94d689ad",
+    "match": true
+  },
+  {
+    "case_id": "P7R02",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R02/after.py",
+    "expected_sha256": "c90f7cf33c72529a36a6034a4bb99c24a9d24db18025d7e67604145a2775de4c",
+    "actual_sha256": "c90f7cf33c72529a36a6034a4bb99c24a9d24db18025d7e67604145a2775de4c",
+    "match": true
+  },
+  {
+    "case_id": "P7R03",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R03/before.sql",
+    "expected_sha256": "aef2903035f1ef25603b6d0c112340037a81547c7d65faf3f95b22f85dfab0a6",
+    "actual_sha256": "aef2903035f1ef25603b6d0c112340037a81547c7d65faf3f95b22f85dfab0a6",
+    "match": true
+  },
+  {
+    "case_id": "P7R03",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R03/after.sql",
+    "expected_sha256": "9769deb2797eafd2728c8e49b2d805607abc1a8c1a36264707f47a7032eb7ec6",
+    "actual_sha256": "9769deb2797eafd2728c8e49b2d805607abc1a8c1a36264707f47a7032eb7ec6",
+    "match": true
+  },
+  {
+    "case_id": "P7R04",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R04/before.tsql",
+    "expected_sha256": "c94d1127a0708dff129375a7f7b4996a59f1222537a3c829694328f2a7ae8a31",
+    "actual_sha256": "c94d1127a0708dff129375a7f7b4996a59f1222537a3c829694328f2a7ae8a31",
+    "match": true
+  },
+  {
+    "case_id": "P7R04",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R04/after.tsql",
+    "expected_sha256": "abe87ffd09db3f4dafa5292482e74711e5bd1cbe957c96ebe7ec8412f7288e4b",
+    "actual_sha256": "abe87ffd09db3f4dafa5292482e74711e5bd1cbe957c96ebe7ec8412f7288e4b",
+    "match": true
+  },
+  {
+    "case_id": "P7R05",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R05/before.sql",
+    "expected_sha256": "9769deb2797eafd2728c8e49b2d805607abc1a8c1a36264707f47a7032eb7ec6",
+    "actual_sha256": "9769deb2797eafd2728c8e49b2d805607abc1a8c1a36264707f47a7032eb7ec6",
+    "match": true
+  },
+  {
+    "case_id": "P7R05",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R05/after.sql",
+    "expected_sha256": "09fba228e059b32d46c71906eda905769021b9c3ae042a26e6728b0e253223b2",
+    "actual_sha256": "09fba228e059b32d46c71906eda905769021b9c3ae042a26e6728b0e253223b2",
+    "match": true
+  },
+  {
+    "case_id": "P7R06",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R06/before.sql",
+    "expected_sha256": "09fba228e059b32d46c71906eda905769021b9c3ae042a26e6728b0e253223b2",
+    "actual_sha256": "09fba228e059b32d46c71906eda905769021b9c3ae042a26e6728b0e253223b2",
+    "match": true
+  },
+  {
+    "case_id": "P7R06",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R06/after.sql",
+    "expected_sha256": "34d8250cb0d029ae417f5fa5a875428fde6eb821d7662b03ea29c7654e814637",
+    "actual_sha256": "34d8250cb0d029ae417f5fa5a875428fde6eb821d7662b03ea29c7654e814637",
+    "match": true
+  },
+  {
+    "case_id": "P7R07",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R07/before.tsql",
+    "expected_sha256": "abe87ffd09db3f4dafa5292482e74711e5bd1cbe957c96ebe7ec8412f7288e4b",
+    "actual_sha256": "abe87ffd09db3f4dafa5292482e74711e5bd1cbe957c96ebe7ec8412f7288e4b",
+    "match": true
+  },
+  {
+    "case_id": "P7R07",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R07/after.tsql",
+    "expected_sha256": "c8f7037b32ebaa85313e10b26cea97283b0278e068a0c82f6340f5b587f93c3e",
+    "actual_sha256": "c8f7037b32ebaa85313e10b26cea97283b0278e068a0c82f6340f5b587f93c3e",
+    "match": true
+  },
+  {
+    "case_id": "P7R08",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R08/before.py",
+    "expected_sha256": "c90f7cf33c72529a36a6034a4bb99c24a9d24db18025d7e67604145a2775de4c",
+    "actual_sha256": "c90f7cf33c72529a36a6034a4bb99c24a9d24db18025d7e67604145a2775de4c",
+    "match": true
+  },
+  {
+    "case_id": "P7R08",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R08/after.py",
+    "expected_sha256": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "actual_sha256": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+    "match": true
+  },
+  {
+    "case_id": "P7R09",
+    "side": "before",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R09/before.py",
+    "expected_sha256": "dedc241807f8fa3b0a8c8ccb95b059c492dc13b7e9ad46f2b6ce3aa2362ce601",
+    "actual_sha256": "dedc241807f8fa3b0a8c8ccb95b059c492dc13b7e9ad46f2b6ce3aa2362ce601",
+    "match": true
+  },
+  {
+    "case_id": "P7R09",
+    "side": "after",
+    "path": "recovered/LEAP_Paper7_Redesigned_Experiment_20261119/LEAP_Paper7_Redesigned_Experiment_20261119/cases/P7R09/after.py",
+    "expected_sha256": "7f99f76cad50589cf6618d593acdf64397890fd939b54ed6855a84720820fb29",
+    "actual_sha256": "7f99f76cad50589cf6618d593acdf64397890fd939b54ed6855a84720820fb29",
+    "match": true
+  }
+]

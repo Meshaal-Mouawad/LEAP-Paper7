@@ -1,0 +1,12 @@
+{
+  "status": "post-evaluation targeted verification",
+  "utc": "2026-11-19T07:53:13.619271+00:00",
+  "targeted_cases": 24,
+  "cases_passed": 24,
+  "method_case_checks": 96,
+  "method_case_checks_passed": 96,
+  "full_sequence_agreement_cases": 24,
+  "events_per_method": 75,
+  "elapsed_seconds": 0.023134815999583225,
+  "source_hashes_verified": true
+}

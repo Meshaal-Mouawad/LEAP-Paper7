@@ -1,0 +1,15 @@
+{
+  "result": "NO_AUTHENTIC_AUTHORIZATIONS_FOUND",
+  "scope": "searched local sources only; not a universal absence claim",
+  "authentic_authorizations_exported": 0,
+  "authorizations_associated_with_source_changes": 0,
+  "provided_nine_transition_archive": "LOCATED_NOT_IMPORTED",
+  "provided_nine_transitions_imported": 0,
+  "constructed_pilot_cases_imported": 0,
+  "supplementary_engine_pairs": 3,
+  "human_decisions_recorded": 0,
+  "structured_candidates_requiring_source_inspection": 0,
+  "uninspected_media_files": 6,
+  "errors": 0,
+  "repository_head": "9892e4477d87d32920bcd64918fd917d1f5fc796"
+}

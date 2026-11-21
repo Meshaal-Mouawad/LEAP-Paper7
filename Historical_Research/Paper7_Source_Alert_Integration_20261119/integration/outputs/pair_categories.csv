@@ -1,0 +1,10 @@
+case_id,calculation_representation_changed,documentation_changed,category,runtime_status
+P7R01,False,True,documentation_only,NOT_TESTED
+P7R02,False,True,documentation_only,EQUAL
+P7R03,True,True,both,DIFFERENT
+P7R04,False,True,documentation_only,EQUAL
+P7R05,False,True,documentation_only,EQUAL
+P7R06,False,False,neither,EQUAL
+P7R07,True,True,both,UNRESOLVED_INPUT_BINDINGS
+P7R08,False,False,neither,EQUAL
+P7R09,True,False,calculation_representation_only,DIFFERENT

@@ -1,0 +1,11 @@
+{
+  "kind": "post-review five-comparison canonicalization replay",
+  "status": "PASS",
+  "trace_count": 4935,
+  "event_count": 26430,
+  "mismatched_complete_trace_or_reason": 0,
+  "first_mismatches": [],
+  "frozen_trace_sha256": "92f6ca523af501d7db4ad11835fbffcd585ecd064a3fe4ccfe4f9b6d592e60e1",
+  "reference_sha256": "d93440c5068f577b0bbdf7d3a81f1cfc1090c4a41803a157c5d05a38d06e9abe",
+  "interpretation": "Re-encoding checks sufficiency of version comparisons under the original monitor; does not establish an independent engine or minimum bit count."
+}

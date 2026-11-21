@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED",
+  "real_source_change_pairs": 9,
+  "authenticated_approval_pairs": 0,
+  "dual_consensus_decisions": 0,
+  "research_claim": "No approval accuracy can be calculated unless every scored case has authenticated approval evidence and two genuine qualified human adjudications."
+}

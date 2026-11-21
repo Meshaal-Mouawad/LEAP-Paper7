@@ -1,0 +1,121 @@
+[
+  {
+    "sequence": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "implementation/evaluate.py",
+      "results"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 3.2430270590011787,
+    "stdout": "01_evaluate.stdout.log",
+    "stderr": "01_evaluate.stderr.log"
+  },
+  {
+    "sequence": 2,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "implementation/audit_information_bound.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 0.06602373299756437,
+    "stdout": "02_audit_information_bound.stdout.log",
+    "stderr": "02_audit_information_bound.stderr.log"
+  },
+  {
+    "sequence": 3,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "scp_revision/equality/verify.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 0.2811334010002611,
+    "stdout": "03_verify.stdout.log",
+    "stderr": "03_verify.stderr.log"
+  },
+  {
+    "sequence": 4,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "r3/analysis/representation.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 0.43904932499935967,
+    "stdout": "04_representation.stdout.log",
+    "stderr": "04_representation.stderr.log"
+  },
+  {
+    "sequence": 5,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "replication_r2/run_replication.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 6.8917715690004115,
+    "stdout": "05_run_replication.stdout.log",
+    "stderr": "05_run_replication.stderr.log"
+  },
+  {
+    "sequence": 6,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "r3/baseline/run_baseline.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 2.590456604000792,
+    "stdout": "06_run_baseline.stdout.log",
+    "stderr": "06_run_baseline.stderr.log"
+  },
+  {
+    "sequence": 7,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "r3/baseline/verify_engine_dependency.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 0.7050249309977517,
+    "stdout": "07_verify_engine_dependency.stdout.log",
+    "stderr": "07_verify_engine_dependency.stderr.log"
+  },
+  {
+    "sequence": 8,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "reviews/check_reference_v2.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 0.08846763600013219,
+    "stdout": "08_check_reference_v2.stdout.log",
+    "stderr": "08_check_reference_v2.stderr.log"
+  },
+  {
+    "sequence": 9,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "scp_revision/external_fixture/replay.py",
+      "replay"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "elapsed_seconds": 0.06701419599994551,
+    "stdout": "09_replay.stdout.log",
+    "stderr": "09_replay.stderr.log"
+  }
+]

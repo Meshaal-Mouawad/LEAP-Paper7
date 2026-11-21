@@ -1,0 +1,225 @@
+[
+  {
+    "base_severity": "High",
+    "id": "Alertmanager_v0.28.1_TestSilencer_L1383",
+    "name": "absent",
+    "policy": {
+      "C": 2,
+      "D": 2,
+      "E": 4,
+      "F": 2
+    },
+    "reference_mutes": false,
+    "selected_source_silence": null,
+    "source_line": 1383,
+    "trace": [
+      {
+        "c": "bar",
+        "o": {
+          "at": 0,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 0,
+        "unit": "s"
+      },
+      {
+        "c": "bar",
+        "o": {
+          "at": 2,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 2,
+        "unit": "s"
+      },
+      {
+        "c": "bar",
+        "o": {
+          "at": 3,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 3,
+        "unit": "s"
+      }
+    ]
+  },
+  {
+    "base_severity": "High",
+    "id": "Alertmanager_v0.28.1_TestSilencer_L1392",
+    "name": "nonmatching_exact",
+    "policy": {
+      "C": 2,
+      "D": 2,
+      "E": 4,
+      "F": 2
+    },
+    "reference_mutes": false,
+    "selected_source_silence": "sil1",
+    "source_line": 1392,
+    "trace": [
+      {
+        "c": "bar",
+        "o": {
+          "at": 0,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 0,
+        "unit": "s"
+      },
+      {
+        "c": "bar",
+        "o": {
+          "at": 2,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 2,
+        "unit": "s"
+      },
+      {
+        "c": "bar",
+        "o": {
+          "at": 3,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "s": {
+          "c": "baz",
+          "p": "P0",
+          "until": 303
+        },
+        "t": 3,
+        "unit": "s"
+      }
+    ]
+  },
+  {
+    "base_severity": "High",
+    "id": "Alertmanager_v0.28.1_TestSilencer_L1402",
+    "name": "matching_exact",
+    "policy": {
+      "C": 2,
+      "D": 2,
+      "E": 4,
+      "F": 2
+    },
+    "reference_mutes": true,
+    "selected_source_silence": "sil2",
+    "source_line": 1402,
+    "trace": [
+      {
+        "c": "bar",
+        "o": {
+          "at": 0,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 0,
+        "unit": "s"
+      },
+      {
+        "c": "bar",
+        "o": {
+          "at": 2,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 2,
+        "unit": "s"
+      },
+      {
+        "c": "bar",
+        "o": {
+          "at": 3,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "s": {
+          "c": "bar",
+          "p": "P0",
+          "until": 303
+        },
+        "t": 3,
+        "unit": "s"
+      }
+    ]
+  },
+  {
+    "base_severity": "High",
+    "id": "Alertmanager_v0.28.1_TestSilencer_L1408",
+    "name": "expired_exact",
+    "policy": {
+      "C": 2,
+      "D": 2,
+      "E": 4,
+      "F": 2
+    },
+    "reference_mutes": false,
+    "selected_source_silence": "sil2",
+    "source_line": 1408,
+    "trace": [
+      {
+        "c": "bar",
+        "o": {
+          "at": 0,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 0,
+        "unit": "s"
+      },
+      {
+        "c": "bar",
+        "o": {
+          "at": 2,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "t": 2,
+        "unit": "s"
+      },
+      {
+        "c": "bar",
+        "o": {
+          "at": 3603,
+          "c": "bar",
+          "p": "P0",
+          "value": true
+        },
+        "p": "P0",
+        "s": {
+          "c": "bar",
+          "p": "P0",
+          "until": 303
+        },
+        "t": 3603,
+        "unit": "s"
+      }
+    ]
+  }
+]

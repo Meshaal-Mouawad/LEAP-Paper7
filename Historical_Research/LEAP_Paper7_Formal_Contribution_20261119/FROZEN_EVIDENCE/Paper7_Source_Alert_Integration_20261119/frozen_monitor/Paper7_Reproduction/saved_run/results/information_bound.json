@@ -1,0 +1,55 @@
+{
+  "scope": "Audit of frozen witnesses; added after primary evaluation; no new performance inputs",
+  "summary": [
+    {
+      "field": "event.c",
+      "N": 10,
+      "classes": 5,
+      "heterogeneous_classes": 5,
+      "B": 5,
+      "bound": 0.5
+    },
+    {
+      "field": "event.p",
+      "N": 10,
+      "classes": 5,
+      "heterogeneous_classes": 5,
+      "B": 5,
+      "bound": 0.5
+    },
+    {
+      "field": "o.c",
+      "N": 10,
+      "classes": 5,
+      "heterogeneous_classes": 5,
+      "B": 5,
+      "bound": 0.5
+    },
+    {
+      "field": "o.p",
+      "N": 10,
+      "classes": 5,
+      "heterogeneous_classes": 5,
+      "B": 5,
+      "bound": 0.5
+    },
+    {
+      "field": "s.c",
+      "N": 10,
+      "classes": 5,
+      "heterogeneous_classes": 5,
+      "B": 5,
+      "bound": 0.5
+    },
+    {
+      "field": "s.p",
+      "N": 10,
+      "classes": 5,
+      "heterogeneous_classes": 5,
+      "B": 5,
+      "bound": 0.5
+    }
+  ],
+  "full_reference_agreement": 60,
+  "note": "Bounds are per projection. Six projections are separate interfaces, not one pooled accuracy population."
+}

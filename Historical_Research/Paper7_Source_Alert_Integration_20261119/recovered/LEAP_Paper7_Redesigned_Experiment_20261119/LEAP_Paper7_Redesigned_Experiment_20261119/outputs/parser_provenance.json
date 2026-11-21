@@ -1,0 +1,10 @@
+{
+  "source_archive_sha256": "7c538749bcb6f34ace054cecaf197c3f60e857035e5f5f41c58c52db707de130",
+  "original_extractor_sha256": "d9936e2dfcbd4cca66c0aacd11c67856767b7148ec7ace7f99f8d88b6c298c20",
+  "locally_distributed_extractor_sha256": "856ada149ffc016edfbf5f2fadcbfdcd39df72cde15de29830211571f327411a",
+  "naming_only_adjustment": "Local variable and accompanying comment renamed; no behavior change",
+  "checked_source_snapshots": 18,
+  "comparison": "PASS",
+  "deterministic_detail_engine": "src/ai_generator.py",
+  "offline_mode": true
+}

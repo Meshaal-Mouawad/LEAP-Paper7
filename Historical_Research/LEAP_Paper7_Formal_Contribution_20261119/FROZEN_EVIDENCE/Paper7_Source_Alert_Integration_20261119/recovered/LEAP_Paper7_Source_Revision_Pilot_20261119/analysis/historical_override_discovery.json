@@ -1,0 +1,15 @@
+{
+  "full_git_commit_count": 156,
+  "nonempty_snapshot_pairs": 1,
+  "nonempty_snapshots_with_commits": {
+    "docs/overrides.json@866ddf335edf": 41
+  },
+  "unique_authored_entries": [
+    "Ethylene Yield Percentage",
+    "Mean Time Between Failures (MTBF)",
+    "Propylene to Ethylene (P/E) Ratio"
+  ],
+  "found_authorization_provenance_entries": 0,
+  "rows_nonempty": 123,
+  "status": "Real historical override text exists on non-main branches; independent human authorization and cross-revision status not established"
+}

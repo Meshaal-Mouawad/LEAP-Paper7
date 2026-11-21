@@ -1,0 +1,138 @@
+<!doctype html><html><head><meta charset="UTF-8"><style>
+@page {size:A4; margin:17mm 17mm 18mm; @bottom-left {content:"LEAP Paper 7  |  Source-revision authority gate  |  19 Nov 2026";font:8pt "DejaVu Sans";color:#657482;} @bottom-right {content:"Page " counter(page) " / " counter(pages);font:8pt "DejaVu Sans";color:#657482;}}
+body{font-family:"DejaVu Sans",Arial,sans-serif;color:#182a39;font-size:9.25pt;line-height:1.44}
+h1{font-size:19pt;line-height:1.2;margin:0 0 9pt;color:#1d3145;} h2{font-size:12.5pt;margin:15pt 0 6pt;color:#243b52;border-bottom:0.5pt solid #bbc6d0;padding-bottom:4pt;page-break-after:avoid;}
+p{margin:0 0 7.5pt;orphans:3;widows:3} h3{font-size:11pt;page-break-after:avoid;}
+code{font-family:"DejaVu Sans Mono",monospace;font-size:8.1pt;overflow-wrap:anywhere;word-break:break-word;color:#244562}
+strong{font-weight:700} table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:8pt;margin:7pt 0 10pt;} th{font-weight:700;background:#e9eef3;white-space:normal}td,th{padding:5pt 4pt;vertical-align:top;border-bottom:0.4pt solid #c4cdd7;overflow-wrap:anywhere;word-break:normal;}thead{display:table-header-group;}tr{page-break-inside:avoid;}a{color:#244e77;text-decoration:none;}li{margin:0 0 5pt;}
+</style></head><body><h1>Paper 7 — Source-revision authority research gate</h1>
+<p><strong>19 November 2026 · Target journal: Science of Computer Programming · Decision: RESEARCH GATE PARTIALLY CLOSED — AUTHORIZATION EVIDENCE REQUIRED</strong></p>
+<h2>1. Scientific decision</h2>
+<p>The next scientific step is to determine whether an authentic business-approved deferral remains authorized after a documented source revision. The original Paper 7 monitoring contract and five-comparison theorem define how such a decision can be represented downstream. The missing scientific reference is the authority judgment itself. No legitimate approval status can be inferred merely from a source diff or successful code merge.</p>
+<p>A wider read-only audit of the supplied LEAP Git archive identified <strong>nine historical KPI source-file modification pairs across four distinct non-main-branch commit transitions</strong>. These are genuine recorded edits, recovered with complete before/after bytes and SHA-256 identities. Six pairs preserve the executable representation according to a declared narrow comparison; three change executable source. <strong>No pair is linked to a signed business approval or two independent reviewer judgments.</strong></p>
+<h2>2. Research design and evidence authority</h2>
+<p>The archive comprises 156 commits across all archived Git refs. The expanded scan traversed 83 parent edges and found 223 source-code file-status events (134 additions, 73 modifications, 16 deletions) in the tracked source extensions scanned. Nine <strong>modification</strong> events involved KPI examples in <code>sample_project</code> or <code>sample_project_50</code>. The original 27 first-parent main-branch pairs remain unchanged as reported previously: the seven initially selected KPI examples did not undergo eligible changes on main. The nine newly found pairs occur in <em>non-main</em> history.</p>
+<p>The real-source technical comparison uses Python abstract syntax tree identity for the Python examples and a limited non-comment-token normalization for SQL/TSQL/ABAP fixtures. It is a reproducible <strong>syntactic or code-representation test</strong>, not an independent semantic proof and not a human approval decision. Exact raw file hashes differ in all nine.</p>
+<table>
+<thead>
+<tr>
+  <th>Pair</th>
+  <th>Actual archived source revision</th>
+  <th>Technical observation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>P7R01</td>
+  <td><code>abap_kpi.abap</code></td>
+  <td>Formula-related comments changed; non-comment tokens unchanged</td>
+</tr>
+<tr>
+  <td>P7R02</td>
+  <td><code>python_kpi.py</code></td>
+  <td>Formula documentation added; Python AST unchanged</td>
+</tr>
+<tr>
+  <td>P7R03</td>
+  <td><code>sql_kpi.sql</code></td>
+  <td>Energy-intensity query replaced by on-spec-rate query</td>
+</tr>
+<tr>
+  <td>P7R04</td>
+  <td><code>tsql_kpi.tsql</code></td>
+  <td>Formula comments revised; non-comment tokens unchanged</td>
+</tr>
+<tr>
+  <td>P7R05</td>
+  <td><code>sql_kpi.sql</code></td>
+  <td>Formula comments added; non-comment tokens unchanged</td>
+</tr>
+<tr>
+  <td>P7R06</td>
+  <td><code>sql_kpi.sql</code></td>
+  <td>Trailing newline changed; non-comment tokens unchanged</td>
+</tr>
+<tr>
+  <td>P7R07</td>
+  <td><code>tsql_kpi.tsql</code></td>
+  <td>On-spec-rate calculation replaced with catalyst-cost calculation</td>
+</tr>
+<tr>
+  <td>P7R08</td>
+  <td><code>python_kpi.py</code></td>
+  <td>Formatting revised; Python AST unchanged</td>
+</tr>
+<tr>
+  <td>P7R09</td>
+  <td><code>KPI100.py</code></td>
+  <td>Required standalone input declarations added before the calculation</td>
+</tr>
+</tbody>
+</table>
+<p>The isolated historical <code>KPI100.py</code> fixture raises <code>NameError</code> before the added declarations; after the revision it computes <code>Days of Working Inventory: 7300.0</code> from its recorded illustrative constants. For both <code>python_kpi.py</code> revisions, executable Python ASTs are identical. The original source files, test script and hashes are supplied in the case package. These observations establish only code-level changes.</p>
+<p>A subtle source-authority problem remains: <strong>comments can change the declared business meaning while executable code stays identical</strong> (P7R01). A matcher that ignores all comments may retain an authorization whose scope is tied to an explanation. The present source records establish the change, not whether a particular approval covered the old or the new statement.</p>
+<h2>3. Authentication audit and existing study evidence</h2>
+<p>The previously audited original LEAP main-branch approval ledgers contain zero authenticated approval entries. Three override descriptions exist in an older branch but have no recorded approver, signed status, timestamp or validity decision. The connected private GitHub repository has three verified merged source-code pull requests (#5–#7), and their review-submission lists are empty. A code merge is distinct from an approved business deferral. Accordingly, none of these items supplies the required authorization reference.</p>
+<p>I reran the already-preserved portable source-revision pilot from a separate copy. It passed its pre-fixed protocol check, its 10 selected native-override cases (six implementation/specification discrepancies), 24 constructed source comparisons, and its frozen-monitor propagation. Those 24 cases remain <strong>controlled synthetic comparisons</strong>; their recorded technical trade-offs are separate from the nine actual archived source edits and from the still-absent human labels.</p>
+<h2>4. Current publication-level research frontier</h2>
+<p>Hu, Wang, Rubin and Pradel's <em>An Empirical Study of Suppressed Static Analysis Warnings</em> (FSE 2025; DOI <code>10.1145/3715729</code>) established the prevalence and evolution of suppressions and showed that some may unintentionally hide later warnings. Li and Yang's <em>Tracking the Evolution of Static Code Warnings</em> (IEEE TSE 2024; DOI <code>10.1109/TSE.2024.3358283</code>) developed manually labeled warning-evolution cases and evaluated warning identity across code revisions. These works establish nearby operational and measurement foundations. The Paper 7 opportunity is narrower: <strong>authority-scoped carry-forward for a previously authenticated review decision across a relevant evidence change</strong>. The present evidence does not yet establish its answer.</p>
+<h2>5. Exact next step — authentic independent adjudication</h2>
+<p>The attached <code>CODEX_READONLY_COLLECTION_TASK.md</code> requests a read-only search of current Codex worktrees and authorized workflow stores for <strong>genuine</strong> approval/deferral records missing from the supplied archive. Codex may extract and organize primary evidence but must not invent authority or act as a human approver. The deliverable would pair original approved deferrals, source/finding revisions, status changes, expiry, authorized scope and policy with traceable primary records.</p>
+<p>The accompanying <code>protocol/Prospective_Authorization_Adjudication.md</code> defines a blinded human adjudication with two <strong>different qualified domain reviewers</strong>, independent initial KEEP/REVOKE/UNKNOWN decisions, recorded rationales and disagreement resolution. No outcome has been filled in. The gate-check script correctly returns <code>BLOCKED</code> with zero authentic approvals and zero dual-adjudicated cases; it therefore calculates <strong>no invalid accuracy statistic</strong>.</p>
+<p>After authentic cases are obtained, compare strict file hashing, code-fingerprint matching, identity-only carry-forward and bounded behavioral probes on the same adjudicated units. Report false-retained and false-revoked authorizations, separate unknowns, and cluster by source/approval. Only then propagate their decisions to the existing frozen Paper 7 monitor and reconstruct the paper's central thesis.</p>
+<h2>6. Gate matrix</h2>
+<table>
+<thead>
+<tr>
+  <th>Gate</th>
+  <th>Finding</th>
+  <th>Decision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Archived source revisions recovered</td>
+  <td>9 paired edits with original files and hashes</td>
+  <td>PASS</td>
+</tr>
+<tr>
+  <td>Technical source comparison</td>
+  <td>6 unchanged / 3 changed under declared checks</td>
+  <td>PASS</td>
+</tr>
+<tr>
+  <td>Standalone Python example execution</td>
+  <td>Recorded before/after behavior reproduced</td>
+  <td>PASS</td>
+</tr>
+<tr>
+  <td>Existing controlled study replay</td>
+  <td>Previously frozen 24-case pilot replayed successfully</td>
+  <td>PASS</td>
+</tr>
+<tr>
+  <td>Authenticated original authorizations</td>
+  <td>None linked in inspected records</td>
+  <td><strong>FAIL</strong></td>
+</tr>
+<tr>
+  <td>Independent human authority adjudication</td>
+  <td>No qualified reviewer responses</td>
+  <td><strong>FAIL</strong></td>
+</tr>
+<tr>
+  <td>Authorization validity of candidate matchers</td>
+  <td>No externally adjudicated reference denominator</td>
+  <td><strong>NOT VERIFIED</strong></td>
+</tr>
+<tr>
+  <td>Consequential SCP contribution and manuscript</td>
+  <td>Authorization question unresolved; rejected manuscript preserved</td>
+  <td><strong>NOT READY</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>Limitations</h2>
+<p>All nine new source pairs are archived branch edits from one repository and are not a representative operational sample. The SQL/TSQL/ABAP comparison is a narrow source-token check; matching tokens does not prove equivalence of all production side effects. The standalone Python execution concerns examples and declared illustrative constants. A business authority may legitimately treat comments, evidence provenance or policy changes as material even when executable tokens are unchanged. The three GitHub merges document source development, not suppression authority. Without authentic approval and independently adjudicated decisions, operational carry-forward accuracy and downstream benefit remain unmeasured.</p>
+<p><strong>Release decision: paper remains on scientific hold.</strong> The new historical-source evidence and prospective adjudication kit are complete. Codex evidence extraction and genuine human reference decisions remain required to close the empirical research question.</p>
+</body></html>

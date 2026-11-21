@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "path": "scp_revision/external_fixture/PROTOCOL.md",
+      "sha256": "8272c03da17091d44f6f8b2c3f78d77464179cacc71bf1bb11679f04984505c8"
+    },
+    {
+      "path": "scp_revision/external_fixture/replay.py",
+      "sha256": "0eb902363f4c18bc0e2bce260de1bc230941e6cee7524c05f8a1154230be72c7"
+    },
+    {
+      "path": "scp_revision/external_fixture/mapping.json",
+      "sha256": "5589a4c3dbcd18283391f58cf3dc4433a30fc2551c0e8ac3ebebd27ccc846917"
+    },
+    {
+      "path": "scp_revision/external_fixture/cases.json",
+      "sha256": "3ce2e5353a9c0c09829d997ce9157a46c26866d049f19b1cae8a5bf3b559bee3"
+    },
+    {
+      "path": "scp_revision/external_fixture/source/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "scp_revision/external_fixture/source/retrieval.json",
+      "sha256": "37e51c79ad98ffe6edd4db2b2c2e5f04f0638ce500902b33d0dcd2558585e96f"
+    },
+    {
+      "path": "scp_revision/external_fixture/source/silence_test.go",
+      "sha256": "5ed81fb8edec3139f31e537a397663fba2a54ce4ed0784a11035e364b9c45e96"
+    },
+    {
+      "path": "implementation/monitor.py",
+      "sha256": "271563264a9bed90cfda71b4cfe42456fe14351466f42aa255a1cf8de81ad166"
+    },
+    {
+      "path": "implementation/oracle_v2.py",
+      "sha256": "19d9895e86c7578925b555b2a44adeec810077be666b5044f255574f1d6caf53"
+    }
+  ],
+  "frozen_at_utc": "2026-11-18T16:45:37.246912+00:00",
+  "outputs_not_yet_created": true,
+  "status": "frozen_before_replay"
+}

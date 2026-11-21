@@ -1,0 +1,29 @@
+{
+  "archived_source_pairs": 9,
+  "constructed_controls": 2,
+  "changed_files": 9,
+  "structure_changed": 3,
+  "dossier_changed": 6,
+  "dual_endpoint_change": 7,
+  "runtime_attempted_pairs": 8,
+  "runtime_comparable_pairs": 7,
+  "runtime_equal": 5,
+  "runtime_unresolved_bindings": 1,
+  "runtime_different": 2,
+  "runtime_equal_with_dossier_change": 3,
+  "file_only_changes_on_both_signatures": 2,
+  "dossier_change_missed_by_structure_only": 4,
+  "structure_change_missed_by_dossier_only": 1
+}
+P7R01 ARCHIVED_REVISION struct False doc True runtime NOT_TESTED
+P7R02 ARCHIVED_REVISION struct False doc True runtime EQUAL
+P7R03 ARCHIVED_REVISION struct True doc True runtime DIFFERENT
+P7R04 ARCHIVED_REVISION struct False doc True runtime EQUAL
+P7R05 ARCHIVED_REVISION struct False doc True runtime EQUAL
+P7R06 ARCHIVED_REVISION struct False doc False runtime EQUAL
+P7R07 ARCHIVED_REVISION struct True doc True runtime UNRESOLVED_INPUT_BINDINGS
+P7R08 ARCHIVED_REVISION struct False doc False runtime EQUAL
+P7R09 ARCHIVED_REVISION struct True doc False runtime DIFFERENT
+CTRL_DOC CONTROL_CONSTRUCTED struct False doc True runtime EQUAL
+CTRL_CODE CONTROL_CONSTRUCTED struct True doc False runtime DIFFERENT
+CONTROL_CHECKS_PASS

@@ -1,0 +1,311 @@
+{
+  "provenance": {
+    "source_rows": "integration/outputs/pair_categories.csv",
+    "change_rows": "integration/outputs/change_detection.csv",
+    "monitor": "FROZEN_EVIDENCE/Paper7_Source_Alert_Integration_20261119/frozen_monitor/Paper7_Reproduction/study/implementation/monitor.py"
+  },
+  "scope": "targeted finite checks of source patterns, three archived-pair witnesses, and 14 temporal branches; not a universal proof",
+  "source_pattern_partition": {
+    "00": "no reset",
+    "01": "reset",
+    "10": "reset",
+    "11": "reset"
+  },
+  "witnesses": [
+    {
+      "strategy": "A_file",
+      "archived_source_pairs": [
+        "P7R01",
+        "P7R06"
+      ],
+      "constructed_history": "fresh positive observations at t=0,2,3,5 seconds; source transition at t=3",
+      "same_strategy_change_indicator": true,
+      "strategy_t3_output": {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "CONTEXT_CHANGE"
+      },
+      "dual_reference_t3_first": {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "CONTEXT_CHANGE"
+      },
+      "dual_reference_t3_second": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "different_required_decision": true
+    },
+    {
+      "strategy": "B_calculation",
+      "archived_source_pairs": [
+        "P7R01",
+        "P7R06"
+      ],
+      "constructed_history": "fresh positive observations at t=0,2,3,5 seconds; source transition at t=3",
+      "same_strategy_change_indicator": false,
+      "strategy_t3_output": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "dual_reference_t3_first": {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "CONTEXT_CHANGE"
+      },
+      "dual_reference_t3_second": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "different_required_decision": true
+    },
+    {
+      "strategy": "C_documentation",
+      "archived_source_pairs": [
+        "P7R09",
+        "P7R06"
+      ],
+      "constructed_history": "fresh positive observations at t=0,2,3,5 seconds; source transition at t=3",
+      "same_strategy_change_indicator": false,
+      "strategy_t3_output": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "dual_reference_t3_first": {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "CONTEXT_CHANGE"
+      },
+      "dual_reference_t3_second": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "different_required_decision": true
+    }
+  ],
+  "temporal_checks": [
+    {
+      "name": "context reset",
+      "expected": {
+        "state": "PENDING",
+        "active": false,
+        "reason": "CONTEXT_CHANGE"
+      },
+      "actual": {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "CONTEXT_CHANGE"
+      },
+      "pass": true
+    },
+    {
+      "name": "policy reset",
+      "expected": {
+        "state": "PENDING",
+        "active": false,
+        "reason": "POLICY_CHANGE"
+      },
+      "actual": {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "POLICY_CHANGE"
+      },
+      "pass": true
+    },
+    {
+      "name": "both changes policy precedence",
+      "expected": {
+        "reason": "POLICY_CHANGE"
+      },
+      "actual": {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "POLICY_CHANGE"
+      },
+      "pass": true
+    },
+    {
+      "name": "future observation",
+      "expected": {
+        "state": "UNKNOWN",
+        "active": true,
+        "reason": "FUTURE"
+      },
+      "actual": {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "FUTURE"
+      },
+      "pass": true
+    },
+    {
+      "name": "stale observation",
+      "expected": {
+        "state": "UNKNOWN",
+        "active": true,
+        "reason": "STALE"
+      },
+      "actual": {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "STALE"
+      },
+      "pass": true
+    },
+    {
+      "name": "freshness equality",
+      "expected": {
+        "state": "ACTIVE",
+        "active": true,
+        "reason": "STATE"
+      },
+      "actual": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "pass": true
+    },
+    {
+      "name": "missing precedence",
+      "expected": {
+        "reason": "MISSING",
+        "active": true
+      },
+      "actual": {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "MISSING"
+      },
+      "pass": true
+    },
+    {
+      "name": "conflict",
+      "expected": {
+        "reason": "CONFLICT",
+        "active": true
+      },
+      "actual": {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "CONFLICT"
+      },
+      "pass": true
+    },
+    {
+      "name": "concurrent faults context precedence",
+      "expected": {
+        "reason": "CONTEXT_MISMATCH",
+        "active": false
+      },
+      "actual": {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      "pass": true
+    },
+    {
+      "name": "policy mismatch precedes time faults",
+      "expected": {
+        "reason": "POLICY_MISMATCH",
+        "active": false
+      },
+      "actual": {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      "pass": true
+    },
+    {
+      "name": "mismatched deferral",
+      "expected": {
+        "state": "ACTIVE",
+        "active": true,
+        "reason": "STATE"
+      },
+      "actual": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "pass": true
+    },
+    {
+      "name": "matching deferral before expiry",
+      "expected": {
+        "state": "SUPPRESSED",
+        "active": true,
+        "reason": "SUPPRESSION"
+      },
+      "actual": {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      "pass": true
+    },
+    {
+      "name": "expiry at event boundary",
+      "expected": {
+        "state": "ACTIVE",
+        "active": true,
+        "reason": "STATE"
+      },
+      "actual": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "pass": true
+    },
+    {
+      "name": "deferral policy mismatch",
+      "expected": {
+        "state": "ACTIVE",
+        "active": true,
+        "reason": "STATE"
+      },
+      "actual": {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      "pass": true
+    }
+  ],
+  "counts": {
+    "archived_pairs_read": 9,
+    "witnesses": 3,
+    "temporal_checks": 14
+  }
+}

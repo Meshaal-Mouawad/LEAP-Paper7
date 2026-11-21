@@ -1,0 +1,2006 @@
+{
+  "author": "original expectations /root/alarm_semantics; post-evaluation v2 regression /root/final_review",
+  "basis": "Original independent expected transitions retained; three valid missing-observation packets corrected to include required unit=s before v2 regression. This is post-evaluation verification.",
+  "oracle_sha256": "19d9895e86c7578925b555b2a44adeec810077be666b5044f255574f1d6caf53",
+  "specification_sha256": "bf5369f512df7b22ce7cfd85f735b1be0a161c74f621412864415389868f6909",
+  "cases": [
+    {
+      "name": "inclusive_dwell_and_escalation",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 1,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 1
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 5,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        },
+        {
+          "t": 6,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 6
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "inclusive_clear",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 4,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 4
+          }
+        },
+        {
+          "t": 5,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "positive_false_interrupt",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 1,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 1
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 4,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 4
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "unknown_before_open_breaks_dwell",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 1,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s"
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 4,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 4
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "MISSING"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "MISSING"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "unknown_active_retained_clock",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 6,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s"
+        },
+        {
+          "t": 7,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 7
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": true,
+          "severity": "UNKNOWN",
+          "reason": "MISSING"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": true,
+          "severity": "UNKNOWN",
+          "reason": "MISSING"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "unknown_breaks_clear_qualification",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 4,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": null,
+            "c": "c1",
+            "p": "p1",
+            "at": 4
+          }
+        },
+        {
+          "t": 5,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        },
+        {
+          "t": 6,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 6
+          }
+        },
+        {
+          "t": 7,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 7
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": true,
+          "severity": "UNKNOWN",
+          "reason": "CONFLICT"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": true,
+          "severity": "UNKNOWN",
+          "reason": "CONFLICT"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "context_reset_dwell",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "c": "c2",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c2",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "c": "c2",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c2",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "CONTEXT_CHANGE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "CONTEXT_CHANGE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "policy_reset_precedence",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "c": "c2",
+          "p": "p2",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c2",
+            "p": "p2",
+            "at": 3
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "POLICY_CHANGE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "POLICY_CHANGE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "reset_invalid_uses_quality_reason",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "c": "c2",
+          "p": "p2",
+          "unit": "s"
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "MISSING"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "MISSING"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "freshness_equality_valid",
+      "trace": [
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 4,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stale_then_fresh",
+      "trace": [
+        {
+          "t": 3,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 4,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 4
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "STALE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "STALE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "future_evidence",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 1
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "FUTURE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "FUTURE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "context_mismatch_before_policy_age_conflict",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": null,
+            "c": "wrong",
+            "p": "wrong",
+            "at": 1
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "CONTEXT_MISMATCH"
+        }
+      ],
+      "actual": [
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "CONTEXT_MISMATCH"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "policy_mismatch_before_age_conflict",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": null,
+            "c": "c1",
+            "p": "wrong",
+            "at": 1
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "POLICY_MISMATCH"
+        }
+      ],
+      "actual": [
+        {
+          "state": "UNKNOWN",
+          "active": false,
+          "severity": "UNKNOWN",
+          "reason": "POLICY_MISMATCH"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "suppression_expiry_and_clock",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "p": "p1",
+            "until": 6
+          }
+        },
+        {
+          "t": 5,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "p": "p1",
+            "until": 6
+          }
+        },
+        {
+          "t": 6,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 6
+          },
+          "s": {
+            "c": "c1",
+            "p": "p1",
+            "until": 6
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "SUPPRESSED",
+          "active": true,
+          "severity": "NONE",
+          "reason": "SUPPRESSION"
+        },
+        {
+          "state": "SUPPRESSED",
+          "active": true,
+          "severity": "NONE",
+          "reason": "SUPPRESSION"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "SUPPRESSED",
+          "active": true,
+          "severity": "NONE",
+          "reason": "SUPPRESSION"
+        },
+        {
+          "state": "SUPPRESSED",
+          "active": true,
+          "severity": "NONE",
+          "reason": "SUPPRESSION"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "stale_suppression_binding",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "old",
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "p": "old",
+            "until": 10
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "suppression_cannot_hide_unknown",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": null,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": true,
+          "severity": "UNKNOWN",
+          "reason": "CONFLICT"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "UNKNOWN",
+          "active": true,
+          "severity": "UNKNOWN",
+          "reason": "CONFLICT"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "milliseconds_normalize",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2000,
+          "c": "c1",
+          "p": "p1",
+          "unit": "ms",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2000
+          }
+        },
+        {
+          "t": 6000,
+          "c": "c1",
+          "p": "p1",
+          "unit": "ms",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 6000
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "ACTIVE",
+          "active": true,
+          "severity": "High",
+          "reason": "STATE"
+        },
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "zero_durations",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 1,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 1
+          }
+        }
+      ],
+      "policy": {
+        "D": 0,
+        "C": 0,
+        "E": 0,
+        "F": 0
+      },
+      "expected": [
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "ESCALATED",
+          "active": true,
+          "severity": "HIGH",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "observation_at_does_not_start_dwell",
+      "trace": [
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 3,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "PENDING",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "unchanged_false_control",
+      "trace": [
+        {
+          "t": 0,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 10,
+          "c": "c1",
+          "p": "p1",
+          "unit": "s",
+          "o": {
+            "value": false,
+            "c": "c1",
+            "p": "p1",
+            "at": 10
+          }
+        }
+      ],
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "expected": [
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "actual": [
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        },
+        {
+          "state": "CLEAR",
+          "active": false,
+          "severity": "NONE",
+          "reason": "STATE"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "duplicate_time",
+      "expected": "ValueError",
+      "pass": true
+    },
+    {
+      "name": "decreasing_time",
+      "expected": "ValueError",
+      "pass": true
+    },
+    {
+      "name": "bad_unit",
+      "expected": "ValueError",
+      "pass": true
+    },
+    {
+      "name": "nonfinite_time",
+      "expected": "ValueError",
+      "pass": true
+    },
+    {
+      "name": "integer_observation",
+      "expected": "ValueError",
+      "pass": true
+    },
+    {
+      "name": "missing_context",
+      "expected": "ValueError",
+      "pass": true
+    },
+    {
+      "name": "negative_duration",
+      "expected": "ValueError",
+      "pass": true
+    },
+    {
+      "name": "empty_observation",
+      "expected": "ValueError",
+      "pass": true
+    }
+  ],
+  "passed": 29,
+  "total": 29
+}

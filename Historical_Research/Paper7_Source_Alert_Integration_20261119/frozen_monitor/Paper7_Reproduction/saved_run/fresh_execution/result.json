@@ -1,0 +1,33 @@
+{
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "traces": 4935,
+  "events": 26430,
+  "exact_prediction_files": [
+    "primary",
+    "SQLite",
+    "PyContract"
+  ],
+  "pycontract_normalized_projection_sha256": "e6eb6e89b42794812e2b50f4ec1e9f94c64a3f70e2cd13768f4658715038cace",
+  "oracle_regression_checks": 29,
+  "equality_mismatches": 0,
+  "representation": {
+    "traces": 4935,
+    "events": 26430,
+    "decision_trace_mismatches": 0,
+    "reason_event_mismatches": 585,
+    "reason_pairs": {
+      "('POLICY_MISMATCH', 'CONTEXT_MISMATCH')": 510,
+      "('POLICY_CHANGE', 'CONTEXT_CHANGE')": 75
+    }
+  },
+  "mapped_alertmanager_expectations": 4,
+  "began_utc": "2026-11-18T17:57:30.317789+00:00",
+  "finished_utc": "2026-11-18T17:57:46.010996+00:00",
+  "elapsed_seconds": 15.693282579002698,
+  "pandas": "2.2.3",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "input_files_verified": 58,
+  "commands_executed": 9,
+  "all_commands_exit_zero": true
+}

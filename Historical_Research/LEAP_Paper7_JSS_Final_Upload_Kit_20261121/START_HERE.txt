@@ -1,0 +1,21 @@
+PAPER 7 — JSS SPECIAL ISSUE: UPLOAD GUIDE
+
+Open: https://www.editorialmanager.com/JSSOFTWARE
+Select: Submit New Manuscript
+Article Type: VSI: Reliable Automated SE
+Special Issue: Reliable and Trustworthy Automated Software Engineering
+
+1. Upload Manuscript.pdf as Manuscript (main article).
+2. Upload Highlights.docx as Highlights (editable file: five bullets, max 85 characters each).
+3. Upload Cover_Letter.pdf as Cover Letter.
+4. Upload Source_to_Alert_Reproduction.zip as Supplementary Material.
+5. Upload Temporal_Study_Reproduction.zip as Supplementary Material.
+6. Upload Authorization_Contract_Audit.zip as Supplementary Material.
+7. The complete editable manuscript source is Editable_LaTeX_Source.zip. If Editorial Manager asks for source files, upload it using LaTeX Source Files/Source File or the corresponding option. Do not label it as a second main manuscript.
+8. Copy title, abstract, keywords, author details and article type from 02_COPY_PASTE_FIELDS/SUBMISSION_FIELDS.txt.
+9. Respond to the journal's declaration questions according to the author's actual records. The manuscript includes an AI-use statement and Research materials citation.
+10. Build the merged submission PDF in Editorial Manager; inspect all manuscript pages, figure order, supplementary attachments and file descriptions; approve and submit.
+
+Harvard Dataverse: No further action. The existing dataset was already submitted to Harvard for review. The manuscript cites its identifier. Do not create or upload duplicate Harvard records.
+
+NOTE: The exact labels and number of pages in the online form may vary. Use the matching file designation shown by the journal's portal.

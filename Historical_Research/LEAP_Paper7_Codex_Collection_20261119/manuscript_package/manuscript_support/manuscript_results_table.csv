@@ -1,0 +1,12 @@
+measure,value,source
+Historical source transitions,9,collection_manifest.csv
+Historical source snapshots,18,verification/source_snapshot_checks.csv
+Snapshots matching local Git,18,verification/source_snapshot_checks.csv
+Input manifest entries verified,59,verification/input_manifest_checks.csv
+Constructed pilot cases in separate stratum,24,constructed_pilot/recorded_case_inventory.csv
+Authentic approval records recovered,0,authentic_approval_records.csv
+Reviewer slots,18,adjudication_blind.csv
+Populated signed reviewer decisions,0,manuscript_support/analysis/reviewer_analysis.json
+Cases with paired initial decisions,0,manuscript_support/analysis/reviewer_analysis.json
+Observed reviewer agreement,,manuscript_support/analysis/reviewer_analysis.json
+Cohen kappa,,manuscript_support/analysis/reviewer_analysis.json

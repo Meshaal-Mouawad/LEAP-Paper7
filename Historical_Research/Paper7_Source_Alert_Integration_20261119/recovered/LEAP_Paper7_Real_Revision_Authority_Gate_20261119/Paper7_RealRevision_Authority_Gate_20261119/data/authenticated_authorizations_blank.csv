@@ -1,0 +1,10 @@
+case_id,original_approval_id,approval_status,approval_actor_role_pseudonym,approval_created_at,authorization_scope,authorization_expiry,policy_version,finding_id,original_source_fingerprint,approval_evidence_path,approval_evidence_sha256,record_is_authentic,authorized_to_share_pseudonymized_record
+P7R01,,,,,,,,,,,,,
+P7R02,,,,,,,,,,,,,
+P7R03,,,,,,,,,,,,,
+P7R04,,,,,,,,,,,,,
+P7R05,,,,,,,,,,,,,
+P7R06,,,,,,,,,,,,,
+P7R07,,,,,,,,,,,,,
+P7R08,,,,,,,,,,,,,
+P7R09,,,,,,,,,,,,,

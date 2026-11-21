@@ -1,0 +1,175 @@
+{
+  "independent_scoring": "No evaluator/monitor/oracle scoring helpers imported; raw JSONL rescored.",
+  "total_traces": 4935,
+  "total_events": 26430,
+  "groups": 1645,
+  "split_and_variant_integrity": true,
+  "all_original_metric_rows_equal": 270,
+  "heldout_all": {
+    "traces": 2961,
+    "events": 15858,
+    "reference_active": 3879,
+    "reference_inactive": 11979,
+    "reference_unknown": 5409,
+    "reference_episodes": 963
+  },
+  "heldout_base": {
+    "traces": 987,
+    "events": 5286,
+    "reference_active": 1293,
+    "reference_inactive": 3993,
+    "reference_unknown": 1803,
+    "reference_episodes": 321
+  },
+  "heldout_base_metrics": [
+    {
+      "method": "bound",
+      "traces": 987,
+      "events": 5286,
+      "failures": 0,
+      "trace_agreement": 987,
+      "episode_agreement": 987,
+      "event_agreement": 5286,
+      "missed_active": 0,
+      "unwarranted_active": 0,
+      "reference_active": 1293,
+      "reference_inactive": 3993,
+      "severity_agreement": 5286,
+      "reason_agreement": 5286,
+      "unknown": 1803,
+      "reference_unknown": 1803
+    },
+    {
+      "method": "no_evidence_binding",
+      "traces": 987,
+      "events": 5286,
+      "failures": 0,
+      "trace_agreement": 957,
+      "episode_agreement": 969,
+      "event_agreement": 5082,
+      "missed_active": 0,
+      "unwarranted_active": 84,
+      "reference_active": 1293,
+      "reference_inactive": 3993,
+      "severity_agreement": 5082,
+      "reason_agreement": 5082,
+      "unknown": 1599,
+      "reference_unknown": 1803
+    },
+    {
+      "method": "no_freshness",
+      "traces": 987,
+      "events": 5286,
+      "failures": 0,
+      "trace_agreement": 969,
+      "episode_agreement": 975,
+      "event_agreement": 5235,
+      "missed_active": 6,
+      "unwarranted_active": 18,
+      "reference_active": 1293,
+      "reference_inactive": 3993,
+      "severity_agreement": 5235,
+      "reason_agreement": 5268,
+      "unknown": 1785,
+      "reference_unknown": 1803
+    },
+    {
+      "method": "no_suppression_binding",
+      "traces": 987,
+      "events": 5286,
+      "failures": 0,
+      "trace_agreement": 957,
+      "episode_agreement": 987,
+      "event_agreement": 5238,
+      "missed_active": 0,
+      "unwarranted_active": 0,
+      "reference_active": 1293,
+      "reference_inactive": 3993,
+      "severity_agreement": 5238,
+      "reason_agreement": 5238,
+      "unknown": 1803,
+      "reference_unknown": 1803
+    },
+    {
+      "method": "snapshot",
+      "traces": 987,
+      "events": 5286,
+      "failures": 0,
+      "trace_agreement": 246,
+      "episode_agreement": 246,
+      "event_agreement": 3435,
+      "missed_active": 408,
+      "unwarranted_active": 1179,
+      "reference_active": 1293,
+      "reference_inactive": 3993,
+      "severity_agreement": 3525,
+      "reason_agreement": 0,
+      "unknown": 1566,
+      "reference_unknown": 1803
+    },
+    {
+      "method": "timer_only",
+      "traces": 987,
+      "events": 5286,
+      "failures": 0,
+      "trace_agreement": 897,
+      "episode_agreement": 927,
+      "event_agreement": 4944,
+      "missed_active": 0,
+      "unwarranted_active": 192,
+      "reference_active": 1293,
+      "reference_inactive": 3993,
+      "severity_agreement": 4944,
+      "reason_agreement": 5004,
+      "unknown": 1599,
+      "reference_unknown": 1803
+    }
+  ],
+  "metamorphic_invariance": {
+    "bound": {
+      "pairs": 3290,
+      "equal": 3290
+    },
+    "no_evidence_binding": {
+      "pairs": 3290,
+      "equal": 3290
+    },
+    "no_freshness": {
+      "pairs": 3290,
+      "equal": 3290
+    },
+    "no_suppression_binding": {
+      "pairs": 3290,
+      "equal": 3290
+    },
+    "snapshot": {
+      "pairs": 3290,
+      "equal": 3290
+    },
+    "timer_only": {
+      "pairs": 3290,
+      "equal": 3290
+    }
+  },
+  "baseline_raw_output_checks": {
+    "SQLite": {
+      "traces": 4935,
+      "events": 26430,
+      "all_field_mismatches": 0,
+      "execution_errors": 0
+    },
+    "PyContract": {
+      "traces": 4935,
+      "events": 26430,
+      "all_field_mismatches": 0,
+      "execution_errors": 0
+    }
+  },
+  "input_hashes": {
+    "benchmark/traces.jsonl": "92f6ca523af501d7db4ad11835fbffcd585ecd064a3fe4ccfe4f9b6d592e60e1",
+    "benchmark/reference.jsonl": "d93440c5068f577b0bbdf7d3a81f1cfc1090c4a41803a157c5d05a38d06e9abe",
+    "results/predictions.jsonl": "18d4c6db9f58c9844e465e6447229cb49b242cc299e557bde2b62fcc6704c14a",
+    "replication_r2/predictions.jsonl": "bcd6f2cf4d125efb2a19f7cdec719b0fcbcc53378a953acaebb92ee6f7e64909",
+    "r3/baseline/predictions.jsonl": "05e417a248e8557f7a4635c33b485a9eeeee34b7b91e319e573f640dfe877810"
+  }
+}

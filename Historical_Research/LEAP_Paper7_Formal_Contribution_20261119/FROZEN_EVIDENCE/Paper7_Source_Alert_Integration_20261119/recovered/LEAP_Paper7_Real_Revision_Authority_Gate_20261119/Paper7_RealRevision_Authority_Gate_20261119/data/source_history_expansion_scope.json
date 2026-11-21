@@ -1,0 +1,11 @@
+{
+  "audit_date": "2026-11-19",
+  "git_source": "User uploaded 169MB original LEAP Git archive",
+  "scanned": "156 git commits across all archived refs, every parent edge with tracked source suffix .py/.sql/.tsql/.abap/.r/.ipynb/.sas; select M-modified example code files.",
+  "commit_edge_count": 83,
+  "source_code_status_events_all": 223,
+  "source_code_modifications_all": 73,
+  "example_modified_file_pairs": 9,
+  "code_only_technical_comparison": "AST identity for Python; removal of comment-only lines and whitespace for limited SQL/TSQL/ABAP fixture examples. Narrow syntactic evidence, not complete semantic equivalence.",
+  "approval_records": "no authentic signed authorization identified; zero independently verified carry-forward decisions."
+}

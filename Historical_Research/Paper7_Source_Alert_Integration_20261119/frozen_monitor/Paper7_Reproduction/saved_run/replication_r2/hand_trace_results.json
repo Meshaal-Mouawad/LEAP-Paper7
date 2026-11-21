@@ -1,0 +1,974 @@
+[
+  {
+    "name": "inclusive_dwell_and_escalation",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "inclusive_clear",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "positive_false_interrupt",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "unknown_before_open_breaks_dwell",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "MISSING"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "MISSING"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "unknown_active_retained_clock",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "MISSING"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "MISSING"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "unknown_breaks_clear_qualification",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "CONFLICT"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "CONFLICT"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "context_reset_dwell",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "CONTEXT_CHANGE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "CONTEXT_CHANGE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "policy_reset_precedence",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "POLICY_CHANGE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "POLICY_CHANGE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "reset_invalid_uses_quality_reason",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "MISSING"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "MISSING"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "freshness_equality_valid",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "stale_then_fresh",
+    "outputs": [
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "STALE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "STALE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "future_evidence",
+    "outputs": [
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "FUTURE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "FUTURE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "context_mismatch_before_policy_age_conflict",
+    "outputs": [
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "policy_mismatch_before_age_conflict",
+    "outputs": [
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "reference": [
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "suppression_expiry_and_clock",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "stale_suppression_binding",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "suppression_cannot_hide_unknown",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "CONFLICT"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": true,
+        "severity": "UNKNOWN",
+        "reason": "CONFLICT"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "milliseconds_normalize",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "zero_durations",
+    "outputs": [
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "ESCALATED",
+        "active": true,
+        "severity": "HIGH",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "observation_at_does_not_start_dwell",
+    "outputs": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  },
+  {
+    "name": "unchanged_false_control",
+    "outputs": [
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "reference": [
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "CLEAR",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      }
+    ],
+    "pass": true
+  }
+]

@@ -1,0 +1,242 @@
+Independent Peer Review — LEAP Paper 7
+19 November 2026 | Target: Science of Computer Programming (Elsevier) | Gold Niche Journal Standard
+
+Manuscript: Version Comparisons Preserve Governance Alert Decisions Across Evidence and Policy Revisions
+
+Review type: Scientific, mathematical, methodological, literature, structural, and submission-quality assessment.
+1. Scientific assessment
+The manuscript establishes a coherent distinction between the existence of an active review episode and the warning displayed to a reviewer. This is the central contribution worth preserving.
+
+Table 4 and Table 5 report that removing suppression-version binding changes 30 of 987 complete decision sequences and 48 of 5,286 individual event decisions, despite leaving all 987 active-episode sequences unchanged. The result directly supports evaluating displayed decisions separately from underlying episode activity.
+
+The manuscript also develops a formal argument for replacing raw version identifiers with comparison indicators, retaining different amounts of information for decisions and diagnostic reasons.
+
+The benchmark's reported design totals are arithmetically consistent: 329 temporal designs across five rule families and three representations produce 4,935 traces and 26,430 events.
+
+The scientific question is substantive and the principal reported result supports it. The remaining review determines whether the theoretical contribution, source evidence, and final presentation satisfy the stronger Gold Niche submission gates.
+2. Material findings requiring attention
+M1 — The six-comparison representation is redundant
+MAJOR theoretical refinement | Sections 4 and 7, pp. 10–11 and 18
+
+Proposition 3 correctly proves that six Boolean comparisons preserve the complete decision and reason. The manuscript can establish a stronger result: five comparisons suffice under its own reason-selection rule.
+
+The sufficient representation is:
+\[
+(\Delta_c,\Delta_p,O_c,O_p,S_{\mathrm{joint}})
+\]
+
+where the first two indicators identify current evidence and policy changes; the next two identify observation-context and observation-policy matches; and the final indicator records whether the suppression matches both current versions.
+
+Equation (1) reports SUPPRESSION when suppression actually affects the display. It does not distinguish suppression-context mismatch from suppression-policy mismatch. The two separate suppression indicators can therefore be combined without losing any reported reason.
+
+Required correction: Strengthen Proposition 3 or add a corollary establishing the five-comparison representation. Update the abstract, contribution statement and discussion to report this sharper sufficiency result. The three-comparison Proposition 4 remains valid.
+
+This correction strengthens the theoretical contribution without changing the experiment or its reported results.
+M2 — The notation for reset information is reused
+MINOR mathematical clarity | Sections 3.2 and 4, pp. 8 and 10–11
+
+The symbol \(r_i\) denotes the selected categorical reset reason in Equation (1), then becomes a Boolean version-change indicator in Proposition 4. These have different domains.
+
+Required correction: Use distinct symbols, such as \(R_i\) for the reset-reason label and \(\Delta_i\) for the joint version-change indicator. Preserve the mathematical definitions and results.
+M3 — Severity values are not fully specified in the manuscript
+MAJOR methodological reporting | Table 1, p. 3; Sections 4–5, pp. 10–13
+
+Severity is one of the three components of the primary decision tuple. The manuscript states that each rule family contributes its recovered severity, yet Table 1 identifies the five rules and lexical predicates without specifying their respective severity labels.
+
+Required correction: Add the verified severity value for each rule family to Table 1, or provide an explicit mapping to the corresponding entries in the reproduction archive.
+
+This closes a reporting gap in the definition of the primary endpoint. No new experiment is required.
+M4 — The closest evolution-aware runtime-verification literature needs one update
+MODERATE literature completeness | Section 2.4, p. 5
+
+The manuscript cites Legunsen et al. (2019) on evolution-aware runtime verification. A directly related 2025 successor is:
+
+Guan and Legunsen (2025), Instrumentation-Driven Evolution-Aware Runtime Verification, ICSE 2025.
+
+The newer study evaluates change-aware monitoring across 2,028 revisions of 66 projects, concentrating on monitoring overhead and the detection of new violations. 
+
+cs.cornell.edu
+
+The distinction is relevant: Guan and Legunsen address efficient monitoring across program revisions; Paper 7 addresses whether version-bound evidence and suppressions preserve a specified decision and its reason.
+
+Required correction: Add a concise comparison after the existing evolution-aware verification discussion. Establish the exact difference in research question and measured outcome, without attributing failures to the earlier researchers.
+
+The missing study does not invalidate Paper 7's contribution.
+M5 — The reproduction claims require independent execution verification
+REQUIRED VERIFICATION | Sections 5.2, 6.4–6.6 and Research materials, pp. 12–19
+
+The manuscript reports reference agreement, witness checks, malformed-input tests, SQLite execution, PyContract execution, source verification, and externally mapped suppression outcomes.
+
+The reported verification structure is detailed. The PDF identifies the reproduction command:
+
+python -B run_all.py ../paper7-run
+
+The reproduction archive, frozen input packets, manifests, source implementations, and raw outputs were not included with the manuscript supplied for this review.
+
+Consequently, the following numerical claims have been inspected for internal consistency, not independently reproduced from executable evidence.
+Reported check	Manuscript result	This review
+Held-out base traces	987/987	Arithmetic consistent
+Held-out transformed traces	2,961/2,961	Arithmetic consistent
+Complete benchmark events	26,430	Arithmetic consistent
+Five-family three-representation benchmark	4,935 traces	Arithmetic consistent
+PyContract event agreement	26,430/26,430	Not independently executed
+SQLite event agreement	26,430/26,430	Not independently executed
+Concurrent-condition checks	96/96	Not independently executed
+Malformed-input probes	28 passed	Not independently executed
+Joint-encoding reason differences	585 = 510 + 75	Arithmetic consistent
+
+Required verification: Independently run the submitted reproduction archive, compare the generated results with Tables 4–5, and validate the frozen reference and source identities. Preserve the original experiments.
+
+This is a verification gate, not evidence that the reported results are incorrect.
+M6 — Editorial-process information is duplicated in the scientific narrative
+MINOR editorial correction | Figures 1–2, pp. 7 and 10; Section 5.2, p. 13
+
+The captions for Figures 1 and 2 include ChatGPT/Codex preparation details and Matplotlib export metadata. Section 5.2 similarly repeats figure-preparation information.
+
+The manuscript already contains a dedicated generative-AI declaration on page 19.
+
+Required correction: Keep the approved declaration. Retain computational-environment and figure-reproduction information in the appropriate methods or reproduction documentation. Restrict figure captions to the scientific information required to interpret the figures.
+
+There is no reason to rewrite the figures or change their underlying data.
+3. Comparison against the current research frontier
+The journal comparison supports a FIT decision for Science of Computer Programming, specifically its research-paper track covering formal techniques and experimental software technology. The publisher expressly includes verification, monitoring-related methods, and software experimentation within its scope. 
+
+Elsevier Shop
+
+The closest verified research provides the following distinctions.
+Research	Established contribution	Relationship to Paper 7
+Abstract Monitors for Quantitative Specifications — Henzinger et al., 2022	Equivalence classes of monitor histories and output-precision relationships	Formal foundation for indistinguishable input histories.  link.springer.com
+Data Minimisation: A Language-Based Approach — Antignac et al., 2017	Input preprocessing that preserves program functionality	Closest general predecessor for output-preserving reduction.  research.chalmers.se
+Vamos: Middleware for best-effort third-party monitoring — Chalupa et al., 2025	Processing heterogeneous observation streams and explicit information loss	Complementary monitoring-interface problem; does not establish the manuscript's version-bound suppression result.  research-explorer.ista.ac.at
+Stream-based monitoring with RTLola — Baumeister et al., 2026	Formal stream specifications and monitor construction	Supports the execution context; distinct contribution and article type.  sciencedirect.com
+CauMon: A tool for online monitoring against signal temporal logic — Zhang et al., 2026	Causation-based online monitoring	Related to verdict explanations; Paper 7 studies the information required for predefined reason categories.  sciencedirect.com
+
+Novelty finding: The general principle of preserving outputs under reduced information is established prior knowledge. Paper 7 contributes a specific version-bound monitoring contract, paired omission witnesses, and separate decision-preserving and reason-preserving interface results.
+
+That is a defensible methodological contribution. The five-comparison refinement identified in M1 makes the formal result more precise.
+4. Section-by-section structural assessment
+Section	Review judgment	Action
+Title and abstract	PASS	Incorporate the strengthened theoretical result from M1
+Introduction	PASS	Retain the problem-led example, questions Q1–Q3 and contributions
+Background and related work	PASS with correction	Add the 2025 evolution-aware monitoring comparison
+Review contract	PASS	Preserve transitions, ordering and boundary definitions
+Information requirements	PASS with correction	Establish five-comparison sufficiency and clarify notation
+Controlled evaluation	PASS with correction	Supply explicit severity mapping
+Results	PASS for internal consistency	Verify against executable outputs
+Discussion	PASS	Align the comparison-count interpretation with revised proposition
+Conclusion	PASS	Reflect the sharpened formal result
+Limitations	PASS	Retain the dedicated late section
+Figures and tables	PASS for layout	Remove duplicate process details from captions
+Reproducibility	NOT VERIFIED	Requires archive and executable check
+
+The Introduction and Related Work meet the reader-first progression required by the source protocols. The manuscript introduces the review problem before formal notation and explains the difference between findings, active episodes and deferrals.
+
+The PDF has also been rendered and inspected across all 22 pages. Figures 1–3, Tables 1–5, the displayed equations and continued Table 2 are readable. The preflight check found an openable PDF with embedded fonts and no structural failure.
+5. Gold Niche Journal final gate assessment
+This applies the project's Gold Niche Chief Editor standard to the specific evidence examined.
+G1 — Journal fit
+
+SCP scope supports the research genre
+
+PASS
+
+
+G2 — Scientific contribution
+
+Formal distinction and measured ablation are supported by the manuscript
+
+PASS
+
+
+G3 — Reader independence
+
+Central concepts and worked case are understandable
+
+PASS
+
+
+G4 — Argument continuity
+
+Q1–Q3 align with analysis, results and conclusion
+
+PASS
+
+
+G5 — Source integrity
+
+Key primary sources checked; complete 30-reference claim audit incomplete
+
+NOT VERIFIED
+
+
+G6 — Method completeness
+
+Severity mapping missing from main paper
+
+FAIL
+
+
+G7 — Results integrity
+
+Internal arithmetic passes; raw outputs not rerun
+
+NOT VERIFIED
+
+
+G8 — Figures and tables
+
+Rendered layout is technically readable
+
+PASS
+
+
+G9 — Preservation
+
+No prior authoritative version supplied for comparison
+
+NOT VERIFIED
+
+
+G10 — Production package
+
+Executable archive and submission package absent
+
+NOT VERIFIED
+
+
+G11 — Authorial voice
+
+Duplicated editorial-process information requires removal
+
+FAIL
+
+
+G12 — Review closure
+
+No earlier Paper 7 closure report available for comparison
+
+NOT VERIFIED
+
+
+The official SCP journal scope was verified. Its current complete submission guide could not be retrieved directly. Elsevier's official submission support confirms that a separate Declaration of Competing Interests document is mandatory; journal-specific supporting files remain part of the final package check. 
+
+Journal Article Publishing Support Center
+
+6. Required correction order
+The authoring agent should complete the following targeted work and return a finding-by-finding response:
+1. M1: Establish five-comparison sufficiency for reasons and synchronize the affected contribution statements.
+2. M2–M3: Correct the reset-variable ambiguity and provide the five source-rule severity labels.
+3. M4: Incorporate the relevant 2025 evolution-aware runtime-verification comparison.
+4. M6: Clean duplicate AI/tool-process details from scientific captions, preserving the approved disclosure.
+5. M5: Supply and independently verify the frozen reproduction archive against the existing manuscript results.
+The rest of the validated manuscript structure, figures, equations, numerical outputs and experiment design should remain unchanged.
+7. Final independent review decision
+DECISION: TARGETED REVISION REQUIRED — NOT YET APPROVED FOR SUBMISSION RELEASE.
+
+The manuscript's principal contribution is coherent, its propositions as stated are logically supported, and its reported numerical design is internally consistent. I found no demonstrated mathematical contradiction in the three- or six-comparison sufficiency results.
+
+The strongest substantive improvement is the five-comparison result. The remaining manuscript corrections are localized. No additional research experiment is required by the findings established in this review.
+Limitations of this independent review
+The review covered the complete supplied 22-page PDF, relevant project writing standards, mathematical reasoning, published research comparisons, numerical reconciliation and PDF rendering. It consisted of separate internal review passes, without independently launched peer-review agents. The full reproduction archive, original experimental outputs and previous approved manuscript baseline were unavailable, so computational reproduction, complete citation-support verification, prior-version preservation and final submission-package compliance remain unverified.
+
+Release condition: Close M1–M6 with documented evidence, then perform the independent reproduction check and final submission-package audit. Retain all unaffected scientific material.

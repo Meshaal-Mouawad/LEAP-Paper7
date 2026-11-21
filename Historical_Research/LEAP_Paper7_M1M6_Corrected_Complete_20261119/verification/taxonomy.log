@@ -1,0 +1,38 @@
+{
+  "categories": {
+    "four_symbol_sequences": {
+      "base_groups_all_families": 1280,
+      "traces_all_families_variants": 3840,
+      "events_all_families_variants": 15360
+    },
+    "long_controls": {
+      "base_groups_all_families": 15,
+      "traces_all_families_variants": 45,
+      "events_all_families_variants": 540
+    },
+    "interventions": {
+      "base_groups_all_families": 275,
+      "traces_all_families_variants": 825,
+      "events_all_families_variants": 9900
+    },
+    "temporal_boundaries": {
+      "base_groups_all_families": 75,
+      "traces_all_families_variants": 225,
+      "events_all_families_variants": 630
+    }
+  },
+  "total_groups": 1645,
+  "total_traces": 4935,
+  "total_events": 26430,
+  "intervention_type_count": 11,
+  "positions": [
+    2,
+    3,
+    5,
+    7,
+    9
+  ],
+  "intervention_pairs_per_family": 55,
+  "intervention_records_checked": 825,
+  "passed": 825
+}

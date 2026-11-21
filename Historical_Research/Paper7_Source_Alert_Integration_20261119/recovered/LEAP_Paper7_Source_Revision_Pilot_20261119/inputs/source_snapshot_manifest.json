@@ -1,0 +1,70 @@
+{
+  "source_repo": "User-supplied AI-Powered_KPI_Extractor_Interactive_Bluebook_Generator.zip archived Git HEAD main",
+  "paths": [
+    {
+      "source_path": "phase3/BestKPItest_iso_kpis/yield_correct.sql",
+      "sha256": "aa99559ed4bb8b372a20ce2bedda26952e38d4e63ab3a9d06e677b427a6f3e1d",
+      "bytes": 110
+    },
+    {
+      "source_path": "phase3/BestKPItest_iso_kpis/yield_wrong_operator.sql",
+      "sha256": "32b6ba18c88e07676a84cef13cd0f97e355cee565a6297ff8aa0f8dec561fc9f",
+      "bytes": 107
+    },
+    {
+      "source_path": "phase3/BestKPItest_iso_kpis/yield_wrong_variables.sql",
+      "sha256": "106a9e9d95818a67fe39bba6d552dafbc3c2b624e60219373f020d9942747b6c",
+      "bytes": 101
+    },
+    {
+      "source_path": "phase3/BestKPItest_iso_kpis/utilization_correct.sql",
+      "sha256": "360150647d5b64b89922113971b0674c4964d0d4f984357beccb1b0e4685f97e",
+      "bytes": 124
+    },
+    {
+      "source_path": "phase3/BestKPItest_iso_kpis/utilization_wrong.sql",
+      "sha256": "86150fb2d94a5e603b47b5965bf20756ff82bc52b5901e5c2b16b1d8fc7d24f3",
+      "bytes": 147
+    },
+    {
+      "source_path": "sample_project/python_kpi.py",
+      "sha256": "8dc50ba59665e593b44cebc224a59aa5a7b76cf8771007b1e77769de501f17c5",
+      "bytes": 425
+    },
+    {
+      "source_path": "sample_projects/leap_enterprise_scenarios/kpi_environment_emissions_intensity.py",
+      "sha256": "f6991fdc021edda6aae0df960685923af09adf03789ea7f3a7fce4f37a36b9b9",
+      "bytes": 775
+    },
+    {
+      "source_path": "bluebook_generator/main.py",
+      "sha256": "dcc0b05e504d2969e117ba2e3f2b753f37ce2ff53f4c60970ce1d4f9460ba0ac",
+      "bytes": 131947
+    },
+    {
+      "source_path": ".ai/GOVERNANCE_SPEC.md",
+      "sha256": "427f975d772757f387ae2faaa0fbb694f47d60916fc54c8c7f8d55f7e62c094f",
+      "bytes": 1092
+    },
+    {
+      "source_path": ".ai/BUSINESS_RULES.md",
+      "sha256": "0451a0e692b38a3145b0847939f18b5d11b7a20c9d89538ee97ddfe1b7800099",
+      "bytes": 1826
+    },
+    {
+      "source_path": "kb/overrides.json",
+      "sha256": "7fd6c4e1e466257811092373188672caac65d31a26fce70a0be8964c4d2f1a4a",
+      "bytes": 192
+    },
+    {
+      "source_path": "bluebook_generator/kb/overrides.json",
+      "sha256": "7fd6c4e1e466257811092373188672caac65d31a26fce70a0be8964c4d2f1a4a",
+      "bytes": 192
+    },
+    {
+      "source_path": "docs/governance_overrides.json",
+      "sha256": "c5c74d8a1389f86f2d5bd36c06a54fb9987c41401ac932d8ccef9dca962003da",
+      "bytes": 20
+    }
+  ]
+}

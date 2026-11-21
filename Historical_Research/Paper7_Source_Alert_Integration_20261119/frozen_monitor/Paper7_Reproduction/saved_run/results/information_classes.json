@@ -1,0 +1,5622 @@
+[
+  {
+    "id": "privacy/event.c/left",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "83358ec89e40db786087de34674d2214eba9b56d11794d1a3ade5220d6ba5da4",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "privacy/event.c/right",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "83358ec89e40db786087de34674d2214eba9b56d11794d1a3ade5220d6ba5da4",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "privacy/event.p/left",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "276e79715e7a5408ffea0fc89d4b84f942e769ff9046185a7f5a910dc1994024",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "privacy/event.p/right",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "276e79715e7a5408ffea0fc89d4b84f942e769ff9046185a7f5a910dc1994024",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "privacy/o.c/left",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "41e0ff5708b4889b0f1e19fc3eced0ac1eabe88be2c8519f9419a7c88bcbb298",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "privacy/o.c/right",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "41e0ff5708b4889b0f1e19fc3eced0ac1eabe88be2c8519f9419a7c88bcbb298",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "privacy/o.p/left",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "f009267b7c9e5e6169a1a721bbf19bde825db5709097089ca43a0c70e7bc2e40",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "privacy/o.p/right",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "f009267b7c9e5e6169a1a721bbf19bde825db5709097089ca43a0c70e7bc2e40",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "privacy/s.c/left",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "8ded0b86df346dba13980e8c4491fb236e5aedbee8e153e94a1263f1daea24e0",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "privacy/s.c/right",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "8ded0b86df346dba13980e8c4491fb236e5aedbee8e153e94a1263f1daea24e0",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "privacy/s.p/left",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "9366a5f29719a36557fbc4f2d81a6cb929f70af15f1aeaad466bd2c97c3d40ab",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "privacy/s.p/right",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-PDPL-REG-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "9366a5f29719a36557fbc4f2d81a6cb929f70af15f1aeaad466bd2c97c3d40ab",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "execution/event.c/left",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "32b83d96191f139ef1a09f3d901aeb28c26f9a4b0c58efd87cd948db2b0ae133",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "execution/event.c/right",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "32b83d96191f139ef1a09f3d901aeb28c26f9a4b0c58efd87cd948db2b0ae133",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "execution/event.p/left",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "2626a9f7e63a7253023e6c1647ca48cbdf9dcc7073edaaa6767da0b970ee86bc",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "execution/event.p/right",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "2626a9f7e63a7253023e6c1647ca48cbdf9dcc7073edaaa6767da0b970ee86bc",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "execution/o.c/left",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "20ebd2c27c8f9fccbb3655c8702b4bfdba2573493dda322667f8b04a522e180e",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "execution/o.c/right",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "20ebd2c27c8f9fccbb3655c8702b4bfdba2573493dda322667f8b04a522e180e",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "execution/o.p/left",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "edfbd90da2b266b921f0b17d47e4e5553c882202b3c6c51b07e6ce8cb6d02183",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "execution/o.p/right",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "edfbd90da2b266b921f0b17d47e4e5553c882202b3c6c51b07e6ce8cb6d02183",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "execution/s.c/left",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "757d250a816bf4b7c32e6da56c8fb37234aeed3f168b44a23822b7a3088a2e64",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "execution/s.c/right",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "757d250a816bf4b7c32e6da56c8fb37234aeed3f168b44a23822b7a3088a2e64",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "execution/s.p/left",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "3602b9fa9318f945d9b725b2b804ba0e0f2dd0fd26de1c281bd0dc857e8926a6",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "execution/s.p/right",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-SEC-04",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "3602b9fa9318f945d9b725b2b804ba0e0f2dd0fd26de1c281bd0dc857e8926a6",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "audit/event.c/left",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "40185c583d6e7e9b57a6ecdbc386987dece6d9596f4010c51d47e6c90a51cc1e",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "audit/event.c/right",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "40185c583d6e7e9b57a6ecdbc386987dece6d9596f4010c51d47e6c90a51cc1e",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "audit/event.p/left",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "035f315aaf73701a7b4c906e16e22624d98104532c7797c1d809cf0511b9b18a",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "audit/event.p/right",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "035f315aaf73701a7b4c906e16e22624d98104532c7797c1d809cf0511b9b18a",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "audit/o.c/left",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "b0fb7d30be20baa94d4c245a5d4e80f1d267b8157f4602d0ff52132d6446656a",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "audit/o.c/right",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "b0fb7d30be20baa94d4c245a5d4e80f1d267b8157f4602d0ff52132d6446656a",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "audit/o.p/left",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "18a698101728e67f85db52f64513cb32041cb5875313684557bf512dec530628",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "audit/o.p/right",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "18a698101728e67f85db52f64513cb32041cb5875313684557bf512dec530628",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "audit/s.c/left",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "bb81c02dd10c349ef9d7b8512db057ed583ad32858826153f66731f99babac35",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "audit/s.c/right",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "bb81c02dd10c349ef9d7b8512db057ed583ad32858826153f66731f99babac35",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "audit/s.p/left",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "13d3f0b2dcc7a4dd478bdb3a82c854cf2ad54e17f6b99df2c8fb1fdba1d5fb2c",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "audit/s.p/right",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "KSA-NCA-ECC-AUD-02",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "13d3f0b2dcc7a4dd478bdb3a82c854cf2ad54e17f6b99df2c8fb1fdba1d5fb2c",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "transfer/event.c/left",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "41631bb3a8a5bf5aa2a07cbbfafd86987c3d1fa5140b5dd5c5648ffdc0d24fb0",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "transfer/event.c/right",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "41631bb3a8a5bf5aa2a07cbbfafd86987c3d1fa5140b5dd5c5648ffdc0d24fb0",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "transfer/event.p/left",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "a40f0613cea1a64817e01848bd79f741f9e54a5f9ba395cb3c44a8f0d0ac692d",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "transfer/event.p/right",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "a40f0613cea1a64817e01848bd79f741f9e54a5f9ba395cb3c44a8f0d0ac692d",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "transfer/o.c/left",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "bc9ed7db05ec812e6f83309ace89f96cc1e538bf6bd6265eda8bb6986233c9b5",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "transfer/o.c/right",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "bc9ed7db05ec812e6f83309ace89f96cc1e538bf6bd6265eda8bb6986233c9b5",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "transfer/o.p/left",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "7526a4f30d58094f9b698836a73c14f8277a1659ce41e4276be63b9bd86e9b34",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "transfer/o.p/right",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "7526a4f30d58094f9b698836a73c14f8277a1659ce41e4276be63b9bd86e9b34",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "transfer/s.c/left",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "ef8971753353da3ca30ff744ae04c28d6e18f6842ddafa9ad4858edc26c92a58",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "transfer/s.c/right",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "ef8971753353da3ca30ff744ae04c28d6e18f6842ddafa9ad4858edc26c92a58",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "transfer/s.p/left",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "95b1a147e51384391189fcb7af9aae58e09300a74a640e1518943140d399b0b3",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "transfer/s.p/right",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "GDPR-DATA-PROC-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "95b1a147e51384391189fcb7af9aae58e09300a74a640e1518943140d399b0b3",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "lineage/event.c/left",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "c94eb7f3fbef3563925cbb66ba8469c0f82fb908d9a8c99b1a6ae18d57a4a8c2",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "lineage/event.c/right",
+    "drop": "event.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "c94eb7f3fbef3563925cbb66ba8469c0f82fb908d9a8c99b1a6ae18d57a4a8c2",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "lineage/event.p/left",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "a4abb72c621336d834956e22d3edaa4e988928ebb2cc83524df35a2948b7e9ff",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "lineage/event.p/right",
+    "drop": "event.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "a4abb72c621336d834956e22d3edaa4e988928ebb2cc83524df35a2948b7e9ff",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "lineage/o.c/left",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "46fe4637601b12a1750d65634b39c921d79a0d14e0486a608496677109df82a7",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "lineage/o.c/right",
+    "drop": "o.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "p": "p1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "46fe4637601b12a1750d65634b39c921d79a0d14e0486a608496677109df82a7",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "CONTEXT_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "lineage/o.p/left",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "bfcf30302957d8e67b34ce9682bba3518e0aa2a1c34280e591a8ef5a99e11687",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "lineage/o.p/right",
+    "drop": "o.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 0
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 2
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 3
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "at": 5
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "bfcf30302957d8e67b34ce9682bba3518e0aa2a1c34280e591a8ef5a99e11687",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      },
+      {
+        "state": "UNKNOWN",
+        "active": false,
+        "severity": "UNKNOWN",
+        "reason": "POLICY_MISMATCH"
+      }
+    ]
+  },
+  {
+    "id": "lineage/s.c/left",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "c503689e6e43f563aa4c24ab301c87d411bc52811425390ab1708439d03af331",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "lineage/s.c/right",
+    "drop": "s.c",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "p": "p1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "c503689e6e43f563aa4c24ab301c87d411bc52811425390ab1708439d03af331",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  },
+  {
+    "id": "lineage/s.p/left",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "11e7ec654c698f9919648d7cddadee8461c1299f835abcf0f3954496168a2217",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      },
+      {
+        "state": "SUPPRESSED",
+        "active": true,
+        "severity": "NONE",
+        "reason": "SUPPRESSION"
+      }
+    ]
+  },
+  {
+    "id": "lineage/s.p/right",
+    "drop": "s.p",
+    "projected_input": {
+      "events": [
+        {
+          "t": 0,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 0
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 2,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 2
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 3,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 3
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        },
+        {
+          "t": 5,
+          "unit": "s",
+          "c": "c1",
+          "p": "p1",
+          "o": {
+            "value": true,
+            "c": "c1",
+            "p": "p1",
+            "at": 5
+          },
+          "s": {
+            "c": "c1",
+            "until": 10
+          }
+        }
+      ],
+      "rule": "SOC2-LINEAGE-AUDIT-01",
+      "policy": {
+        "D": 2,
+        "C": 2,
+        "E": 4,
+        "F": 2
+      },
+      "base_severity": "High"
+    },
+    "projection_sha256": "11e7ec654c698f9919648d7cddadee8461c1299f835abcf0f3954496168a2217",
+    "reference": [
+      {
+        "state": "PENDING",
+        "active": false,
+        "severity": "NONE",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      },
+      {
+        "state": "ACTIVE",
+        "active": true,
+        "severity": "High",
+        "reason": "STATE"
+      }
+    ]
+  }
+]

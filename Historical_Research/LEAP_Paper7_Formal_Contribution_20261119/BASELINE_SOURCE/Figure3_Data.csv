@@ -1,0 +1,6 @@
+method,figure_label,traces,complete_decision_mismatches,active_interval_mismatches
+bound,Full monitor,987,0,0
+timer_only,Timers only,987,90,60
+no_evidence_binding,Ignore observation version,987,30,18
+no_suppression_binding,Ignore suppression version,987,30,0
+no_freshness,Remove stale-age check,987,18,12

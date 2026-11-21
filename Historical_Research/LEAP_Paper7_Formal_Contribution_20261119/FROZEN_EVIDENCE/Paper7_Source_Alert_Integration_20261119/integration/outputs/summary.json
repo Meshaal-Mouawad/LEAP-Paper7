@@ -1,0 +1,543 @@
+{
+  "real_source_pairs": 9,
+  "source_transitions": 4,
+  "constructed_contexts_per_pair": 7,
+  "pair_contexts": 63,
+  "strategies": {
+    "A_file": {
+      "change_indicator_changes": {
+        "numerator": 9,
+        "denominator": 9
+      },
+      "false_resets": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "missed_changes": {
+        "numerator": 0,
+        "denominator": 7
+      },
+      "state_differs_from_dual": {
+        "numerator": 8,
+        "denominator": 63
+      },
+      "severity_differs_from_dual": {
+        "numerator": 8,
+        "denominator": 63
+      },
+      "decision_differs_from_dual": {
+        "numerator": 10,
+        "denominator": 63
+      },
+      "episode_differs_from_dual": {
+        "numerator": 10,
+        "denominator": 63
+      },
+      "reason_differs_from_dual": {
+        "numerator": 8,
+        "denominator": 63
+      }
+    },
+    "B_calculation": {
+      "change_indicator_changes": {
+        "numerator": 3,
+        "denominator": 9
+      },
+      "false_resets": {
+        "numerator": 0,
+        "denominator": 2
+      },
+      "missed_changes": {
+        "numerator": 4,
+        "denominator": 7
+      },
+      "state_differs_from_dual": {
+        "numerator": 16,
+        "denominator": 63
+      },
+      "severity_differs_from_dual": {
+        "numerator": 16,
+        "denominator": 63
+      },
+      "decision_differs_from_dual": {
+        "numerator": 20,
+        "denominator": 63
+      },
+      "episode_differs_from_dual": {
+        "numerator": 20,
+        "denominator": 63
+      },
+      "reason_differs_from_dual": {
+        "numerator": 16,
+        "denominator": 63
+      }
+    },
+    "C_documentation": {
+      "change_indicator_changes": {
+        "numerator": 6,
+        "denominator": 9
+      },
+      "false_resets": {
+        "numerator": 0,
+        "denominator": 2
+      },
+      "missed_changes": {
+        "numerator": 1,
+        "denominator": 7
+      },
+      "state_differs_from_dual": {
+        "numerator": 4,
+        "denominator": 63
+      },
+      "severity_differs_from_dual": {
+        "numerator": 4,
+        "denominator": 63
+      },
+      "decision_differs_from_dual": {
+        "numerator": 5,
+        "denominator": 63
+      },
+      "episode_differs_from_dual": {
+        "numerator": 5,
+        "denominator": 63
+      },
+      "reason_differs_from_dual": {
+        "numerator": 4,
+        "denominator": 63
+      }
+    },
+    "D_dual": {
+      "change_indicator_changes": {
+        "numerator": 7,
+        "denominator": 9
+      },
+      "false_resets": {
+        "numerator": 0,
+        "denominator": 2
+      },
+      "missed_changes": {
+        "numerator": 0,
+        "denominator": 7
+      },
+      "state_differs_from_dual": {
+        "numerator": 0,
+        "denominator": 63
+      },
+      "severity_differs_from_dual": {
+        "numerator": 0,
+        "denominator": 63
+      },
+      "decision_differs_from_dual": {
+        "numerator": 0,
+        "denominator": 63
+      },
+      "episode_differs_from_dual": {
+        "numerator": 0,
+        "denominator": 63
+      },
+      "reason_differs_from_dual": {
+        "numerator": 0,
+        "denominator": 63
+      }
+    }
+  },
+  "strategy_streams": 252,
+  "events_per_stream": 6,
+  "strategy_events": 1512,
+  "real_operational_histories_evaluable": {
+    "numerator": 0,
+    "denominator": 9
+  },
+  "categories": {
+    "both": 2,
+    "calculation_representation_only": 1,
+    "documentation_only": 4,
+    "neither": 2
+  },
+  "technical_reference": "dual representation revalidation, independent frozen oracle; chosen objective, not general correctness",
+  "representations": {
+    "3": {
+      "streams": 252,
+      "decision_agreement": 252,
+      "complete_agreement": 180,
+      "reason_event_differences": 180,
+      "event_denominator": 1512
+    },
+    "5": {
+      "streams": 252,
+      "decision_agreement": 252,
+      "complete_agreement": 252,
+      "reason_event_differences": 0,
+      "event_denominator": 1512
+    },
+    "6": {
+      "streams": 252,
+      "decision_agreement": 252,
+      "complete_agreement": 252,
+      "reason_event_differences": 0,
+      "event_denominator": 1512
+    }
+  },
+  "oracle_validation": {
+    "complete_stream_agreement": 252,
+    "denominator": 252,
+    "checks": "All unchanged monitor streams agree with frozen independent oracle. 3/5/6 assertions and explicit channel-error checks passed."
+  },
+  "per_field_event_differences": {
+    "A_file": {
+      "state": {
+        "numerator": 20,
+        "denominator": 378
+      },
+      "active": {
+        "numerator": 22,
+        "denominator": 378
+      },
+      "severity": {
+        "numerator": 18,
+        "denominator": 378
+      },
+      "reason": {
+        "numerator": 18,
+        "denominator": 378
+      }
+    },
+    "B_calculation": {
+      "state": {
+        "numerator": 40,
+        "denominator": 378
+      },
+      "active": {
+        "numerator": 44,
+        "denominator": 378
+      },
+      "severity": {
+        "numerator": 36,
+        "denominator": 378
+      },
+      "reason": {
+        "numerator": 36,
+        "denominator": 378
+      }
+    },
+    "C_documentation": {
+      "state": {
+        "numerator": 10,
+        "denominator": 378
+      },
+      "active": {
+        "numerator": 11,
+        "denominator": 378
+      },
+      "severity": {
+        "numerator": 9,
+        "denominator": 378
+      },
+      "reason": {
+        "numerator": 9,
+        "denominator": 378
+      }
+    },
+    "D_dual": {
+      "state": {
+        "numerator": 0,
+        "denominator": 378
+      },
+      "active": {
+        "numerator": 0,
+        "denominator": 378
+      },
+      "severity": {
+        "numerator": 0,
+        "denominator": 378
+      },
+      "reason": {
+        "numerator": 0,
+        "denominator": 378
+      }
+    }
+  },
+  "all_strategies_identical_contexts": [
+    "P7R01/policy_change",
+    "P7R01/old_policy_observation",
+    "P7R02/policy_change",
+    "P7R02/old_policy_observation",
+    "P7R03/fresh_positive",
+    "P7R03/fresh_negative",
+    "P7R03/old_observation",
+    "P7R03/old_deferral",
+    "P7R03/missing_observation",
+    "P7R03/policy_change",
+    "P7R03/old_policy_observation",
+    "P7R04/policy_change",
+    "P7R04/old_policy_observation",
+    "P7R05/policy_change",
+    "P7R05/old_policy_observation",
+    "P7R06/policy_change",
+    "P7R06/old_policy_observation",
+    "P7R07/fresh_positive",
+    "P7R07/fresh_negative",
+    "P7R07/old_observation",
+    "P7R07/old_deferral",
+    "P7R07/missing_observation",
+    "P7R07/policy_change",
+    "P7R07/old_policy_observation",
+    "P7R08/policy_change",
+    "P7R08/old_policy_observation",
+    "P7R09/policy_change",
+    "P7R09/old_policy_observation"
+  ],
+  "same_decision_cases": {
+    "A_file": [
+      "P7R01/fresh_positive",
+      "P7R01/fresh_negative",
+      "P7R01/old_observation",
+      "P7R01/old_deferral",
+      "P7R01/missing_observation",
+      "P7R01/policy_change",
+      "P7R01/old_policy_observation",
+      "P7R02/fresh_positive",
+      "P7R02/fresh_negative",
+      "P7R02/old_observation",
+      "P7R02/old_deferral",
+      "P7R02/missing_observation",
+      "P7R02/policy_change",
+      "P7R02/old_policy_observation",
+      "P7R03/fresh_positive",
+      "P7R03/fresh_negative",
+      "P7R03/old_observation",
+      "P7R03/old_deferral",
+      "P7R03/missing_observation",
+      "P7R03/policy_change",
+      "P7R03/old_policy_observation",
+      "P7R04/fresh_positive",
+      "P7R04/fresh_negative",
+      "P7R04/old_observation",
+      "P7R04/old_deferral",
+      "P7R04/missing_observation",
+      "P7R04/policy_change",
+      "P7R04/old_policy_observation",
+      "P7R05/fresh_positive",
+      "P7R05/fresh_negative",
+      "P7R05/old_observation",
+      "P7R05/old_deferral",
+      "P7R05/missing_observation",
+      "P7R05/policy_change",
+      "P7R05/old_policy_observation",
+      "P7R06/policy_change",
+      "P7R06/old_policy_observation",
+      "P7R07/fresh_positive",
+      "P7R07/fresh_negative",
+      "P7R07/old_observation",
+      "P7R07/old_deferral",
+      "P7R07/missing_observation",
+      "P7R07/policy_change",
+      "P7R07/old_policy_observation",
+      "P7R08/policy_change",
+      "P7R08/old_policy_observation",
+      "P7R09/fresh_positive",
+      "P7R09/fresh_negative",
+      "P7R09/old_observation",
+      "P7R09/old_deferral",
+      "P7R09/missing_observation",
+      "P7R09/policy_change",
+      "P7R09/old_policy_observation"
+    ],
+    "B_calculation": [
+      "P7R01/policy_change",
+      "P7R01/old_policy_observation",
+      "P7R02/policy_change",
+      "P7R02/old_policy_observation",
+      "P7R03/fresh_positive",
+      "P7R03/fresh_negative",
+      "P7R03/old_observation",
+      "P7R03/old_deferral",
+      "P7R03/missing_observation",
+      "P7R03/policy_change",
+      "P7R03/old_policy_observation",
+      "P7R04/policy_change",
+      "P7R04/old_policy_observation",
+      "P7R05/policy_change",
+      "P7R05/old_policy_observation",
+      "P7R06/fresh_positive",
+      "P7R06/fresh_negative",
+      "P7R06/old_observation",
+      "P7R06/old_deferral",
+      "P7R06/missing_observation",
+      "P7R06/policy_change",
+      "P7R06/old_policy_observation",
+      "P7R07/fresh_positive",
+      "P7R07/fresh_negative",
+      "P7R07/old_observation",
+      "P7R07/old_deferral",
+      "P7R07/missing_observation",
+      "P7R07/policy_change",
+      "P7R07/old_policy_observation",
+      "P7R08/fresh_positive",
+      "P7R08/fresh_negative",
+      "P7R08/old_observation",
+      "P7R08/old_deferral",
+      "P7R08/missing_observation",
+      "P7R08/policy_change",
+      "P7R08/old_policy_observation",
+      "P7R09/fresh_positive",
+      "P7R09/fresh_negative",
+      "P7R09/old_observation",
+      "P7R09/old_deferral",
+      "P7R09/missing_observation",
+      "P7R09/policy_change",
+      "P7R09/old_policy_observation"
+    ],
+    "C_documentation": [
+      "P7R01/fresh_positive",
+      "P7R01/fresh_negative",
+      "P7R01/old_observation",
+      "P7R01/old_deferral",
+      "P7R01/missing_observation",
+      "P7R01/policy_change",
+      "P7R01/old_policy_observation",
+      "P7R02/fresh_positive",
+      "P7R02/fresh_negative",
+      "P7R02/old_observation",
+      "P7R02/old_deferral",
+      "P7R02/missing_observation",
+      "P7R02/policy_change",
+      "P7R02/old_policy_observation",
+      "P7R03/fresh_positive",
+      "P7R03/fresh_negative",
+      "P7R03/old_observation",
+      "P7R03/old_deferral",
+      "P7R03/missing_observation",
+      "P7R03/policy_change",
+      "P7R03/old_policy_observation",
+      "P7R04/fresh_positive",
+      "P7R04/fresh_negative",
+      "P7R04/old_observation",
+      "P7R04/old_deferral",
+      "P7R04/missing_observation",
+      "P7R04/policy_change",
+      "P7R04/old_policy_observation",
+      "P7R05/fresh_positive",
+      "P7R05/fresh_negative",
+      "P7R05/old_observation",
+      "P7R05/old_deferral",
+      "P7R05/missing_observation",
+      "P7R05/policy_change",
+      "P7R05/old_policy_observation",
+      "P7R06/fresh_positive",
+      "P7R06/fresh_negative",
+      "P7R06/old_observation",
+      "P7R06/old_deferral",
+      "P7R06/missing_observation",
+      "P7R06/policy_change",
+      "P7R06/old_policy_observation",
+      "P7R07/fresh_positive",
+      "P7R07/fresh_negative",
+      "P7R07/old_observation",
+      "P7R07/old_deferral",
+      "P7R07/missing_observation",
+      "P7R07/policy_change",
+      "P7R07/old_policy_observation",
+      "P7R08/fresh_positive",
+      "P7R08/fresh_negative",
+      "P7R08/old_observation",
+      "P7R08/old_deferral",
+      "P7R08/missing_observation",
+      "P7R08/policy_change",
+      "P7R08/old_policy_observation",
+      "P7R09/policy_change",
+      "P7R09/old_policy_observation"
+    ],
+    "D_dual": [
+      "P7R01/fresh_positive",
+      "P7R01/fresh_negative",
+      "P7R01/old_observation",
+      "P7R01/old_deferral",
+      "P7R01/missing_observation",
+      "P7R01/policy_change",
+      "P7R01/old_policy_observation",
+      "P7R02/fresh_positive",
+      "P7R02/fresh_negative",
+      "P7R02/old_observation",
+      "P7R02/old_deferral",
+      "P7R02/missing_observation",
+      "P7R02/policy_change",
+      "P7R02/old_policy_observation",
+      "P7R03/fresh_positive",
+      "P7R03/fresh_negative",
+      "P7R03/old_observation",
+      "P7R03/old_deferral",
+      "P7R03/missing_observation",
+      "P7R03/policy_change",
+      "P7R03/old_policy_observation",
+      "P7R04/fresh_positive",
+      "P7R04/fresh_negative",
+      "P7R04/old_observation",
+      "P7R04/old_deferral",
+      "P7R04/missing_observation",
+      "P7R04/policy_change",
+      "P7R04/old_policy_observation",
+      "P7R05/fresh_positive",
+      "P7R05/fresh_negative",
+      "P7R05/old_observation",
+      "P7R05/old_deferral",
+      "P7R05/missing_observation",
+      "P7R05/policy_change",
+      "P7R05/old_policy_observation",
+      "P7R06/fresh_positive",
+      "P7R06/fresh_negative",
+      "P7R06/old_observation",
+      "P7R06/old_deferral",
+      "P7R06/missing_observation",
+      "P7R06/policy_change",
+      "P7R06/old_policy_observation",
+      "P7R07/fresh_positive",
+      "P7R07/fresh_negative",
+      "P7R07/old_observation",
+      "P7R07/old_deferral",
+      "P7R07/missing_observation",
+      "P7R07/policy_change",
+      "P7R07/old_policy_observation",
+      "P7R08/fresh_positive",
+      "P7R08/fresh_negative",
+      "P7R08/old_observation",
+      "P7R08/old_deferral",
+      "P7R08/missing_observation",
+      "P7R08/policy_change",
+      "P7R08/old_policy_observation",
+      "P7R09/fresh_positive",
+      "P7R09/fresh_negative",
+      "P7R09/old_observation",
+      "P7R09/old_deferral",
+      "P7R09/missing_observation",
+      "P7R09/policy_change",
+      "P7R09/old_policy_observation"
+    ]
+  },
+  "pairwise_strategy_decisions": {
+    "A_file vs B_calculation": {
+      "identical_streams": 33,
+      "denominator": 63
+    },
+    "A_file vs C_documentation": {
+      "identical_streams": 48,
+      "denominator": 63
+    },
+    "A_file vs D_dual": {
+      "identical_streams": 53,
+      "denominator": 63
+    },
+    "B_calculation vs C_documentation": {
+      "identical_streams": 38,
+      "denominator": 63
+    },
+    "B_calculation vs D_dual": {
+      "identical_streams": 43,
+      "denominator": 63
+    },
+    "C_documentation vs D_dual": {
+      "identical_streams": 58,
+      "denominator": 63
+    }
+  }
+}

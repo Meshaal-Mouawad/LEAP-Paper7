@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "historical_pairs": 9,
+  "source_snapshots_exact_local_git_matches": 18,
+  "input_manifest_members_verified": 59,
+  "constructed_pilot_cases_separate": 24,
+  "reviewer_slots": 18,
+  "human_decisions": 0,
+  "authentic_authorization_rows": 0,
+  "source_inventory_files": 14855,
+  "oversized_files_content_searched": 8,
+  "sqlite_tables_read": 6,
+  "plaintext_personal_identifiers_detected": 0,
+  "validation": "contract counts, blank human fields, source hashes, input checksums, packet hashes, known username/repository-owner and email screening"
+}
